@@ -1,0 +1,29 @@
+
+
+- En la calibración, ¿hemos llegado a apuntar el canal y la energía? Tengo unos datos apuntados pero no me terminan de coincidir con los picos de la gráfica.
+
+
+No hemos apuntado canal, solo el valor del centroide para cada pico de energía
+[RESUELTO]
+
+
+- ¿Cómo se sacan las energías de Compton y retrodispersión teóricos?
+
+ver imagen
+Ei es la energía del fotopico que genera ese continuo compton y esa retrodispersion
+Por ejemplo para el cesio, Ei=0.662 MeV 
+
+[RESUELTO]
+
+
+- En la cuestión 8, el pico de aniquilación de Zn65, ¿a que era debido?¿aniquilación con Cu65?
+
+No, es porque el Zn se convierte en Cu, que al desexcitarse emite un rayo gamma de 1.114 MeV. Como esa energía es superior a la necesaria para la creación de un par electron positron (1.022 MeV), se creará un positron que después se aniquilara con otro electron del medio, dando el pico de aniquilación a 0.511 MeV
+[RESUELTO]
+
+- En la cuestión 9, los picos de rayos X ¿eran por el plomo?
+
+Algunos son del plomo que recubre al detector y otros los que se emiten tran una conversión interna, como el primer pico que aparece en el cesio
+[RESUELTO]
+
+

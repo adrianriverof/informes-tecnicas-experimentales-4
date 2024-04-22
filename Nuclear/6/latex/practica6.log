@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.31)  13 APR 2024 11:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.31)  18 APR 2024 08:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -735,7 +735,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
-<../IMG_20240304_110653.jpg, id=36, 3661.68pt x 2746.26pt>
+<../IMG_20240304_110653.jpg, id=40, 3661.68pt x 2746.26pt>
 File: ../IMG_20240304_110653.jpg Graphic file (type jpg)
 <use ../IMG_20240304_110653.jpg>
 Package pdftex.def Info: ../IMG_20240304_110653.jpg  used on input line 101.
@@ -745,64 +745,171 @@ Package pdftex.def Info: ../IMG_20240304_110653.jpg  used on input line 101.
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<../graficas_procesadas/PHA_1.png, id=45, 1381.16pt x 872.25874pt>
+<../graficas_procesadas/PHA_1.png, id=49, 1381.16pt x 872.25874pt>
 File: ../graficas_procesadas/PHA_1.png Graphic file (type png)
 <use ../graficas_procesadas/PHA_1.png>
 Package pdftex.def Info: ../graficas_procesadas/PHA_1.png  used on input line 1
 11.
 (pdftex.def)             Requested size: 272.99881pt x 172.39897pt.
-<../graficas_procesadas/PHA_2.png, id=46, 1416.29124pt x 845.1575pt>
+<../graficas_procesadas/PHA_2.png, id=50, 1416.29124pt x 845.1575pt>
 File: ../graficas_procesadas/PHA_2.png Graphic file (type png)
 <use ../graficas_procesadas/PHA_2.png>
 Package pdftex.def Info: ../graficas_procesadas/PHA_2.png  used on input line 1
 19.
 (pdftex.def)             Requested size: 272.99881pt x 162.90288pt.
  [2 <../IMG_20240304_110653.jpg> <../graficas_procesadas/PHA_1.png>]
-<../graficas_procesadas/PHA_3.png, id=53, 1356.06625pt x 808.01875pt>
+<../graficas_procesadas/PHA_3.png, id=57, 1356.06625pt x 808.01875pt>
 File: ../graficas_procesadas/PHA_3.png Graphic file (type png)
 <use ../graficas_procesadas/PHA_3.png>
 Package pdftex.def Info: ../graficas_procesadas/PHA_3.png  used on input line 1
-34.
+47.
 (pdftex.def)             Requested size: 272.99881pt x 162.66121pt.
- [3 <../graficas_procesadas/PHA_2.png> <../graficas_procesadas/PHA_3.png>]
+ [3 <../graficas_procesadas/PHA_2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
+
+ []
+
+[4 <../graficas_procesadas/PHA_3.png>]
 
 LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 1
-70.
+83.
 
 
 LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 1
-70.
+83.
 
 Missing character: There is no · in font cmr12!
-<6_1eficienciaenergia.png, id=63, 332.442pt x 259.59384pt>
+<6_1eficienciaenergia.png, id=78, 332.442pt x 259.59384pt>
 File: 6_1eficienciaenergia.png Graphic file (type png)
 <use 6_1eficienciaenergia.png>
-Package pdftex.def Info: 6_1eficienciaenergia.png  used on input line 195.
+Package pdftex.def Info: 6_1eficienciaenergia.png  used on input line 208.
 (pdftex.def)             Requested size: 272.99881pt x 213.17728pt.
-[4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 218.
- [5 <./6_1eficienciaenergia.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 218.
+[5 <./6_1eficienciaenergia.png>]
+<../graficas_procesadas/PHA_4.png, id=89, 1414.28375pt x 853.1875pt>
+File: ../graficas_procesadas/PHA_4.png Graphic file (type png)
+<use ../graficas_procesadas/PHA_4.png>
+Package pdftex.def Info: ../graficas_procesadas/PHA_4.png  used on input line 2
+35.
+(pdftex.def)             Requested size: 193.04976pt x 116.45116pt.
+
+Overfull \hbox (17.55095pt too wide) in paragraph at lines 235--236
+ [][] 
+ []
+
+<../graficas_procesadas/PHA_5.png, id=90, 1396.21625pt x 900.36375pt>
+File: ../graficas_procesadas/PHA_5.png Graphic file (type png)
+<use ../graficas_procesadas/PHA_5.png>
+Package pdftex.def Info: ../graficas_procesadas/PHA_5.png  used on input line 2
+42.
+(pdftex.def)             Requested size: 193.04976pt x 124.48389pt.
+
+Overfull \hbox (17.55095pt too wide) in paragraph at lines 241--243
+ [][] 
+ []
+
+<../graficas_procesadas/PHA_6.png, id=91, 1362.08875pt x 826.08624pt>
+File: ../graficas_procesadas/PHA_6.png Graphic file (type png)
+<use ../graficas_procesadas/PHA_6.png>
+Package pdftex.def Info: ../graficas_procesadas/PHA_6.png  used on input line 2
+49.
+(pdftex.def)             Requested size: 193.04976pt x 117.07565pt.
+
+Overfull \hbox (17.55095pt too wide) in paragraph at lines 249--250
+ [][] 
+ []
+
+<../graficas_procesadas/PHA_7.png, id=92, 1377.145pt x 853.1875pt>
+File: ../graficas_procesadas/PHA_7.png Graphic file (type png)
+<use ../graficas_procesadas/PHA_7.png>
+Package pdftex.def Info: ../graficas_procesadas/PHA_7.png  used on input line 2
+55.
+(pdftex.def)             Requested size: 193.04976pt x 119.58864pt.
+
+Overfull \hbox (17.55095pt too wide) in paragraph at lines 255--256
+ [][] 
+ []
+
+<../graficas_procesadas/PHA_8.png, id=93, 1368.11125pt x 854.19125pt>
+File: ../graficas_procesadas/PHA_8.png Graphic file (type png)
+<use ../graficas_procesadas/PHA_8.png>
+Package pdftex.def Info: ../graficas_procesadas/PHA_8.png  used on input line 2
+62.
+(pdftex.def)             Requested size: 193.04976pt x 120.5244pt.
+
+Overfull \hbox (17.55095pt too wide) in paragraph at lines 262--263
+ [][] 
+ []
+
+[6] [7 <../graficas_procesadas/PHA_4.png> <../graficas_procesadas/PHA_5.png> <.
+./graficas_procesadas/PHA_6.png> <../graficas_procesadas/PHA_7.png> <../grafica
+s_procesadas/PHA_8.png>]
+<6_2_resolucionenergia.png, id=104, 342.27072pt x 246.87431pt>
+File: 6_2_resolucionenergia.png Graphic file (type png)
+<use 6_2_resolucionenergia.png>
+Package pdftex.def Info: 6_2_resolucionenergia.png  used on input line 292.
+(pdftex.def)             Requested size: 272.99881pt x 196.91959pt.
+ [8 <./6_2_resolucionenergia.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 364--365
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 368--370
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--383
+
+ []
+
+<../graficas_procesadas/PHA_9.png, id=122, 1314.9125pt x 803.0pt>
+File: ../graficas_procesadas/PHA_9.png Graphic file (type png)
+<use ../graficas_procesadas/PHA_9.png>
+Package pdftex.def Info: ../graficas_procesadas/PHA_9.png  used on input line 3
+99.
+(pdftex.def)             Requested size: 272.99881pt x 166.71129pt.
+[10]
+<../graficas_procesadas/PHA_10.png, id=127, 1355.0625pt x 895.345pt>
+File: ../graficas_procesadas/PHA_10.png Graphic file (type png)
+<use ../graficas_procesadas/PHA_10.png>
+Package pdftex.def Info: ../graficas_procesadas/PHA_10.png  used on input line 
+440.
+(pdftex.def)             Requested size: 272.99881pt x 180.37737pt.
+ [11 <../graficas_procesadas/PHA_9.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 460--461
+
+ []
+
+[12 <../graficas_procesadas/PHA_10.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 466.
+ [13]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 466.
  (./practica6.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 218.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 218.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 466.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 466.
 Package rerunfilecheck Info: File `practica6.out' has not changed.
-(rerunfilecheck)             Checksum: 1540D74856E7F16F53D49D2F7A5A9550;1376.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 218.
+(rerunfilecheck)             Checksum: 960A7593A27C38A938D80D89FA3DCF49;1472.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 466.
  ) 
 Here is how much of TeX's memory you used:
- 18348 strings out of 481239
- 305391 string characters out of 5920377
- 557671 words of memory out of 5000000
- 33310 multiletter control sequences out of 15000+600000
- 551123 words of font info for 81 fonts, out of 8000000 for 9000
+ 18443 strings out of 481239
+ 307687 string characters out of 5920377
+ 557083 words of memory out of 5000000
+ 33378 multiletter control sequences out of 15000+600000
+ 551898 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,10n,100p,297b,774s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf
-/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/
+ 62i,10n,100p,501b,854s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
+fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
@@ -811,12 +918,13 @@ r6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/te
 xmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/publ
-ic/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200
-.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on practica6.pdf (5 pages, 4491798 bytes).
+ic/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728
+.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/tex
+mf/fonts/type1/public/cm-super/sfrm2074.pfb>
+Output written on practica6.pdf (13 pages, 8375734 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 107 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 500000)
- 90 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 201 PDF objects out of 1000 (max. 8388607)
+ 156 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
 
