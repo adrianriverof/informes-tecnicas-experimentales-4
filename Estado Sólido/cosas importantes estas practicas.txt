@@ -1,0 +1,56 @@
+
+PRACTICAS DE ESTADO SÓLIDO (son 4)
+
+Dimensiones: 	no mas de 40 pags en total
+		no más de 12 pags para cada practica
+
+Hay que responder unas preguntas a lo largo de la practica
+(A lo largo, no de forma separada)
+
+
+Partes:
+- Resumen/Abstract
+	Puede incluir algu´n comentario sobre resultados relevantes
+
+- Introduccion tesorica
+	No extenderse, resumir el guion y complementar con algo. 
+	Cuestiones si se da el caso
+	No más de 2 paginas
+
+- Descripcion del dispositivo experimental/teorico y  toma de datos
+	Resumir lo del guion y señalar (vamos lo que ya hacia yo)
+	Imagen
+	Es un epígrafe breve
+
+- Analisis de datos y resultados
+	plantear resultados
+	errores y su discusion
+
+- conclusiones
+	resumen de resultados relevantes
+	incluir aspecto de mejora para tener mas pecision o algo cientificamente relevante
+
+- Bibliuogragia
+
+
+
+- Bibliografía
+	Referencias "completas" que se pueda encontrar el texto de referencia
+	Las figuras no propias, que tengan referencia
+	Penaización importante si no se incluye esto
+
+
+cosas extra
+- referenciar las formulas
+- leer e imitar el par de artículos que nos adjuntan
+- suspenso si no usamos las medidas y los errores correctos
+
+
+
+
+
+
+
+
+
+
