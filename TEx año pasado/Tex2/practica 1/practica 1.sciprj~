@@ -1,0 +1,546 @@
+SciDAVis 2.9.2 project file
+<scripting-lang>	muParser
+<windows>	6
+<table>
+8932
+<table creation_time="2022-30-04 15:18:00:000" caption_spec="%n%C{ - }%c" name="Tabla2" columns="3" rows="30"><comment><![CDATA[]]></comment><column creation_time="2022-30-04 15:18:00:292" caption_spec="%n%C{ - }%c" name="angulo en radianes" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-30-04 15:18:00:292" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-30-04 15:18:00:292" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="2" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="3" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="4" invalid="no">2.7000000000000002e-01</row><row type="TypeDouble" index="5" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="6" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="7" invalid="no">1.5700000000000001e+00</row><row type="TypeDouble" index="8" invalid="no">3.1400000000000001e+00</row><row type="TypeDouble" index="9" invalid="no">4.7100000000000000e+00</row><row type="TypeDouble" index="10" invalid="no">6.2800000000000002e+00</row><row type="TypeDouble" index="11" invalid="no">7.8499999999999996e+00</row><row type="TypeDouble" index="12" invalid="no">9.4199999999999999e+00</row><row type="TypeDouble" index="13" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="14" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="15" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="16" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="17" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="18" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="19" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="20" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="21" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="22" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="23" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="24" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="25" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="26" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="27" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="28" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="29" invalid="yes">0.0000000000000000e+00</row></column><column creation_time="2022-30-04 17:42:15:638" caption_spec="%n%C{ - }%c" name="torque" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-30-04 17:42:15:638" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-30-04 17:42:15:638" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="27">col(&quot;fuerza N&quot;)*0,27</formula><row type="TypeDouble" index="0" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="3" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="4" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="5" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="6" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="7" invalid="no">2.7000000000000000e-02</row><row type="TypeDouble" index="8" invalid="no">6.4000000000000001e-02</row><row type="TypeDouble" index="9" invalid="no">1.1000000000000000e-01</row><row type="TypeDouble" index="10" invalid="no">1.6000000000000000e-01</row><row type="TypeDouble" index="11" invalid="no">1.7000000000000001e-01</row><row type="TypeDouble" index="12" invalid="no">2.3999999999999999e-01</row><row type="TypeDouble" index="13" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="14" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="15" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="16" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="17" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="18" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="19" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="20" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="21" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="22" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="23" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="24" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="25" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="26" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="27" invalid="yes">0.0000000000000000e+00</row></column><column creation_time="2022-30-04 15:18:00:294" caption_spec="%n%C{ - }%c" name="fuerza N" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[0,27 es la distancia a la que hemos medido]]></comment><input_filter><simple_filter creation_time="2022-30-04 15:18:00:294" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-30-04 15:18:00:294" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="2" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="3" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="4" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="5" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="6" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="7" invalid="no">1.0000000000000001e-01</row><row type="TypeDouble" index="8" invalid="no">2.3999999999999999e-01</row><row type="TypeDouble" index="9" invalid="no">4.1999999999999998e-01</row><row type="TypeDouble" index="10" invalid="no">5.9999999999999998e-01</row><row type="TypeDouble" index="11" invalid="no">6.5000000000000002e-01</row><row type="TypeDouble" index="12" invalid="no">9.0000000000000002e-01</row><row type="TypeDouble" index="13" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="14" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="15" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="16" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="17" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="18" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="19" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="20" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="21" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="22" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="23" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="24" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="25" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="26" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="27" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="28" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="29" invalid="yes">0.0000000000000000e+00</row></column><column_width column="0">120</column_width><column_width column="1">120</column_width><column_width column="2">120</column_width></table>
+geometry	49	-402	655	437	
+
+</table>
+<table>
+4403
+<table creation_time="2022-12-06 18:00:43:000" caption_spec="%n%C{ - }%c" name="Tabla3" columns="4" rows="5"><comment><![CDATA[]]></comment><column creation_time="2022-12-06 18:00:43:543" caption_spec="%n%C{ - }%c" name="Distancia" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-12-06 18:02:30:766" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-12-06 18:02:30:766" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="14" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">2.0000000000000000e-02</row><row type="TypeDouble" index="1" invalid="no">1.2000000000000000e-01</row><row type="TypeDouble" index="2" invalid="no">1.4999999999999999e-01</row><row type="TypeDouble" index="3" invalid="no">2.0000000000000001e-01</row><row type="TypeDouble" index="4" invalid="no">2.8000000000000003e-01</row></column><column creation_time="2022-12-06 18:04:33:659" caption_spec="%n%C{ - }%c" name="distancia^2" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-12-06 18:04:33:659" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-12-06 18:04:33:659" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="14" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="4">col(&quot;Distancia&quot;)^2</formula><row type="TypeDouble" index="0" invalid="no">4.0000000000000002e-04</row><row type="TypeDouble" index="1" invalid="no">1.4400000000000000e-02</row><row type="TypeDouble" index="2" invalid="no">2.2499999999999999e-02</row><row type="TypeDouble" index="3" invalid="no">4.0000000000000008e-02</row><row type="TypeDouble" index="4" invalid="no">7.8400000000000011e-02</row></column><column creation_time="2022-12-06 18:01:07:805" caption_spec="%n%C{ - }%c" name="I total" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-12-06 18:02:02:350" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-12-06 18:02:02:350" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="14" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">4.7000000000000002e-03</row><row type="TypeDouble" index="1" invalid="no">1.0800000000000001e-02</row><row type="TypeDouble" index="2" invalid="no">1.4500000000000001e-02</row><row type="TypeDouble" index="3" invalid="no">2.2300000000000000e-02</row><row type="TypeDouble" index="4" invalid="no">3.9800000000000002e-02</row></column><column creation_time="2022-12-06 18:00:43:574" caption_spec="%n%C{ - }%c" name="I masa" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-12-06 18:01:54:429" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-12-06 18:01:54:429" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="14" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">4.0000000000000002e-04</row><row type="TypeDouble" index="1" invalid="no">3.3999999999999998e-03</row><row type="TypeDouble" index="2" invalid="no">5.3000000000000000e-03</row><row type="TypeDouble" index="3" invalid="no">9.1999999999999998e-03</row><row type="TypeDouble" index="4" invalid="no">1.7899999999999999e-02</row></column><column_width column="0">95</column_width><column_width column="1">108</column_width><column_width column="2">75</column_width><column_width column="3">75</column_width></table>
+geometry	70	-47	655	437	
+
+</table>
+<table>
+4195
+<table creation_time="2022-12-06 19:53:30:000" caption_spec="%n%C{ - }%c" name="Tabla4" columns="4" rows="4"><comment><![CDATA[]]></comment><column creation_time="2022-12-06 19:53:30:367" caption_spec="%n%C{ - }%c" name="Separación" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-12-06 19:53:30:367" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-12-06 19:53:30:368" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="14" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">2.9999999999999999e-02</row><row type="TypeDouble" index="2" invalid="no">5.9999999999999998e-02</row><row type="TypeDouble" index="3" invalid="no">1.2000000000000000e-01</row></column><column creation_time="2022-12-06 19:53:30:369" caption_spec="%n%C{ - }%c" name="Periodo" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-12-06 19:53:30:369" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-12-06 19:53:30:369" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="14" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">2.8359999999999999e+00</row><row type="TypeDouble" index="1" invalid="no">2.9270000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">3.1349999999999998e+00</row><row type="TypeDouble" index="3" invalid="no">4.0270000000000001e+00</row></column><column creation_time="2022-12-06 19:55:36:773" caption_spec="%n%C{ - }%c" name="a^2" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-12-06 19:55:36:773" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-12-06 19:55:36:773" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="14" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="3">col(&quot;Separación&quot;)*col(&quot;Separación&quot;)</formula><row type="TypeDouble" index="0" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">8.9999999999999998e-04</row><row type="TypeDouble" index="2" invalid="no">3.5999999999999999e-03</row><row type="TypeDouble" index="3" invalid="no">1.4400000000000000e-02</row></column><column creation_time="2022-12-06 19:55:35:231" caption_spec="%n%C{ - }%c" name="T^2" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-12-06 19:55:35:231" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-12-06 19:55:35:232" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="14" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="3">col(&quot;Periodo&quot;)^2</formula><row type="TypeDouble" index="0" invalid="no">8.0428959999999989e+00</row><row type="TypeDouble" index="1" invalid="no">8.5673290000000009e+00</row><row type="TypeDouble" index="2" invalid="no">9.8282249999999980e+00</row><row type="TypeDouble" index="3" invalid="no">1.6216729000000001e+01</row></column><column_width column="0">106</column_width><column_width column="1">92</column_width><column_width column="2">75</column_width><column_width column="3">75</column_width></table>
+geometry	245	514	1083	437	
+
+</table>
+<multiLayer>
+Gráfica3	1	1	sábado, 30 de abril de 2022 17:48:33 (CEST)
+geometry	730	-388	483	413	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	425	276
+Alignement	0	0
+<graph>
+ggeometry	5	4	465	355
+PlotTitle		#ff000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Ángulo (rad)	Torque (N·m)			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla2_angulo en radianes	Tabla2_torque	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	7	12	1
+FunctionCurve	0,LinealAjustar1,x,1.57,9.42	2			0	1	#ffff0000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	-155920416	21893	1
+<formula>
+B=-0.0148
+A=0.0260782529572339
+
+A*x+B
+
+
+</formula>
+scale	0	0	0.25	0	8	5	0	0
+scale	1	0	0.25	0	8	5	0	0
+scale	2	0	10	0	8	5	0	0
+scale	3	0	10	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica4	1	1	domingo, 12 de junio de 2022 18:11:36 (CEST)
+geometry	1317	-234	500	424	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	414	276
+Alignement	0	0
+<graph>
+ggeometry	5	5	482	366
+PlotTitle		#ff000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	distancia   (m<sup>2</sup>)	I<sub>masa</sub> (kg·m)			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	13	75	0	0	0
+ScaleFont0	Ubuntu	11	75	0	0	0
+ScaleFont1	Ubuntu	11	75	0	0	0
+ScaleFont2	Ubuntu	11	75	0	0	0
+ScaleFont3	Ubuntu	11	75	0	0	0
+AxisFont0	Ubuntu	11	50	0	0	0
+AxisFont1	Ubuntu	11	50	0	0	0
+AxisFont2	Ubuntu	11	50	0	0	0
+AxisFont3	Ubuntu	11	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla3_distancia^2	Tabla3_I masa	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	4	1
+FunctionCurve	0,LinealAjustar1,x,0.0004,0.0784	2			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	0	64		2	0	-155761312	21893	1
+<formula>
+B=0.00023522605702591
+A=0.224944571065321
+
+A*x+B
+
+</formula>
+scale	0	-0.005	0.02	0	8	5	0	0
+scale	1	-0.005	0.02	0	8	5	0	0
+scale	2	-0.02	0.1	0	8	5	0	0
+scale	3	-0.02	0.1	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica6	1	1	domingo, 12 de junio de 2022 20:00:06 (CEST)
+geometry	814	220	500	400	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	436	276
+Alignement	0	0
+<graph>
+ggeometry	5	5	482	342
+PlotTitle		#ff000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	a<sup>2</sup> (m<sup>2</sup>)	T<sup>2</sup> (N<sup>2</sup>)			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla4_a^2	Tabla4_T^2	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	3	1
+FunctionCurve	0,LinealAjustar1,x,0,0.0144	2			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	0	64		2	0	-155658304	21893	1
+<formula>
+B=7.9732075483871
+A=569.4364447858
+
+A*x+B
+
+</formula>
+scale	0	6	18	0	8	5	0	0
+scale	1	6	18	0	8	5	0	0
+scale	2	-0.002	0.016	0	8	5	0	0
+scale	3	-0.002	0.016	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<log>
+[sábado, 30 de abril de 2022 15:13:42 (CEST)	Gráfica: ''Gráfica1'']
+Regresión Lineal ajuste del conjunto de datos: Tabla1_2, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 90 a x = 450
+B (y-intercección) = -0,014 +/- 0,0138082101181386
+A (pendiente) = 0,00133333333333333 +/- 4,62592444325807e-05
+--------------------------------------------------------------------------------------
+Chi^2 = 0,000519999999999999
+R^2 = 0,996401882092444
+---------------------------------------------------------------------------------------
+[sábado, 30 de abril de 2022 15:17:01 (CEST)	Gráfica: ''Gráfica2'']
+Regresión Lineal ajuste del conjunto de datos: Tabla1_2, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 90 a x = 360
+B (y-intercección) = 5,55111512312578e-17 +/- 0,00474341649025258
+A (pendiente) = 0,00125555555555556 +/- 1,92450089729876e-05
+--------------------------------------------------------------------------------------
+Chi^2 = 3,00000000000001e-05
+R^2 = 0,999530332681018
+---------------------------------------------------------------------------------------
+[sábado, 30 de abril de 2022 15:17:29 (CEST)	Gráfica: ''Gráfica2'']
+Regresión Lineal ajuste del conjunto de datos: Tabla1_2, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 180 a x = 450
+B (y-intercección) = -0,0219999999999999 +/- 0,0254558441227157
+A (pendiente) = 0,00135555555555556 +/- 7,698003589195e-05
+--------------------------------------------------------------------------------------
+Chi^2 = 0,000479999999999999
+R^2 = 0,993591455273698
+---------------------------------------------------------------------------------------
+[sábado, 30 de abril de 2022 15:27:57 (CEST)	Gráfica: ''Gráfica1'']
+Regresión Lineal ajuste del conjunto de datos: Tabla2_2, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 90 a x = 360
+B (y-intercección) = -0,035 +/- 0,0116189500386223
+A (pendiente) = 0,00135555555555556 +/- 4,71404520791032e-05
+--------------------------------------------------------------------------------------
+Chi^2 = 0,00018
+R^2 = 0,997587131367292
+---------------------------------------------------------------------------------------
+[sábado, 30 de abril de 2022 15:29:24 (CEST)	Gráfica: ''Gráfica2'']
+Regresión Lineal ajuste del conjunto de datos: Tabla2_2, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 90 a x = 360
+B (y-intercección) = -0,09 +/- 0,00948683298050512
+A (pendiente) = 0,00162222222222222 +/- 3,8490017945975e-05
+--------------------------------------------------------------------------------------
+Chi^2 = 0,00012
+R^2 = 0,998875351452671
+---------------------------------------------------------------------------------------
+[sábado, 30 de abril de 2022 15:30:26 (CEST)	Gráfica: ''Gráfica2'']
+Regresión Lineal ajuste del conjunto de datos: Tabla2_2, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 90 a x = 360
+B (y-intercección) = -0,09 +/- 0,00474341649025256
+A (pendiente) = 0,00163333333333333 +/- 1,92450089729875e-05
+--------------------------------------------------------------------------------------
+Chi^2 = 2,99999999999999e-05
+R^2 = 0,999722414989591
+---------------------------------------------------------------------------------------
+[sábado, 30 de abril de 2022 15:31:21 (CEST)	Gráfica: ''Gráfica3'']
+Regresión Lineal ajuste del conjunto de datos: Tabla2_2, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 90 a x = 360
+B (y-intercección) = -0,075 +/- 0,0217370651192841
+A (pendiente) = 0,00158888888888889 +/- 8,81917103688197e-05
+--------------------------------------------------------------------------------------
+Chi^2 = 0,000629999999999999
+R^2 = 0,993876063183475
+---------------------------------------------------------------------------------------
+[sábado, 30 de abril de 2022 15:31:57 (CEST)	Gráfica: ''Gráfica3'']
+Regresión Lineal ajuste del conjunto de datos: Tabla2_2, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 90 a x = 360
+B (y-intercección) = -0,0999999999999999 +/- 0,0189736659610103
+A (pendiente) = 0,00164444444444444 +/- 7,69800358919501e-05
+--------------------------------------------------------------------------------------
+Chi^2 = 0,00048
+R^2 = 0,995636363636364
+---------------------------------------------------------------------------------------
+[sábado, 30 de abril de 2022 15:32:41 (CEST)	Gráfica: ''Gráfica3'']
+Regresión Lineal ajuste del conjunto de datos: Tabla2_2, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 90 a x = 360
+B (y-intercección) = -0,18 +/- 0,132815661727072
+A (pendiente) = 0,00182222222222222 +/- 0,000538860251243651
+--------------------------------------------------------------------------------------
+Chi^2 = 0,02352
+R^2 = 0,851139240506329
+---------------------------------------------------------------------------------------
+[sábado, 30 de abril de 2022 15:33:48 (CEST)	Gráfica: ''Gráfica3'']
+Regresión Lineal ajuste del conjunto de datos: Tabla2_2, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 90 a x = 360
+B (y-intercección) = -0,11 +/- 0,0474341649025257
+A (pendiente) = 0,00166666666666667 +/- 0,000192450089729875
+--------------------------------------------------------------------------------------
+Chi^2 = 0,003
+R^2 = 0,974025974025974
+---------------------------------------------------------------------------------------
+[sábado, 30 de abril de 2022 15:34:42 (CEST)	Gráfica: ''Gráfica3'']
+Regresión Lineal ajuste del conjunto de datos: Tabla2_2, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 90 a x = 360
+B (y-intercección) = -0,11 +/- 0,0232379000772445
+A (pendiente) = 0,00173333333333333 +/- 9,42809041582064e-05
+--------------------------------------------------------------------------------------
+Chi^2 = 0,000720000000000001
+R^2 = 0,994117647058824
+---------------------------------------------------------------------------------------
+[sábado, 30 de abril de 2022 17:04:14 (CEST)	Gráfica: ''Gráfica3'']
+Regresión Lineal ajuste del conjunto de datos: Tabla2_2, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 90 a x = 360
+B (y-intercección) = 0 +/- 5,09902483316444e-17
+A (pendiente) = 0,00122222222222222 +/- 2,06877846103939e-19
+--------------------------------------------------------------------------------------
+Chi^2 = 3,46667389989702e-33
+R^2 = 1
+---------------------------------------------------------------------------------------
+[sábado, 30 de abril de 2022 17:08:28 (CEST)	Gráfica: ''Gráfica1'']
+Regresión Lineal ajuste del conjunto de datos: Tabla2_2, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 90 a x = 270
+B (y-intercección) = -0,12 +/- 0,0748331477354788
+A (pendiente) = 0,00177777777777778 +/- 0,000384900179459751
+--------------------------------------------------------------------------------------
+Chi^2 = 0,0024
+R^2 = 0,955223880597015
+---------------------------------------------------------------------------------------
+[sábado, 30 de abril de 2022 17:09:37 (CEST)	Gráfica: ''Gráfica1'']
+Regresión Lineal ajuste del conjunto de datos: Tabla2_2, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 90 a x = 270
+B (y-intercección) = -1,2 +/- 0,748331477354788
+A (pendiente) = 0,0177777777777778 +/- 0,0038490017945975
+--------------------------------------------------------------------------------------
+Chi^2 = 0,24
+R^2 = 0,955223880597015
+---------------------------------------------------------------------------------------
+[sábado, 30 de abril de 2022 17:15:33 (CEST)	Gráfica: ''Gráfica1'']
+Regresión Lineal ajuste del conjunto de datos: Tabla2_2, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 1,57 a x = 4,71
+B (y-intercección) = -1,2 +/- 0,748331477354788
+A (pendiente) = 1,01910828025478 +/- 0,220643414976927
+--------------------------------------------------------------------------------------
+Chi^2 = 0,24
+R^2 = 0,955223880597015
+---------------------------------------------------------------------------------------
+[sábado, 30 de abril de 2022 17:16:48 (CEST)	Gráfica: ''Gráfica1'']
+Regresión Lineal ajuste del conjunto de datos: Tabla2_2, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 90 a x = 270
+B (y-intercección) = -1,2 +/- 0,748331477354788
+A (pendiente) = 0,0177777777777778 +/- 0,0038490017945975
+--------------------------------------------------------------------------------------
+Chi^2 = 0,24
+R^2 = 0,955223880597015
+---------------------------------------------------------------------------------------
+[sábado, 30 de abril de 2022 17:23:50 (CEST)	Gráfica: ''Gráfica2'']
+Regresión Lineal ajuste del conjunto de datos: Tabla2_2, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 90 a x = 360
+B (y-intercección) = -0,0100000000000001 +/- 0,0354964786985977
+A (pendiente) = 0,00146666666666667 +/- 0,000144016459964619
+--------------------------------------------------------------------------------------
+Chi^2 = 0,00168
+R^2 = 0,981081081081081
+---------------------------------------------------------------------------------------
+[sábado, 30 de abril de 2022 17:25:03 (CEST)	Gráfica: ''Gráfica3'']
+Regresión Lineal ajuste del conjunto de datos: Tabla2_2, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 90 a x = 540
+B (y-intercección) = -0,0493333333333333 +/- 0,042433514756654
+A (pendiente) = 0,00165396825396825 +/- 0,000121065785828178
+--------------------------------------------------------------------------------------
+Chi^2 = 0,00831047619047619
+R^2 = 0,979018364341318
+---------------------------------------------------------------------------------------
+[sábado, 30 de abril de 2022 17:28:11 (CEST)	Gráfica: ''Gráfica2'']
+Regresión Lineal ajuste del conjunto de datos: Tabla2_3, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 90 a x = 360
+B (y-intercección) = -0,00310000000000001 +/- 0,00573070676269515
+A (pendiente) = 0,000391333333333333 +/- 2,32506471435225e-05
+--------------------------------------------------------------------------------------
+Chi^2 = 4,3788e-05
+R^2 = 0,992989466909381
+---------------------------------------------------------------------------------------
+[sábado, 30 de abril de 2022 17:36:50 (CEST)	Gráfica: ''Gráfica3'']
+Polinomial ajuste del conjunto de datos: Tabla2_2, usando función : a0+a1*x+a2*x^2
+errores estándar Y: Desconocido
+Desde x = 90 a x = 540
+a0  = 0,039 +/- 0,0727840903599395
+a1  = 0,000917857142857143 +/- 0,000529081563813541
+a2  = 1,168430335097e-06 +/- 8,22106470969417e-07
+--------------------------------------------------------------------------------------
+Chi^2 = 0,00496642857142859
+R^2 = 0,987461152354904
+---------------------------------------------------------------------------------------
+[sábado, 30 de abril de 2022 17:40:01 (CEST)	Gráfica: ''Gráfica3'']
+Regresión Lineal ajuste del conjunto de datos: Tabla2_2, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 1,57 a x = 9,42
+B (y-intercección) = -0,0493333333333335 +/- 0,042433514756654
+A (pendiente) = 0,0948134667879891 +/- 0,00694007689460895
+--------------------------------------------------------------------------------------
+Chi^2 = 0,00831047619047619
+R^2 = 0,979018364341318
+---------------------------------------------------------------------------------------
+[sábado, 30 de abril de 2022 17:40:21 (CEST)	Gráfica: ''Gráfica4'']
+Regresión Lineal ajuste del conjunto de datos: Tabla2_2, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 1,57 a x = 6,28
+B (y-intercección) = -0,00999999999999995 +/- 0,0354964786985977
+A (pendiente) = 0,0840764331210191 +/- 0,00825572063491447
+--------------------------------------------------------------------------------------
+Chi^2 = 0,00168
+R^2 = 0,981081081081081
+---------------------------------------------------------------------------------------
+[sábado, 30 de abril de 2022 17:40:48 (CEST)	Gráfica: ''Gráfica4'']
+Regresión Lineal ajuste del conjunto de datos: Tabla2_2, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 1,57 a x = 6,28
+B (y-intercección) = -0,06 +/- 0,0284604989415154
+A (pendiente) = 0,103184713375796 +/- 0,00661930244930781
+--------------------------------------------------------------------------------------
+Chi^2 = 0,00108
+R^2 = 0,991836734693878
+---------------------------------------------------------------------------------------
+[sábado, 30 de abril de 2022 17:41:58 (CEST)	Gráfica: ''Gráfica5'']
+Regresión Lineal ajuste del conjunto de datos: Tabla2_2, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 1,57 a x = 6,28
+B (y-intercección) = 0 +/- 0,00724568837309474
+A (pendiente) = 0,0707006369426752 +/- 0,00168519191787554
+--------------------------------------------------------------------------------------
+Chi^2 = 7,00000000000004e-05
+R^2 = 0,998865018240778
+---------------------------------------------------------------------------------------
+[sábado, 30 de abril de 2022 17:44:48 (CEST)	Gráfica: ''Gráfica5'']
+Regresión Lineal ajuste del conjunto de datos: Tabla2_3, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 1,57 a x = 9,42
+B (y-intercección) = -0,0148 +/- 0,011552241588293
+A (pendiente) = 0,0260782529572339 +/- 0,00188938968142582
+--------------------------------------------------------------------------------------
+Chi^2 = 0,000615942857142856
+R^2 = 0,979435325204318
+---------------------------------------------------------------------------------------
+[sábado, 30 de abril de 2022 17:48:46 (CEST)	Gráfica: ''Gráfica4'']
+Regresión Lineal ajuste del conjunto de datos: Tabla2_torque, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 1,57 a x = 6,28
+B (y-intercección) = -0,021 +/- 0,00571182982939793
+A (pendiente) = 0,028343949044586 +/- 0,00132844927481619
+--------------------------------------------------------------------------------------
+Chi^2 = 4,35e-05
+R^2 = 0,99562583272581
+---------------------------------------------------------------------------------------
+[sábado, 30 de abril de 2022 17:48:53 (CEST)	Gráfica: ''Gráfica3'']
+Regresión Lineal ajuste del conjunto de datos: Tabla2_torque, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 1,57 a x = 9,42
+B (y-intercección) = -0,0148 +/- 0,011552241588293
+A (pendiente) = 0,0260782529572339 +/- 0,00188938968142582
+--------------------------------------------------------------------------------------
+Chi^2 = 0,000615942857142856
+R^2 = 0,979435325204318
+---------------------------------------------------------------------------------------
+[domingo, 12 de junio de 2022 9:34:18 (CEST)	Gráfica: ''Gráfica4'']
+Regresión Lineal ajuste del conjunto de datos: Tabla2_torque, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 0,27 a x = 9,42
+B (y-intercección) = -0,0112116421973832 +/- 0,00791010441014625
+A (pendiente) = 0,0255560016661156 +/- 0,00139714128323185
+--------------------------------------------------------------------------------------
+Chi^2 = 0,000649395401220386
+R^2 = 0,985276102377637
+---------------------------------------------------------------------------------------
+[domingo, 12 de junio de 2022 18:03:10 (CEST)	Gráfica: ''Gráfica4'']
+Regresión Lineal ajuste del conjunto de datos: Tabla3_I masa, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 2 a x = 28
+B (y-intercección) = -0,0030828125 +/- 0,00211421373895141
+A (pendiente) = 0,0006703125 +/- 0,000119809039532348
+--------------------------------------------------------------------------------------
+Chi^2 = 1,598484375e-05
+R^2 = 0,912542163186921
+---------------------------------------------------------------------------------------
+[domingo, 12 de junio de 2022 18:04:14 (CEST)	Gráfica: ''Gráfica4'']
+Regresión Lineal ajuste del conjunto de datos: Tabla3_1, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 2 a x = 28
+B (y-intercección) = -9,24852209051724e-05 +/- 7,40941096892638e-05
+A (pendiente) = 1,17829364224138e-05 +/- 4,1987921813799e-06
+--------------------------------------------------------------------------------------
+Chi^2 = 1,96326073992996e-08
+R^2 = 0,724141494213047
+---------------------------------------------------------------------------------------
+[domingo, 12 de junio de 2022 18:05:31 (CEST)	Gráfica: ''Gráfica5'']
+Regresión Lineal ajuste del conjunto de datos: Tabla3_I masa, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 4 a x = 784
+B (y-intercección) = 0,000235226057025908 +/- 4,52015067004293e-05
+A (pendiente) = 2,24944571065321e-05 +/- 1,09886480020706e-07
+--------------------------------------------------------------------------------------
+Chi^2 = 1,30839031272772e-08
+R^2 = 0,999928414072575
+---------------------------------------------------------------------------------------
+[domingo, 12 de junio de 2022 18:05:37 (CEST)	Gráfica: ''Gráfica4'']
+Regresión Lineal ajuste del conjunto de datos: Tabla3_I total, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 4 a x = 784
+B (y-intercección) = 0,00438413879715335 +/- 8,25455217139867e-05
+A (pendiente) = 4,50734142673303e-05 +/- 2,00671116623124e-07
+--------------------------------------------------------------------------------------
+Chi^2 = 4,36333472874705e-08
+R^2 = 0,999940540089384
+---------------------------------------------------------------------------------------
+[domingo, 12 de junio de 2022 18:11:42 (CEST)	Gráfica: ''Gráfica4'']
+Regresión Lineal ajuste del conjunto de datos: Tabla3_I masa, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 0,0004 a x = 0,0784
+B (y-intercección) = 0,00023522605702591 +/- 4,5201506700429e-05
+A (pendiente) = 0,224944571065321 +/- 0,00109886480020706
+--------------------------------------------------------------------------------------
+Chi^2 = 1,30839031272771e-08
+R^2 = 0,999928414072575
+---------------------------------------------------------------------------------------
+[domingo, 12 de junio de 2022 19:57:54 (CEST)	Gráfica: ''Gráfica5'']
+Regresión Lineal ajuste del conjunto de datos: Tabla4_T^2, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 0 a x = 0,0144
+B (y-intercección) = 7,99012474193549 +/- 0,350911344722404
+A (pendiente) = 565,856086362861 +/- 47,1958238559627
+--------------------------------------------------------------------------------------
+Chi^2 = 0,58727721961561
+R^2 = 0,986277779161685
+---------------------------------------------------------------------------------------
+[domingo, 12 de junio de 2022 20:00:13 (CEST)	Gráfica: ''Gráfica6'']
+Regresión Lineal ajuste del conjunto de datos: Tabla4_T^2, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 0 a x = 0,0144
+B (y-intercección) = 7,9732075483871 +/- 0,103845488474591
+A (pendiente) = 569,4364447858 +/- 13,9666997262808
+--------------------------------------------------------------------------------------
+Chi^2 = 0,0514308384265108
+R^2 = 0,998798275670815
+---------------------------------------------------------------------------------------
+</log>

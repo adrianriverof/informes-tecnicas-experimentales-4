@@ -1,0 +1,501 @@
+%La clase del documento le indica al LaTeX c�mo formatear el contenido,
+% que es lo que realmente se indica a continuaci�n, bas�ndose en su
+% significado (sem�ntica); las cosas no se representan bas�ndose en un
+% sentido est�tico (aunque tambi�n se considera), sino en el papel que
+% desempe�an en el escrito
+\documentclass[a4paper,12pt,spanish]{article}
+
+%twoside,twocolumn,
+
+%Estos dos paquetes son necesarios para escribir c�modamente los
+% los documentos en Español, sin necesidad de utilizar secuencias
+% de escape como {\'\i} para poner una "�".
+\usepackage[T1]{fontenc}
+%\usepackage[latin9]{inputenc}
+\usepackage[utf8]{inputenc}
+
+%Para incluir figuras se necesitar�n las macros definidas en este paquete
+\usepackage{graphicx}
+
+%El paquete Babel hace que LaTeX seleccione algunos textos preprogramados
+% en el idioma pasado como opci�n al documentclass (en este caso, spanish)
+%Por ejemplo, la fecha, o los nombres de las figuras o tablas
+%(a las tablas las llama cuadros...)
+%\usepackage{babel}
+\usepackage[spanish,es-tabla]{babel}
+
+
+%\addto\shorthandsspanish{\spanishdeactivate{~<>}}
+%\usepackage{textcomp}
+
+%Este paquete permite incluir y resaltar URLs
+\usepackage{url}
+
+\usepackage{enumitem}
+%\setlist{nosep}
+
+%Este paquete, cuando se usa pdflatex, formatea el documento a�adiendo
+% enlaces internos entre las referencias y los objetos referenciados
+% (por ejemplos, figuras, tablas, referencias de la bibliograf�a).
+\usepackage[unicode=true, pdfusetitle,
+ bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
+ breaklinks=true,pdfborder={0 0 1},backref=false,colorlinks=false]
+ {hyperref}
+
+%Este paquete es muy �til, porque permite incluir c�digo escrito
+% en varios lenguajes de programaci�n con el formato adecuado con
+% s�lo indicar el archivo fuente.
+\usepackage{listings}
+
+%Este paquete puede ser �til si se quieren incluir algunos s�mbolos
+% especiales en las ecuaciones
+%\usepackage{amssymb}
+
+
+\usepackage{siunitx} %para el sistema internacional
+\usepackage[export]{adjustbox}
+\usepackage{booktabs} 
+ \usepackage{subcaption}
+ 
+ \usepackage{float}
+ \usepackage{amsmath}
+
+
+%Esta definici�n permite introducir la direcci�n de los autores
+% y mostrarla convenientemente
+\newcommand{\address}[1]{
+\par {\raggedright #1
+\vspace{1.4em}
+\noindent\par}
+}
+
+
+
+
+%esto es para modificar la numeración
+\pagenumbering{gobble}
+\include{noNumberPage}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+%tutorial de tablas latex: https://manualdelatex.com/tutoriales/tablas
+
+\usepackage{multirow}
+
+
+
+
+%Inicio del documento (hasta que se cierre con \end{document}
+\begin{document}
+
+
+
+
+\title{\Huge Informes de prácticas de termodinámica}
+
+\author
+{
+	Adrián Rivero Fernández%, 49748426R
+	\\arivero176@alumno.uned.es
+	\\682832933
+	\\ Tecnicas Experimentales III
+	\\ Prácticas realizadas el 14 de marzo de 2023
+	%author 1 works in "institution" and studies for PhD at University (so he is active in both)
+	%\and 
+	%Name author 2 \\
+	%Institution \\
+	%Department
+	%\\ Tutor: 
+}
+
+
+
+%\title{Péndulo simple}
+
+%\author{Adrián Rivero Fernández}
+
+\date{\today}
+
+
+
+\maketitle
+
+
+
+\section*{Problema 1}
+%\subsection*{a)}
+\textbf{ 1. Determinar la distribución de intensidad $I_{P_3}(x)$ que se observa sobre la pantalla $P_3$ .
+}
+\vspace{\baselineskip}
+
+Tratándose de el conocido caso de la doble rendija, las amplitudes de las ondas que pasan por las rendijas serán equivalentes y la intensidad vendrá dada por la expresión
+\[ I = 2 I_0 (1+\cos\delta) = 4 \cos^2\delta
+\]
+siendo la diferencia de fase
+\[ \delta = \frac{2 \pi}{\lambda} \Delta
+\]
+en la que $\Delta$ es la diferencia de camino entre ambos rayos.
+
+En este caso tendremos dos dobles rendijas, por lo que aplicaremos primero estas expresiones para $P_1$ obteniéndo la intensidad incidente en $P2$ que pasa a través y que utilizaremos para obtener la que incide finalmente en $P_3$.
+
+La diferencia de camino de los rayos que pasan por el primer par de rendijas vendrá dado por:
+\[ \Delta_1 = h \sin\theta_1
+\]
+Siendo $\theta_1$ el ángulo entre el centro de la primera placa y la altura $d/2$, que se puede aproximar
+\[ \sin\theta_1 \simeq \frac{d}{2L}
+\]
+De este modo obenemos que 
+\[ \delta_1 =  \frac{2 \pi}{\lambda} \frac{hd}{2L} = \frac{\pi hd}{\lambda L}
+\]
+\[ I_{P_2} = 4I_0 \cos^2(\frac{\delta_1}{2}) = 4I_0 \cos^2(\frac{\pi hd}{2\lambda L})
+\]
+
+Ahora para la segunda rendija
+\[\Delta_2 = d \sin\theta_2  \simeq \frac{xd }{D}
+\]
+\[ \delta_2 = \frac{2 \pi}{\lambda} \Delta_2 = \frac{2 \pi}{\lambda} \frac{xd }{D}
+\]
+\[I_{P_3} = 4 I_{P_2} \cos^2(\frac{\delta_2}{2}) = 4 I_{P_2} \cos^2(\frac{ \pi}{\lambda} \frac{xd }{D})  \Rightarrow
+ \]
+ \[  \Rightarrow \boxed{I_{P_3}(x) = 16   I_0 \cos^2\left(\frac{\pi hd}{2\lambda L}\right)   \cos^2\left(\frac{\pi xd }{\lambda D}\right) }
+ \]
+
+\vspace{\baselineskip}
+\vspace{\baselineskip}
+
+
+\textbf{ 2. Determinar las posiciones de los máximos y mínimos de intensidad sobre $P_3$ y el valor de la interfranja.
+}
+\vspace{\baselineskip}
+
+
+Los máximos o mínimos vendrán dados por el valor del coseno que depende de la altura, concretamente el máximo de intensidad será cuando
+\[ \cos\left( \frac{\pi xd }{\lambda D} \right) = 1 
+\]
+ esto se dará cuando 
+ \[ \pm m \pi  =  \frac{\pi xd }{\lambda D} \Longrightarrow \boxed{ x_{max} = \pm m \frac{D \lambda}{d} }
+ \]
+
+\[ m = 0, 1, 2, ...
+\]
+
+Y para el mínimo:
+
+\[ \cos\left( \frac{\pi xd }{\lambda D} \right) = 0
+\]
+esto se dará cuando 
+\[ \pm (m+\frac{1}{2}) \pi  =  \frac{\pi xd }{\lambda D} \Longrightarrow \boxed{ x_{min} = \pm (m+\frac{1}{2}) \frac{D \lambda}{d} }
+\]
+
+La interfranja la calcularemos restando dos máximos consecutivos
+
+\[ \Delta x = x_{m+1} - x_{m} = (m+1) \frac{D \lambda}{d} -  m \frac{D \lambda}{d} \Longrightarrow \boxed{ \Delta x = \frac{D \lambda}{d} }
+\]
+%\[ \boxed{ \Delta x = \frac{D \lambda}{d} }
+%\]
+
+\vspace{\baselineskip}
+
+
+\textbf{ 3. Determinar el valor más pequeño de h (separación de las rendijas en $P_1$ ) para el cual no se observará luz en ningún punto de $P_3$ .
+}
+\vspace{\baselineskip}
+
+Fijándonos en la expresión de $I_{P_3} (x)$ vemos que en el caso de que el coseno dependiente de $h$ de 0, la intensidad será nula en todo $P_3$
+
+\[ \cos\left(\frac{\pi hd}{2\lambda L}\right) = 0
+\]
+Esto se dará cuando 
+
+\[ \frac{\pi hd}{2\lambda L} = (m + \frac{1}{2})\pi \Longrightarrow h = (m + \frac{1}{2}) \frac{2L \lambda}{d}
+\]
+
+Que será mínima cuando $m = 0$:
+\[ \boxed{h_{m=0} = \frac{L \lambda}{d} }
+\]
+
+\vspace{\baselineskip}
+\vspace{\baselineskip}
+
+\textbf{ 4. Si para una longitud de onda $\lambda_0$ del espectro visible se dan las condiciones
+	del apartado 3 (mínima separación de las rendijas en $P_1$ que provoca la ausencia de luz en toda la pantalla $P_3$  ), ¿es posible conseguir nuevamente
+	la ausencia de luz en toda la pantalla $P_3$ con otras longitudes de onda
+	$\lambda$ en el rango del visible (400 - 750 nm)? Justifique matemáticamente su
+	respuesta.
+}
+\vspace{\baselineskip}
+
+Partiendo de la $h$ obtenida en el anterior apartado, y teniendo en cuenta que esta no cambiará, vemos que existe la posibilidad de que otra longitud de onda iguale el valor para una m distinta:
+\[ h = ( \frac{1}{2}) \frac{2L \lambda_0}{d} = (m + \frac{1}{2}) \frac{2L \lambda_1}{d}
+\]
+\[ \frac{\lambda_0}{2} = (m + \frac{1}{2}) \lambda_1
+\]
+
+La cuestión ahora es si encontraremos en el rango visible un par de longitudes que cumplan esta igualdad para algún m.
+Utilizando el valor de m más pequeño, $m=1$,
+\[ \frac{\lambda_0}{2} =  \frac{3}{2} \lambda_1 \Longrightarrow \lambda_0 = 3\lambda_1
+\]
+
+Podemos ver que esta condición no puede cumplirse para el rango visible, ya que aún usando sus valores extremos
+\[ 750/3 = 250
+\]
+\[400 \cdot 3 = 1200\]
+nos da valores por fuera del espectro.
+
+
+
+\section*{Problema 2}
+\textbf{ 1. Determinar la distribución de intensidad $I(x)$ de la luz que interfiere en
+	una pantalla situada en el plano $y = D$, con $D > f$ .
+}
+\vspace{\baselineskip}
+
+Como las rendijas se encuentran en el plano focal objeto de la lente, los haces que salen divergentes de ellas seguirán la misma dirección paralela al atravesar la lente, dada por el ángulo entre cada rendija y el centro de la lente. En la pantalla interferirán por tanto dos ondas planas de diferente dirección. 
+
+Considerando como origen de fases la correspondiente a la dirección paralela al plano óptico, la diferencia de fases entre estas ondas en un punto genérico de la pantalla de anchura x, de viene dada por el ángulo con el que inciden,
+
+\[ \delta_1 = \frac{2\pi}{\lambda} x \sin\theta_1 \simeq  \frac{2\pi}{\lambda} x \frac{a/2}{f}
+\]
+\[ \delta_2 = \frac{2\pi}{\lambda} x \sin\theta_2 \simeq  \frac{2\pi}{\lambda} x \frac{-a/2}{f}
+\]
+
+A partir de estas podemos calcular las energías de ambas ondas, teniendo en cuenta que ambas proceden de la misma onda plana antes de pasar por la doble rendija, de amplitud $E_0$
+
+\[ E_1 = E_0 e^{i\omega t + \delta_1}
+\]
+\[ E_2 = E_0 e^{i\omega t + \delta_2}
+\]
+
+Y obtenemos la  intensidad de interferencia
+
+\[ E = E_1 + E_2 = 2 E_0 \cos\left(\frac{xa\pi}{f\lambda}\right)
+\]
+\[  I(x) = 4 I_0 \cos^2\left(x\frac{a\pi}{f\lambda}\right)
+\]
+Que sustituyendo con los datos:
+\[  I(x) = 4 I_0 \cos^2\left(x\frac{1\cdot10^{-3}\cdot\pi}{1 \cdot 543,5 \cdot10^{-9} }\right) \Longrightarrow  \boxed{ I(x) = 4 I_0 \cos^2 \left( 5780,3\cdot  x  \right)}
+\]
+
+\vspace{\baselineskip}
+\textbf{ 2. Determinar la posición de los máximos y los mínimos según el eje $X$.
+}
+\vspace{\baselineskip}
+
+
+Analizando la expresión de $I(x)$, para los máximos:
+
+\[ \cos \left( 5780,3\cdot  x  \right) = 1
+\]
+
+esto se dará cuando 
+
+\[ \pm m \pi  =  5780,3\cdot  x \Longrightarrow \boxed{ x_{max} = \pm m \cdot0,5435\cdot 10^{-3} \si{m} }
+\]
+
+\[ m = 0, 1, 2, ...
+\]
+
+Y para el mínimo:
+
+\[ \cos \left( 5780,3\cdot  x  \right) = 0
+\]
+esto se dará cuando 
+
+\[ \pm \left(m+\frac{1}{2}\right) \pi  =  5780,3\cdot  x \Longrightarrow \boxed{ x_{min} = \left(m+\frac{1}{2}\right) \cdot0,5435\cdot 10^{-3} \si{m} } 
+\]
+
+
+
+
+
+
+
+\vspace{\baselineskip}
+\textbf{ 3. Demostrar que la interfranja (distancia entre dos máximos o dos mínimos
+	consecutivos) no depende de la distancia $D$ a la que se coloca la pantalla,
+	y determinar su valor.
+}
+\vspace{\baselineskip}
+
+
+
+
+%La interfranja se calcula a partir de dos máximos consecutivos:
+
+%\[ \Delta x = x_{m+1} - x_{m} = [(m+1) \cdot0,5435\cdot 10^{-3} \si{m}] -  [m\cdot0,5435\cdot 10^{-3} \si{m}] \]
+%\[\boxed{\Delta x = 0,5435\cdot 10^{-3} \si{m} }\]
+%\[ \boxed{ \Delta x = \frac{D \lambda}{d} }
+%\]
+
+En los anteriores apartados hemos podido ver que la intensidad no dependía de la distancia $D$, y por tanto tampoco lo harán los máximos y los mínimos, y consecuentemente tampoco la interfranja $\Delta x$:
+
+\[  I(x) = 4 I_0 \cos^2\left(x\frac{a\pi}{f\lambda}\right)
+\]
+\[ x_{max} = m\cdot\frac{ f \cdot \lambda}{a}
+\]
+\[ x_{max} = (m+1/2)\cdot\frac{ f \cdot \lambda}{a}
+\]
+
+\[ \Delta x = x_{m+1} - x_{m} = \frac{ f \cdot \lambda}{a}
+\]
+
+Obtenemos su valor sustituyendo los valores obteniéndo
+
+\[ \boxed{ \Delta x = 0,5435\cdot 10^{-3} \si{m} }
+\]
+
+\vspace{\baselineskip}
+
+
+\textbf{ 4. Si todo el sistema se sumerge en agua (índice de refracción del agua $n_a =
+	1,33$), encontrar la nueva posición de la lente para obtener un sistema de
+	franjas cuya interfranja sea independiente de $D$, y determinar su valor.
+}
+\vspace{\baselineskip}
+
+Podemos ver los cambios ocasionados en la distancia focal de la lente debido a los cambios en el índice de refracción del medio en el que está sumergida. 
+
+Primero utilizaremos la fórmula del constructor de lentes para deducir el radio de las lentes.
+
+\[ \frac{1}{f} = \left(\frac{n_{lente}}{n_{aire}} -1\right)\frac{2}{R} \]
+\[ R = 2\cdot\left(\frac{n_{lente}}{n_{aire}} -1\right)  \cdot f \Longrightarrow  R = 1,04 \si{m}
+\]
+
+Ahora utilizamos la misma fórmula pero aplicando el índice del agua para obtener la nueva distancia focal $f'$
+\[ \frac{1}{f'} = \left(\frac{n_{lente}}{n_{agua}} -1\right)\frac{2}{R} \]
+\[ f' = \left[ \left(\frac{1,52}{1,33}-1\right) \frac{2}{1,04} \right]^{-1}
+\]
+\[ \boxed{ f' = 3,64 \si{m}}
+\]
+
+A esta será la distancia a la que deberá encontrarse la lente de las franjas para obtener independencia de D.
+
+
+
+
+\section*{Problema 3}
+
+
+% \noindent sirve para algo interesante
+\textbf{ 1. Determinar la diferencia de fase $\delta$ en un punto genérico $P \equiv (x, y, z)$ de la pantalla, entre las ondas planas que llegan a la misma después de reflejarse en el espejo y las ondas esféricas que llegan al punto $P$ procedentes directamente del foco emisor, en los dos casos siguientes:
+	\begin{itemize}
+		\item S es una pantalla plana perpendicular al eje Y.
+		\item S es una pantalla esférica de radio de curvatura $D$ y centro de curvatura coincidente con $F$.
+	\end{itemize}
+}
+\vspace{\baselineskip}
+
+
+Para el caso de la pantalla plana perpendicular, vemos que las ondas que llegan procedentes del foco emisor recorren una distancia 
+\[ r_1 = \sqrt{D^2 + x^2 + z^2}
+\]
+Tomando $\rho = \sqrt{x^2 + z^2}$ como el radio del punto $P$ con respecto al centro de la pantalla, 
+\[ r_1 = \sqrt{D^2 + \rho^2} = \sqrt{D^2 + D^2 \frac{\rho^2}{D^2}} = D\sqrt{1+\frac{\rho^2}{D^2}} \simeq D+\frac{\rho^2}{2D}
+\]
+en cuanto a las ondas que son reflejadas en el espejo, estas saldrán de $F$ hasta el punto $P'$ del espejo, y se reflejarán paralelamente al eje $Y$ hasta chocar en $P$ en la pantalla. De este modo, la distancia recorrida será
+\[ r_2 = \overline{FP'} + \overline{P'P} 
+\]
+aplicando la aproximación paraxial
+\[ r_2 = \overline{FP'} + \overline{P'P} \simeq 2R + D
+\]
+Con esto podemos calcular el desfase de ambas ondas y ver la diferencia, teniendo en cuenta que la segunda onda es reflejada, y por tanto sufre un desplazamiento de $\pi$ radianes:
+\[ \delta_1 = \frac{2\pi}{\lambda} (D+\frac{\rho^2}{2D})
+\]
+\[ \delta_2 = \frac{2\pi}{\lambda} (2R + D) - \pi
+\]
+\[ \delta = \delta_2 - \delta_1 = \frac{2\pi}{\lambda} (2R + D-( D+\frac{\rho^2}{2D})) - \pi
+\]
+\[ \boxed{  \delta =  \frac{2\pi}{\lambda} (2R - \frac{\rho^2}{2D}) - \pi }
+\]
+
+\vspace{\baselineskip}
+Veamos ahora el segundo caso, para la pantalla esférica. Ahora la distancia recorrida por la onda esférica es simplemente
+\[ r_1 = D
+\]
+Para la onda plana, que llega reflejada, vemos otra vez que 
+\[ r_2 = \overline{FP'}+ \overline{P'P}
+\]
+Utilizando la aproximación paraxial podemos asumir que $\overline{FP'} = 2R$, pero esta vez $\overline{P'P}$ no será igual a $D$, sino que formará con este un ángulo rectángulo, a partir de cuyo teorema de Pitágoras podemos obtener su expresión
+\[ D^2 =  (\overline{P'P})^2 + \rho^2 \Longrightarrow \overline{P'P} = \sqrt{D^2 - \rho^2} \simeq D - \frac{\rho^2}{2D}
+\]
+volviendo a $r_2$
+\[ r_2 = 2R + D - \frac{\rho^2}{2D}
+\]
+Del mismo modo que antes, teniendo en cuenta la reflexión
+\[ \delta_1 = \frac{2\pi}{\lambda} D
+\]
+\[ \delta_2 =  \frac{2\pi}{\lambda} ( 2R + D - \frac{\rho^2}{2D}) - \pi 
+\]
+\[ \delta = \delta_2 - \delta_1 = \frac{2\pi}{\lambda} (2R + D-\frac{\rho^2}{2D}- D) - \pi
+\]
+\[ \boxed{  \delta =  \frac{2\pi}{\lambda} (2R - \frac{\rho^2}{2D}) - \pi }
+\]
+
+Obtenemos una $\delta$ igual a la resultante en la pantalla plana
+
+\vspace{\baselineskip}
+
+\textbf{2. Para el segundo de los casos anteriores (pantalla S con forma esférica),
+	determinar la expresión de la intensidad
+	de las interferencias $I(x, y, z)$ en
+	función de $R$, $D$, y $\rho$, donde $\rho = \sqrt{x + z}$  representa la altura sobre el eje Y del punto genérico $P$ de observación (siendo $\rho \ll f < D$).
+}
+\vspace{\baselineskip}
+
+La intensidad en $P$ vendrá dada por la interferencia entre la onda esférica que proviene directamente del foco y la onda que viene reflejada.
+
+La primera, al ser esférica, vendrá dada por una constante $K$ y será inversamente proporcional a la distancia, en este caso $D$
+
+\[ I_1 = \frac{K}{D^2}
+\]
+
+La segunda recorre la distancia $R$ del foco al espejo en forma esférica, y después se reflejará de forma plana, manteniendo su intensidad constante, por lo que:
+\[ I_2 = \frac{K}{R^2}
+\]
+
+La interacción de estas dos ondas en el punto $P$ seguirá la expresión para la interferencia de ondas 
+\[ I = I_1 + I_2 + 2\sqrt{I_1 I_2} \cos \delta
+\]
+siendo $\delta$ la diferencia de fase calculada en el anterior apartado. Por tanto
+
+\[ \boxed{ I(R,D,\rho) = K \left[\frac{1}{R^2}+\frac{1}{D^2} + \frac{2}{RD} \cos\left(\frac{2\pi}{\lambda} \left(2R - \frac{\rho^2}{2D}\right) - \pi\right) \right] }
+\]
+
+
+
+\vspace{\baselineskip}
+\textbf{	3. En el caso del apartado anterior (pantalla S con forma esférica), determinar
+	la expresión de los radios $\rho$ (alturas desde el eje Y ) de los anillos interferenciales brillantes (máximos) y obscuros (mínimos) y la de las intensidades máxima ($I_{max}$ ) y mínima ($I_{min}$).
+}
+\vspace{\baselineskip}
+
+Las intensidades máximas y mínimas, que corresponderán a los puntos brillantes y obscuros, se producirán en función del coseno en la expresión de la intensidad.
+
+Para los máximos
+\[ \cos \delta = 1 \Longrightarrow \delta = 2\pi m = \left(\frac{2\pi}{\lambda} \left(2R - \frac{\rho_{max}^2}{2D}\right) - \pi\right)
+\]
+
+\[\boxed{ \rho_{max} = \sqrt{2D(2R-\lambda(2m+1))}}
+\]
+\[ \boxed{ I_{max} =  K \left[\frac{1}{R^2}+\frac{1}{D^2} + \frac{2}{RD}  \right]    }
+\]
+
+Y para los mínimos
+\[ \cos \delta = -1 \Longrightarrow \delta = 2\pi (m+1/2) = \left(\frac{2\pi}{\lambda} \left(2R - \frac{\rho_{min}^2}{2D}\right) - \pi\right)
+\]
+
+\[\boxed{ \rho_{min} = 2\sqrt{D(R-\lambda(m+1))}}
+\]
+\[ \boxed{ I_{min} =  K \left[\frac{1}{R^2}+\frac{1}{D^2} - \frac{2}{RD}  \right]    }
+\]
+
+
+
+
+\end{document}
+
+
+
+
+
+

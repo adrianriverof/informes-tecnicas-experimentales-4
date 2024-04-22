@@ -1,0 +1,209 @@
+SciDAVis 2.4.0 project file
+<scripting-lang>	muParser
+<windows>	4
+<table>
+5927
+<table creation_time="2022-13-06 10:56:10:824" caption_spec="%n%C{ - }%c" name="Tabla1" columns="4" rows="10"><comment><![CDATA[]]></comment><column creation_time="2022-13-06 10:56:10:824" caption_spec="%n%C{ - }%c" name="h" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-13-06 10:56:10:830" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-13-06 10:56:10:830" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">5.9999999999999998e-01</row><row type="TypeDouble" index="1" invalid="no">5.5000000000000004e-01</row><row type="TypeDouble" index="2" invalid="no">5.0000000000000000e-01</row><row type="TypeDouble" index="3" invalid="no">4.5000000000000001e-01</row><row type="TypeDouble" index="4" invalid="no">4.0000000000000002e-01</row><row type="TypeDouble" index="5" invalid="no">3.4999999999999998e-01</row><row type="TypeDouble" index="6" invalid="no">2.9999999999999999e-01</row><row type="TypeDouble" index="7" invalid="no">2.5000000000000000e-01</row><row type="TypeDouble" index="8" invalid="no">2.0000000000000001e-01</row><row type="TypeDouble" index="9" invalid="no">1.4999999999999999e-01</row></column><column creation_time="2022-13-06 10:56:10:831" caption_spec="%n%C{ - }%c" name="t" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-13-06 10:56:10:831" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-13-06 10:56:10:832" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">6.5570000000000004e+00</row><row type="TypeDouble" index="1" invalid="no">6.2400000000000002e+00</row><row type="TypeDouble" index="2" invalid="no">5.9500000000000002e+00</row><row type="TypeDouble" index="3" invalid="no">5.6680000000000001e+00</row><row type="TypeDouble" index="4" invalid="no">5.3300000000000001e+00</row><row type="TypeDouble" index="5" invalid="no">5.0259999999999998e+00</row><row type="TypeDouble" index="6" invalid="no">4.6399999999999997e+00</row><row type="TypeDouble" index="7" invalid="no">4.2290000000000001e+00</row><row type="TypeDouble" index="8" invalid="no">3.8399999999999999e+00</row><row type="TypeDouble" index="9" invalid="no">3.2700000000000000e+00</row></column><column creation_time="2022-13-06 17:06:08:323" caption_spec="%n%C{ - }%c" name="t²" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-13-06 17:06:08:323" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-13-06 17:06:08:324" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="9">col(&quot;t&quot;)^2</formula><row type="TypeDouble" index="0" invalid="no">4.2994249000000003e+01</row><row type="TypeDouble" index="1" invalid="no">3.8937600000000003e+01</row><row type="TypeDouble" index="2" invalid="no">3.5402500000000003e+01</row><row type="TypeDouble" index="3" invalid="no">3.2126224000000001e+01</row><row type="TypeDouble" index="4" invalid="no">2.8408899999999999e+01</row><row type="TypeDouble" index="5" invalid="no">2.5260675999999997e+01</row><row type="TypeDouble" index="6" invalid="no">2.1529599999999999e+01</row><row type="TypeDouble" index="7" invalid="no">1.7884441000000002e+01</row><row type="TypeDouble" index="8" invalid="no">1.4745600000000000e+01</row><row type="TypeDouble" index="9" invalid="no">1.0692900000000000e+01</row></column><column creation_time="2022-13-06 18:26:12:965" caption_spec="%n%C{ - }%c" name="v" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-13-06 18:26:12:966" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-13-06 18:26:12:966" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="9">col(&quot;h&quot;) / col(&quot;t&quot;)</formula><row type="TypeDouble" index="0" invalid="no">9.1505261552539269e-02</row><row type="TypeDouble" index="1" invalid="no">8.8141025641025647e-02</row><row type="TypeDouble" index="2" invalid="no">8.4033613445378144e-02</row><row type="TypeDouble" index="3" invalid="no">7.9393083980239948e-02</row><row type="TypeDouble" index="4" invalid="no">7.5046904315197005e-02</row><row type="TypeDouble" index="5" invalid="no">6.9637883008356549e-02</row><row type="TypeDouble" index="6" invalid="no">6.4655172413793108e-02</row><row type="TypeDouble" index="7" invalid="no">5.9115630172617638e-02</row><row type="TypeDouble" index="8" invalid="no">5.2083333333333336e-02</row><row type="TypeDouble" index="9" invalid="no">4.5871559633027519e-02</row></column><column_width column="0">88</column_width><column_width column="1">67</column_width><column_width column="2">88</column_width><column_width column="3">88</column_width></table>
+geometry	175	20	954	369	
+
+</table>
+<multiLayer>
+Gráfica1	1	1	lunes, 13 de junio de 2022 17:06:59 (CEST)
+geometry	1181	48	500	400	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	436	276
+Alignement	0	0
+<graph>
+ggeometry	5	5	483	343
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	h	t²			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla1_h	Tabla1_t²	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	9	1
+FunctionCurve	0,LinealAjustar1,x,0.15,0.6	2			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	16	64		2	0	-2085490688	21975	1
+<formula>
+B=0.317153909090905
+A=70.6163069090909
+
+A*x+B
+</formula>
+scale	0	5	45	0	8	5	0	0
+scale	1	5	45	0	8	5	0	0
+scale	2	0.1	0.7	0	8	5	0	0
+scale	3	0.1	0.7	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica2	1	1	lunes, 13 de junio de 2022 18:28:05 (CEST)
+geometry	1177	454	500	425	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	425	276
+Alignement	0	0
+<graph>
+ggeometry	5	5	483	368
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	t	v			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	13	75	0	0	0
+ScaleFont0	Ubuntu	11	75	0	0	0
+ScaleFont1	Ubuntu	11	75	0	0	0
+ScaleFont2	Ubuntu	11	75	0	0	0
+ScaleFont3	Ubuntu	11	75	0	0	0
+AxisFont0	Ubuntu	11	50	0	0	0
+AxisFont1	Ubuntu	11	50	0	0	0
+AxisFont2	Ubuntu	11	50	0	0	0
+AxisFont3	Ubuntu	11	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla1_t	Tabla1_v	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	9	1
+FunctionCurve	0,LinealAjustar1,x,3.27,6.557	2			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	16	64		2	0	-2074822704	21975	1
+<formula>
+B=-0.00175718529072399
+A=0.0143262132099064
+
+A*x+B
+</formula>
+scale	0	0.04	0.1	0	8	5	0	0
+scale	1	0.04	0.1	0	8	5	0	0
+scale	2	3	7	0	8	5	0	0
+scale	3	3	7	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica3	1	1	lunes, 13 de junio de 2022 18:41:16 (CEST)
+geometry	652	430	500	400	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	433	276
+Alignement	0	0
+<graph>
+ggeometry	5	5	483	343
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	t<sup>2</sup>	h			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla1_t	Tabla1_h	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	9	1
+FunctionCurve	0,LinealAjustar1,x,3.27,6.557	2			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	16	64		2	0	-2081418496	21975	1
+<formula>
+B=-0.335353198215306
+A=0.139971073539962
+
+A*x+B
+</formula>
+scale	0	0.1	0.7	0	8	5	0	0
+scale	1	0.1	0.7	0	8	5	0	0
+scale	2	3	7	0	8	5	0	0
+scale	3	3	7	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<log>
+[lunes, 13 de junio de 2022 17:07:23 (CEST)	Gráfica: ''Gráfica1'']
+Regresión Lineal ajuste del conjunto de datos: Tabla1_t², usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 0,15 a x = 0,6
+B (y-intercección) = 0,317153909090905 +/- 0,20189269178799
+A (pendiente) = 70,6163069090909 +/- 0,502771598843882
+--------------------------------------------------------------------------------------
+Chi^2 = 0,417085812996655
+R^2 = 0,999594635814779
+---------------------------------------------------------------------------------------
+[lunes, 13 de junio de 2022 18:28:33 (CEST)	Gráfica: ''Gráfica2'']
+Regresión Lineal ajuste del conjunto de datos: Tabla1_v, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 3,27 a x = 6,557
+B (y-intercección) = -0,00175718529072399 +/- 0,00108332373445859
+A (pendiente) = 0,0143262132099064 +/- 0,000209268994235057
+--------------------------------------------------------------------------------------
+Chi^2 = 3,65288339773354e-06
+R^2 = 0,998295895488967
+---------------------------------------------------------------------------------------
+[lunes, 13 de junio de 2022 18:41:45 (CEST)	Gráfica: ''Gráfica3'']
+Regresión Lineal ajuste del conjunto de datos: Tabla1_h, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 3,27 a x = 6,557
+B (y-intercección) = -0,335353198215306 +/- 0,0251975014824825
+A (pendiente) = 0,139971073539962 +/- 0,0048674792444299
+--------------------------------------------------------------------------------------
+Chi^2 = 0,00197621527577965
+R^2 = 0,990418350178038
+---------------------------------------------------------------------------------------
+</log>

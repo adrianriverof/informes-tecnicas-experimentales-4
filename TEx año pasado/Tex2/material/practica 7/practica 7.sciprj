@@ -1,0 +1,1939 @@
+SciDAVis 2.9.2 project file
+<scripting-lang>	muParser
+<windows>	17
+<table>
+6408
+<table creation_time="2022-01-05 10:17:39:000" caption_spec="%n%C{ - }%c" name="Tabla1" columns="4" rows="12"><comment><![CDATA[Polarizacion directa]]></comment><column creation_time="2022-01-05 10:17:39:510" caption_spec="%n%C{ - }%c" name="V_D" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-01-05 10:17:39:530" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-01-05 10:17:39:530" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">2.8699999999999998e-01</row><row type="TypeDouble" index="1" invalid="no">5.1200000000000001e-01</row><row type="TypeDouble" index="2" invalid="no">5.7099999999999995e-01</row><row type="TypeDouble" index="3" invalid="no">6.1899999999999999e-01</row><row type="TypeDouble" index="4" invalid="no">6.4300000000000002e-01</row><row type="TypeDouble" index="5" invalid="no">6.5900000000000003e-01</row><row type="TypeDouble" index="6" invalid="no">6.7000000000000004e-01</row><row type="TypeDouble" index="7" invalid="no">6.7900000000000005e-01</row><row type="TypeDouble" index="8" invalid="no">6.8600000000000005e-01</row><row type="TypeDouble" index="9" invalid="no">6.9299999999999995e-01</row><row type="TypeDouble" index="10" invalid="no">6.9899999999999995e-01</row><row type="TypeDouble" index="11" invalid="no">7.0299999999999996e-01</row></column><column creation_time="2022-25-08 11:46:21:089" caption_spec="%n%C{ - }%c" name="1" type="TypeDouble" mode="Numeric" plot_designation="xErr"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-25-08 11:46:21:089" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-25-08 11:46:21:090" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">1.0000000000000000e-03</row><row type="TypeDouble" index="1" invalid="no">1.0000000000000000e-03</row><row type="TypeDouble" index="2" invalid="no">1.0000000000000000e-03</row><row type="TypeDouble" index="3" invalid="no">1.0000000000000000e-03</row><row type="TypeDouble" index="4" invalid="no">1.0000000000000000e-03</row><row type="TypeDouble" index="5" invalid="no">1.0000000000000000e-03</row><row type="TypeDouble" index="6" invalid="no">1.0000000000000000e-03</row><row type="TypeDouble" index="7" invalid="no">1.0000000000000000e-03</row><row type="TypeDouble" index="8" invalid="no">1.0000000000000000e-03</row><row type="TypeDouble" index="9" invalid="no">1.0000000000000000e-03</row><row type="TypeDouble" index="10" invalid="no">1.0000000000000000e-03</row><row type="TypeDouble" index="11" invalid="no">1.0000000000000000e-03</row></column><column creation_time="2022-01-05 10:17:39:531" caption_spec="%n%C{ - }%c" name="I_R" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-01-05 10:17:39:531" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-01-05 10:17:39:531" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">3.9215686274509802e-07</row><row type="TypeDouble" index="1" invalid="no">2.3960784313699999e-04</row><row type="TypeDouble" index="2" invalid="no">9.2156862745100001e-04</row><row type="TypeDouble" index="3" invalid="no">2.7725490196080001e-03</row><row type="TypeDouble" index="4" invalid="no">4.6823529411759999e-03</row><row type="TypeDouble" index="5" invalid="no">6.5647058823530002e-03</row><row type="TypeDouble" index="6" invalid="no">8.4705882352940007e-03</row><row type="TypeDouble" index="7" invalid="no">1.0294117647059000e-02</row><row type="TypeDouble" index="8" invalid="no">1.2294117647059000e-02</row><row type="TypeDouble" index="9" invalid="no">1.4215686274510000e-02</row><row type="TypeDouble" index="10" invalid="no">1.6215686274510002e-02</row><row type="TypeDouble" index="11" invalid="no">1.8196078431373001e-02</row></column><column creation_time="2022-25-08 11:49:15:390" caption_spec="%n%C{ - }%c" name="2" type="TypeDouble" mode="Numeric" plot_designation="yErr"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-25-08 11:49:15:390" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-25-08 11:49:15:390" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">1.9800076893502501e-07</row><row type="TypeDouble" index="1" invalid="no">1.9715494040753599e-07</row><row type="TypeDouble" index="2" invalid="no">1.9657823913879299e-07</row><row type="TypeDouble" index="3" invalid="no">1.9915417147251100e-08</row><row type="TypeDouble" index="4" invalid="no">1.9723183391003500e-08</row><row type="TypeDouble" index="5" invalid="no">1.9646289888504401e-08</row><row type="TypeDouble" index="6" invalid="no">1.9646289888504401e-08</row><row type="TypeDouble" index="7" invalid="no">1.9684736639753900e-07</row><row type="TypeDouble" index="8" invalid="no">6.6589773164167603e-07</row><row type="TypeDouble" index="9" invalid="no">3.7677816224528998e-06</row><row type="TypeDouble" index="10" invalid="no">7.3971549404075403e-06</row><row type="TypeDouble" index="11" invalid="no">1.1141868512110701e-05</row></column><column_width column="0">81</column_width><column_width column="1">90</column_width><column_width column="2">90</column_width><column_width column="3">226</column_width></table>
+geometry	68	2	818	379	
+
+</table>
+<table>
+4920
+<table creation_time="2022-01-05 10:21:01:000" caption_spec="%n%C{ - }%c" name="Tabla2" columns="4" rows="15"><comment><![CDATA[Polarizacion inversa]]></comment><column creation_time="2022-01-05 10:21:01:693" caption_spec="%n%C{ - }%c" name="V_D" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-01-05 10:21:01:693" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-01-05 10:21:01:694" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">2.0000000000000000e+01</row><row type="TypeDouble" index="1" invalid="no">1.5000000000000000e+01</row><row type="TypeDouble" index="2" invalid="no">1.0000000000000000e+01</row><row type="TypeDouble" index="3" invalid="no">8.0000000000000000e+00</row><row type="TypeDouble" index="4" invalid="no">6.0000000000000000e+00</row><row type="TypeDouble" index="5" invalid="no">4.0000000000000000e+00</row><row type="TypeDouble" index="6" invalid="no">2.0000000000000000e+00</row></column><column creation_time="2022-25-08 11:46:50:701" caption_spec="%n%C{ - }%c" name="1" type="TypeDouble" mode="Numeric" plot_designation="xErr"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-25-08 11:46:50:701" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-25-08 11:46:50:701" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">1.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">1.0000000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">1.0000000000000000e+00</row><row type="TypeDouble" index="3" invalid="no">1.0000000000000000e+00</row><row type="TypeDouble" index="4" invalid="no">1.0000000000000000e+00</row><row type="TypeDouble" index="5" invalid="no">1.0000000000000000e+00</row><row type="TypeDouble" index="6" invalid="no">1.0000000000000000e+00</row></column><column creation_time="2022-01-05 10:21:01:695" caption_spec="%n%C{ - }%c" name="I_R" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-01-05 10:21:01:695" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-01-05 10:21:01:696" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">9.8039215686274508e-07</row><row type="TypeDouble" index="1" invalid="no">5.4901960784313705e-07</row><row type="TypeDouble" index="2" invalid="no">2.5490196078431402e-07</row><row type="TypeDouble" index="3" invalid="no">1.5686274509803900e-07</row><row type="TypeDouble" index="4" invalid="no">5.8823529411764702e-08</row><row type="TypeDouble" index="5" invalid="no">1.9607843137254898e-08</row><row type="TypeDouble" index="6" invalid="no">1.9607843137254898e-08</row></column><column creation_time="2022-25-08 12:01:15:883" caption_spec="%n%C{ - }%c" name="2" type="TypeDouble" mode="Numeric" plot_designation="yErr"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-25-08 12:01:15:883" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-25-08 12:01:15:883" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">1.9800076893502501e-07</row><row type="TypeDouble" index="1" invalid="no">1.9715494040753599e-07</row><row type="TypeDouble" index="2" invalid="no">1.9657823913879299e-07</row><row type="TypeDouble" index="3" invalid="no">1.9915417147251100e-08</row><row type="TypeDouble" index="4" invalid="no">1.9723183391003500e-08</row><row type="TypeDouble" index="5" invalid="no">1.9646289888504401e-08</row><row type="TypeDouble" index="6" invalid="no">1.9646289888504401e-08</row></column><column_width column="0">86</column_width><column_width column="1">97</column_width><column_width column="2">97</column_width><column_width column="3">301</column_width></table>
+geometry	100	447	634	415	
+
+</table>
+<table>
+6684
+<table creation_time="2022-19-06 13:54:38:000" caption_spec="%n%C{ - }%c" name="Tabla3" columns="4" rows="13"><comment><![CDATA[]]></comment><column creation_time="2022-19-06 13:54:38:672" caption_spec="%n%C{ - }%c" name="Vz" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-19-06 13:54:38:672" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-19-06 13:54:38:680" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">4.4999999999999998e-02</row><row type="TypeDouble" index="1" invalid="no">1.1000000000000001e+00</row><row type="TypeDouble" index="2" invalid="no">2.1000000000000001e+00</row><row type="TypeDouble" index="3" invalid="no">2.8999999999999999e+00</row><row type="TypeDouble" index="4" invalid="no">3.7000000000000002e+00</row><row type="TypeDouble" index="5" invalid="no">4.1299999999999999e+00</row><row type="TypeDouble" index="6" invalid="no">4.3600000000000003e+00</row><row type="TypeDouble" index="7" invalid="no">4.4600000000000000e+00</row><row type="TypeDouble" index="8" invalid="no">4.5400000000000000e+00</row><row type="TypeDouble" index="9" invalid="no">4.6100000000000003e+00</row><row type="TypeDouble" index="10" invalid="no">4.6399999999999997e+00</row><row type="TypeDouble" index="11" invalid="no">4.5599999999999996e+00</row><row type="TypeDouble" index="12" invalid="no">4.7000000000000002e+00</row></column><column creation_time="2022-25-08 11:39:53:512" caption_spec="%n%C{ - }%c" name="1" type="TypeDouble" mode="Numeric" plot_designation="xErr"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-25-08 11:39:53:512" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-25-08 11:39:53:513" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="1" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="2" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="3" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="4" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="5" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="6" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="7" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="8" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="9" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="10" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="11" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="12" invalid="no">1.0000000000000000e-02</row></column><column creation_time="2022-19-06 13:54:38:682" caption_spec="%n%C{ - }%c" name="2" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-19-06 13:54:38:682" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-19-06 13:54:38:682" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">1.2999999999999999e-04</row><row type="TypeDouble" index="3" invalid="no">2.9999999999999997e-04</row><row type="TypeDouble" index="4" invalid="no">2.8300000000000001e-03</row><row type="TypeDouble" index="5" invalid="no">8.0000000000000002e-03</row><row type="TypeDouble" index="6" invalid="no">1.6199999999999999e-02</row><row type="TypeDouble" index="7" invalid="no">2.5399999999999999e-02</row><row type="TypeDouble" index="8" invalid="no">3.4200000000000001e-02</row><row type="TypeDouble" index="9" invalid="no">4.4299999999999999e-02</row><row type="TypeDouble" index="10" invalid="no">5.3400000000000003e-02</row><row type="TypeDouble" index="11" invalid="no">6.3100000000000003e-02</row><row type="TypeDouble" index="12" invalid="no">7.2599999999999998e-02</row></column><column creation_time="2022-25-08 11:40:16:806" caption_spec="%n%C{ - }%c" name="3" type="TypeDouble" mode="Numeric" plot_designation="yErr"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-25-08 11:40:16:806" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-25-08 11:40:16:806" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">1.0000000000000000e-04</row><row type="TypeDouble" index="1" invalid="no">1.0000000000000000e-04</row><row type="TypeDouble" index="2" invalid="no">1.0130000000000000e-04</row><row type="TypeDouble" index="3" invalid="no">1.0300000000000000e-04</row><row type="TypeDouble" index="4" invalid="no">1.2830000000000000e-04</row><row type="TypeDouble" index="5" invalid="no">1.8000000000000001e-04</row><row type="TypeDouble" index="6" invalid="no">2.6200000000000003e-04</row><row type="TypeDouble" index="7" invalid="no">3.5399999999999999e-04</row><row type="TypeDouble" index="8" invalid="no">4.4200000000000001e-04</row><row type="TypeDouble" index="9" invalid="no">5.4299999999999997e-04</row><row type="TypeDouble" index="10" invalid="no">6.3400000000000001e-04</row><row type="TypeDouble" index="11" invalid="no">7.3099999999999999e-04</row><row type="TypeDouble" index="12" invalid="no">8.2600000000000002e-04</row></column><column_width column="0">53</column_width><column_width column="1">60</column_width><column_width column="2">50</column_width><column_width column="3">60</column_width></table>
+geometry	74	963	655	437	
+
+</table>
+<table>
+6983
+<table creation_time="2022-19-06 15:55:06:000" caption_spec="%n%C{ - }%c" name="Tabla4" columns="4" rows="30"><comment><![CDATA[]]></comment><column creation_time="2022-19-06 15:55:06:063" caption_spec="%n%C{ - }%c" name="1" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-19-06 15:55:06:063" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-19-06 15:55:06:063" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">9.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">7.0000000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">5.0000000000000000e+00</row><row type="TypeDouble" index="3" invalid="no">3.0000000000000000e+00</row><row type="TypeDouble" index="4" invalid="no">1.0000000000000000e+00</row><row type="TypeDouble" index="5" invalid="no">8.0000000000000004e-01</row><row type="TypeDouble" index="6" invalid="no">5.9999999999999998e-01</row><row type="TypeDouble" index="7" invalid="no">5.0000000000000000e-01</row><row type="TypeDouble" index="8" invalid="no">4.0000000000000002e-01</row><row type="TypeDouble" index="9" invalid="no">2.9999999999999999e-01</row><row type="TypeDouble" index="10" invalid="no">2.5000000000000000e-01</row><row type="TypeDouble" index="11" invalid="no">2.0000000000000001e-01</row><row type="TypeDouble" index="12" invalid="no">1.4999999999999999e-01</row><row type="TypeDouble" index="13" invalid="no">1.0000000000000001e-01</row></column><column creation_time="2022-25-08 11:36:21:709" caption_spec="%n%C{ - }%c" name="3" type="TypeDouble" mode="Numeric" plot_designation="xErr"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-25-08 11:36:21:709" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-25-08 11:36:21:709" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="1" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="2" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="3" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="4" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="5" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="6" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="7" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="8" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="9" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="10" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="11" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="12" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="13" invalid="no">1.0000000000000000e-02</row></column><column creation_time="2022-19-06 15:55:06:065" caption_spec="%n%C{ - }%c" name="2" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-19-06 15:55:06:065" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-19-06 15:55:06:065" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">4.6299999999999999e+00</row><row type="TypeDouble" index="1" invalid="no">4.6299999999999999e+00</row><row type="TypeDouble" index="2" invalid="no">4.6200000000000001e+00</row><row type="TypeDouble" index="3" invalid="no">4.6200000000000001e+00</row><row type="TypeDouble" index="4" invalid="no">4.6200000000000001e+00</row><row type="TypeDouble" index="5" invalid="no">4.6100000000000003e+00</row><row type="TypeDouble" index="6" invalid="no">4.5999999999999996e+00</row><row type="TypeDouble" index="7" invalid="no">4.5899999999999999e+00</row><row type="TypeDouble" index="8" invalid="no">4.5800000000000001e+00</row><row type="TypeDouble" index="9" invalid="no">4.5599999999999996e+00</row><row type="TypeDouble" index="10" invalid="no">4.5400000000000000e+00</row><row type="TypeDouble" index="11" invalid="no">4.5099999999999998e+00</row><row type="TypeDouble" index="12" invalid="no">4.4500000000000002e+00</row><row type="TypeDouble" index="13" invalid="no">4.2699999999999996e+00</row></column><column creation_time="2022-25-08 11:36:23:734" caption_spec="%n%C{ - }%c" name="4" type="TypeDouble" mode="Numeric" plot_designation="yErr"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-25-08 11:36:23:734" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-25-08 11:36:23:735" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="1" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="2" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="3" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="4" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="5" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="6" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="7" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="8" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="9" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="10" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="11" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="12" invalid="no">1.0000000000000000e-02</row><row type="TypeDouble" index="13" invalid="no">1.0000000000000000e-02</row></column><column_width column="0">50</column_width><column_width column="1">50</column_width><column_width column="2">50</column_width><column_width column="3">50</column_width></table>
+geometry	69	1446	825	437	
+
+</table>
+<note>
+Notas1	miércoles, 17 de agosto de 2022 18:43:52 (CEST)
+geometry	1527	816	220	102	
+WindowLabel		2
+AutoExec	0
+<content>
+ajuste decay exp orden 2
+</content>
+</note>
+<multiLayer>
+Gráfica1	1	1	domingo, 19 de junio de 2022 11:10:29 (CEST)
+geometry	738	2	500	400	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	414	276
+Alignement	0	0
+<graph>
+ggeometry	5	5	482	342
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	V<sub>D</sub>(V)	I<sub>R</sub>(A)			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla1_V_D	Tabla1_I_R	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	11	1
+FunctionCurve	0,ExpDecayAjustar1,x,0.287,0.703	100			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	0	64		2	0	-1750272880	21857	1
+<formula>
+A=1.88546223539708e-09
+t=-0.0437523387795083
+y0=4.34744192475465e-05
+
+y0+A*exp(-x/t)
+
+
+</formula>
+scale	0	-0.005	0.02	0	8	5	0	0
+scale	1	-0.005	0.02	0	8	5	0	0
+scale	2	0.2	0.8	0	8	5	0	0
+scale	3	0.2	0.8	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica2	1	1	domingo, 19 de junio de 2022 11:13:26 (CEST)
+geometry	748	454	500	400	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	407	276
+Alignement	0	0
+<graph>
+ggeometry	5	5	482	342
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	V<sub>D</sub>(V)	I<sub>R</sub>(A)			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla2_V_D	Tabla2_I_R	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	6	1
+FunctionCurve	0,ExpDecayAjustar1,x,2,20	100			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	0	64		2	0	-1750515120	21857	1
+<formula>
+A1=0.0905803991286812
+t1=35.0440696343226
+A2=-0.0905906222067738
+t2=35.0482675230202
+y0=1.02533199007862e-05
+
+A1*exp(-x/t1)+A2*exp(-x/t2)+y0
+
+</formula>
+scale	0	-2e-07	1.2e-06	0	8	5	0	0
+scale	1	-2e-07	1.2e-06	0	8	5	0	0
+scale	2	0	25	0	8	5	0	0
+scale	3	0	25	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica3	1	1	domingo, 19 de junio de 2022 11:13:43 (CEST)
+geometry	1244	456	500	400	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	407	276
+Alignement	0	0
+<graph>
+ggeometry	5	5	482	342
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	título eje X	título eje Y			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	5124	4	5124	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla2_V_D	Tabla2_I_R	2	1	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	6	1
+FunctionCurve	0,ExpDecayAjustar2,x,2,20	100			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	0	64		2	0	-1749989856	21857	1
+<formula>
+A1=0.0905803991286812
+t1=35.0440696343226
+A2=-0.0905906222067738
+t2=35.0482675230202
+y0=1.02533199007862e-05
+
+A1*exp(-x/t1)+A2*exp(-x/t2)+y0
+
+</formula>
+scale	0	-2e-07	1.2e-06	0	8	5	0	0
+scale	1	-2e-07	1.2e-06	0	8	5	0	0
+scale	2	0	25	0	8	5	0	0
+scale	3	0	25	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica4	1	1	domingo, 19 de junio de 2022 11:13:50 (CEST)
+geometry	1250	0	500	400	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	414	276
+Alignement	0	0
+<graph>
+ggeometry	5	5	482	342
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	título eje X	título eje Y			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	5124	4	5124	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla1_V_D	Tabla1_I_R	2	1	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	11	1
+FunctionCurve	0,ExpGrowthAjustar2,x,0.287,0.703	100			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	0	64		2	0	-1749854032	21857	1
+<formula>
+A=1.88544040401931e-09
+t=0.0437523090703148
+y0=4.3477189942431e-05
+
+y0+A*exp(x/t)
+
+</formula>
+FunctionCurve	0,LinealAjustar1,x,0.287,0.703	2			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	0	64		2	0	-1749844176	21857	1
+<formula>
+B=-0.016356638246455
+A=0.0392328675296931
+
+A*x+B
+
+</formula>
+scale	0	-0.01	0.02	0	8	5	0	0
+scale	1	-0.01	0.02	0	8	5	0	0
+scale	2	0.2	0.8	0	8	5	0	0
+scale	3	0.2	0.8	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica5	1	1	domingo, 19 de junio de 2022 13:59:18 (CEST)
+geometry	1263	983	500	400	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	439	276
+Alignement	0	0
+<graph>
+ggeometry	5	5	482	342
+PlotTitle	Título	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	título eje X	título eje Y			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	5124	4	5124	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla3_Vz	Tabla3_2	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	12	1
+scale	0	-0.3	0.4	0	8	5	0	0
+scale	1	-1	8	0	8	5	0	0
+scale	2	-1	5	0	8	5	0	0
+scale	3	-1	5	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+<legend>	-0.847926267281106	7.73333333333333	Ubuntu	10	50	0	0	0	#ff000000	1	0	#00ffffff	0	\c{1}Tabla3_2</legend>
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica6	1	1	domingo, 19 de junio de 2022 13:59:37 (CEST)
+geometry	741	981	500	400	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	439	276
+Alignement	0	0
+<graph>
+ggeometry	5	5	482	342
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	V<sub>z</sub> (V)	I (A)			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla3_Vz	Tabla3_2	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	12	1
+FunctionCurve	0,LorentzAjustar1,x,0.045,4.7	100			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	0	64		2	0	-1749567600	21857	1
+<formula>
+A=6.10202125515459
+xc=4.78125888736549
+w=0.493400815127149
+y0=-0.0961920923454529
+
+y0+2*A/PI*w/(4*(x-xc)^2+w^2)
+
+
+</formula>
+scale	0	-1	8	0	8	5	0	0
+scale	1	-1	8	0	8	5	0	0
+scale	2	-1	5	0	8	5	0	0
+scale	3	-1	5	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica7	1	1	domingo, 19 de junio de 2022 15:56:04 (CEST)
+geometry	839	1474	500	400	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	425	276
+Alignement	0	0
+<graph>
+ggeometry	5	5	482	342
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	R<sub>L</sub> (kΩ)	V<sub>out</sub> (V)			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla4_1	Tabla4_2	1	0	#ff00ff00	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	29	1
+FunctionCurve	0,ExpDecayAjustar1,x,0.1,9	100			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	0	64		2	0	-1749474176	21857	1
+<formula>
+A1=0.00235783731566995
+t1=-4.98990633163981
+A2=-0.200534887845527
+t2=0.250339313763709
+A3=-2.72918833118251
+t3=0.0393175851713483
+y0=4.61674768473672
+
+A1*exp(-x/t1)+A2*exp(-x/t2)+A3*exp(-x/t3)+y0
+
+</formula>
+scale	0	4.25	4.65	0	8	5	0	0
+scale	1	4.25	4.65	0	8	5	0	0
+scale	2	-2	10	0	8	5	0	0
+scale	3	-2	10	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica8	1	1	miércoles, 17 de agosto de 2022 18:45:43 (CEST)
+geometry	1406	1472	500	400	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	423	274
+Alignement	0	0
+<graph>
+ggeometry	5	5	482	342
+PlotTitle	Título	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	título eje X	título eje Y			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	5124	4	5124	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla4_1	Tabla4_2	1	0	#ff000000	0	1	7	1	#ff000000	-1	0	#ff000000	0	1	0	64		2	0	0	29	1
+FunctionCurve	0,ExpDecayAjustar1,x,0.1,9	100			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	0	64		2	0	-1749307376	21857	1
+<formula>
+A1=0.292425156997597
+t1=0.302636405177909
+A2=-2.47225590643718
+t2=0.0419436669748346
+A3=-0.468877484404093
+t3=0.302635038970254
+y0=4.62492058712868
+
+A1*exp(-x/t1)+A2*exp(-x/t2)+A3*exp(-x/t3)+y0
+
+</formula>
+scale	0	4.25	4.65	0	8	5	0	0
+scale	1	4.25	4.65	0	8	5	0	0
+scale	2	-2	10	0	8	5	0	0
+scale	3	-2	10	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica9	1	1	jueves, 25 de agosto de 2022 11:37:16 (CEST)
+geometry	1249	1434	500	400	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	423	274
+Alignement	0	0
+<graph>
+ggeometry	5	5	481	340
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	R<sub>L</sub> (kΩ)	V<sub>out</sub> (V)			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla4_1	Tabla4_2	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	29	1
+ErrorBars	0	Tabla4_1	Tabla4_2	Tabla4_3	1	8	#ff000000	1	1	1
+ErrorBars	1	Tabla4_1	Tabla4_2	Tabla4_4	1	8	#ff000000	1	1	1
+FunctionCurve	0,ExpDecayAjustar1,x,0.1,9	100			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	16	64		2	0	-1741347520	21857	1
+<formula>
+A1=-0.176451471094427
+t1=0.302634064310749
+A2=-2.47224332140169
+t2=0.041943791615555
+y0=4.62492061733864
+
+A1*exp(-x/t1)+A2*exp(-x/t2)+y0
+</formula>
+scale	0	4.25	4.65	0	8	5	0	0
+scale	1	4.25	4.65	0	8	5	0	0
+scale	2	-2	10	0	8	5	0	0
+scale	3	-2	10	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica10	1	1	jueves, 25 de agosto de 2022 11:42:47 (CEST)
+geometry	954	941	500	418	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	419	274
+Alignement	0	0
+<graph>
+ggeometry	5	5	481	358
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	V<sub>z</sub> (V)	I (A)			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	13	75	0	0	0
+ScaleFont0	Ubuntu	11	75	0	0	0
+ScaleFont1	Ubuntu	11	75	0	0	0
+ScaleFont2	Ubuntu	11	75	0	0	0
+ScaleFont3	Ubuntu	11	75	0	0	0
+AxisFont0	Ubuntu	11	50	0	0	0
+AxisFont1	Ubuntu	11	50	0	0	0
+AxisFont2	Ubuntu	11	50	0	0	0
+AxisFont3	Ubuntu	11	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla3_Vz	Tabla3_2	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	12	1
+ErrorBars	0	Tabla3_Vz	Tabla3_2	Tabla3_1	1	8	#ff000000	1	1	1
+ErrorBars	1	Tabla3_Vz	Tabla3_2	Tabla3_3	1	8	#ff000000	1	1	1
+FunctionCurve	0,LorentzAjustar1,x,0.045,4.7	100			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	16	64		2	0	-1753929024	21857	1
+<formula>
+A=1.18285826798821
+xc=5.02218955494605
+w=0.0431379361877412
+y0=-0.000963158526684123
+
+y0+2*A/PI*w/(4*(x-xc)^2+w^2)
+</formula>
+scale	0	-0.01	0.08	0	8	5	0	0
+scale	1	-0.01	0.08	0	8	5	0	0
+scale	2	-1	5	0	8	5	0	0
+scale	3	-1	5	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica11	1	1	jueves, 25 de agosto de 2022 11:59:01 (CEST)
+geometry	1122	488	500	400	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	404	274
+Alignement	0	0
+<graph>
+ggeometry	5	5	481	340
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	V<sub>D</sub>(V)	I<sub>R</sub>(A)			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla2_V_D	Tabla2_I_R	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	14	1
+ErrorBars	0	Tabla2_V_D	Tabla2_I_R	Tabla2_1	1	8	#ff000000	1	1	1
+FunctionCurve	0,ExpDecayAjustar2,x,2,20	100			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	16	64		2	0	-1745968224	21857	1
+<formula>
+A1=-0.635410748800479
+t1=35.1291754112304
+A2=0.635400487798671
+t2=35.1285734545728
+y0=1.02911442092124e-05
+
+A1*exp(-x/t1)+A2*exp(-x/t2)+y0
+</formula>
+scale	0	-2e-07	1.2e-06	0	8	5	0	0
+scale	1	-2e-07	1.2e-06	0	8	5	0	0
+scale	2	0	25	0	8	5	0	0
+scale	3	0	25	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica12	1	1	jueves, 25 de agosto de 2022 12:01:37 (CEST)
+geometry	942	353	500	400	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	404	274
+Alignement	0	0
+<graph>
+ggeometry	5	5	481	340
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	V<sub>D</sub>(V)	I<sub>R</sub>(A)			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla2_V_D	Tabla2_I_R	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	14	1
+ErrorBars	0	Tabla2_V_D	Tabla2_I_R	Tabla2_1	1	8	#ff000000	1	1	1
+ErrorBars	1	Tabla2_V_D	Tabla2_I_R	Tabla2_2	1	8	#ff000000	1	1	1
+FunctionCurve	0,ExpDecayAjustar1,x,2,20	100			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	16	64		2	0	-1760311136	21857	1
+<formula>
+A1=0.0744021782443349
+t1=12.709315115758
+A2=-0.0744045783573708
+t2=12.7098584077463
+y0=2.49863642636002e-06
+
+A1*exp(-x/t1)+A2*exp(-x/t2)+y0
+</formula>
+scale	0	-2e-07	1.2e-06	0	8	5	0	0
+scale	1	-2e-07	1.2e-06	0	8	5	0	0
+scale	2	0	25	0	8	5	0	0
+scale	3	0	25	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<log>
+[domingo, 19 de junio de 2022 11:15:33 (CEST)	Gráfica: ''Gráfica1'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla1_I_R, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,287 a x = 0,703
+A (amplitud) = 1,88546223539708e-09 +/- 4,52166755162426e-10
+t (constante de tiempo-e) = -0,0437523387795083 +/- 0,340551950385722
+y0 (desplazamiento) = 4,34744192475465e-05 +/- 8,08794948358082e-05
+--------------------------------------------------------------------------------------
+Chi^2 = 1,38028152074351e-07
+R^2 = 0,999692329956756
+---------------------------------------------------------------------------------------
+Iteraciones = 95
+Estado = success
+---------------------------------------------------------------------------------------
+[domingo, 19 de junio de 2022 11:15:45 (CEST)	Gráfica: ''Gráfica2'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla2_I_R, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 2 a x = 20
+A (amplitud) = 1,85398539065669e-05 +/- 7,75529674922631e+32
+t (constante de tiempo-e) = 0,0221487964944491 +/- 0
+y0 (desplazamiento) = 2,91316526610644e-07 +/- 1,78225530502275e-07
+--------------------------------------------------------------------------------------
+Chi^2 = 7,62344153347614e-13
+R^2 = 0
+---------------------------------------------------------------------------------------
+Iteraciones = 2
+Estado = success
+---------------------------------------------------------------------------------------
+[domingo, 19 de junio de 2022 13:57:42 (CEST)	Gráfica: ''Gráfica5'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla3_I, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A (amplitud) = -10.907,6230822813 +/- 5.711.377.689,55344
+t (constante de tiempo-e) = 921.785,192213368 +/- 0,568044373906249
+y0 (desplazamiento) = 10.907,6060026238 +/- 5.711.377.689,56629
+--------------------------------------------------------------------------------------
+Chi^2 = 0,00435585696535531
+R^2 = 0,476219661617846
+---------------------------------------------------------------------------------------
+Iteraciones = 1000
+Estado = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[domingo, 19 de junio de 2022 13:57:44 (CEST)	Gráfica: ''Gráfica5'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla3_I, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A (amplitud) = -54.339,800705252 +/- 141.381.204.604,151
+t (constante de tiempo-e) = 4.592.123,33070271 +/- 0,566578825984687
+y0 (desplazamiento) = 54.339,7836255847 +/- 141.381.204.604,164
+--------------------------------------------------------------------------------------
+Chi^2 = 0,00435585418186347
+R^2 = 0,476219996325415
+---------------------------------------------------------------------------------------
+Iteraciones = 652
+Estado = success
+---------------------------------------------------------------------------------------
+[domingo, 19 de junio de 2022 13:57:46 (CEST)	Gráfica: ''Gráfica5'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla3_I, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A (amplitud) = -60.078,5505139938 +/- 173.077.236.885,458
+t (constante de tiempo-e) = 5.077.091,18450311 +/- 0,567421473682663
+y0 (desplazamiento) = 60.078,5334343262 +/- 173.077.236.885,47
+--------------------------------------------------------------------------------------
+Chi^2 = 0,00435585411454013
+R^2 = 0,476220004420869
+---------------------------------------------------------------------------------------
+Iteraciones = 63
+Estado = success
+---------------------------------------------------------------------------------------
+[domingo, 19 de junio de 2022 13:57:46 (CEST)	Gráfica: ''Gráfica5'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla3_I, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A (amplitud) = -60.078,5505139938 +/- 173.131.945.297,865
+t (constante de tiempo-e) = 5.077.091,18450311 +/- 0,567600831177422
+y0 (desplazamiento) = 60.078,5334343262 +/- 173.131.945.297,877
+--------------------------------------------------------------------------------------
+Chi^2 = 0,00435585411454013
+R^2 = 0,476220004420869
+---------------------------------------------------------------------------------------
+Iteraciones = 0
+Estado = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[domingo, 19 de junio de 2022 13:57:46 (CEST)	Gráfica: ''Gráfica5'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla3_I, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A (amplitud) = -60.078,5505139938 +/- 173.131.945.297,865
+t (constante de tiempo-e) = 5.077.091,18450311 +/- 0,567600831177422
+y0 (desplazamiento) = 60.078,5334343262 +/- 173.131.945.297,877
+--------------------------------------------------------------------------------------
+Chi^2 = 0,00435585411454013
+R^2 = 0,476220004420869
+---------------------------------------------------------------------------------------
+Iteraciones = 0
+Estado = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[domingo, 19 de junio de 2022 13:57:47 (CEST)	Gráfica: ''Gráfica5'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla3_I, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A (amplitud) = -60.078,5505139938 +/- 173.131.945.297,865
+t (constante de tiempo-e) = 5.077.091,18450311 +/- 0,567600831177422
+y0 (desplazamiento) = 60.078,5334343262 +/- 173.131.945.297,877
+--------------------------------------------------------------------------------------
+Chi^2 = 0,00435585411454013
+R^2 = 0,476220004420869
+---------------------------------------------------------------------------------------
+Iteraciones = 0
+Estado = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[domingo, 19 de junio de 2022 13:57:47 (CEST)	Gráfica: ''Gráfica5'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla3_I, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A (amplitud) = -60.078,5505139938 +/- 173.131.945.297,865
+t (constante de tiempo-e) = 5.077.091,18450311 +/- 0,567600831177422
+y0 (desplazamiento) = 60.078,5334343262 +/- 173.131.945.297,877
+--------------------------------------------------------------------------------------
+Chi^2 = 0,00435585411454013
+R^2 = 0,476220004420869
+---------------------------------------------------------------------------------------
+Iteraciones = 0
+Estado = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[domingo, 19 de junio de 2022 13:58:10 (CEST)	Gráfica: ''Gráfica5'']
+Regresión Lineal ajuste del conjunto de datos: Tabla3_I, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 0,045 a x = 4,7
+B (y-intercección) = -0,0170796697362062 +/- 0,0143032444069614
+A (pendiente) = 0,0118332578595415 +/- 0,00374178264413564
+--------------------------------------------------------------------------------------
+Chi^2 = 0,00435585348381325
+R^2 = 0,476220080264117
+---------------------------------------------------------------------------------------
+[domingo, 19 de junio de 2022 13:58:19 (CEST)	Gráfica: ''Gráfica5'']
+Crecimiento exponencial ajuste del conjunto de datos: Tabla3_I, usando función : y0+A*exp(x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A (amplitud) = -11.058,0287407005 +/- 5.868.722.077,92999
+t (tiempo de vida) = -934.497,00182926 +/- 0,567922574047521
+y0 (desplazamiento) = 11.058,0116610428 +/- 5.868.722.077,94285
+--------------------------------------------------------------------------------------
+Chi^2 = 0,00435585691861615
+R^2 = 0,476219667238106
+---------------------------------------------------------------------------------------
+Iteraciones = 1000
+Estado = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[domingo, 19 de junio de 2022 13:58:21 (CEST)	Gráfica: ''Gráfica5'']
+Crecimiento exponencial ajuste del conjunto de datos: Tabla3_I, usando función : y0+A*exp(x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A (amplitud) = -63.177,079922653 +/- 191.956.685.306,634
+t (tiempo de vida) = -5.338.940,40998549 +/- 0,56910032312202
+y0 (desplazamiento) = 63.177,0628429854 +/- 191.956.685.306,647
+--------------------------------------------------------------------------------------
+Chi^2 = 0,00435585408417352
+R^2 = 0,476220008072374
+---------------------------------------------------------------------------------------
+Iteraciones = 733
+Estado = success
+---------------------------------------------------------------------------------------
+[domingo, 19 de junio de 2022 13:58:34 (CEST)	Gráfica: ''Gráfica5'']
+Ajustar Boltzmann (Sigmoidal) ajuste del conjunto de datos: Tabla3_I, usando función : (A1-A2)/(1+exp((x-x0)/dx))+A2
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A1 (valor inicial) = 0,00058475399772544 +/- 0,00352884376882365
+A2 (valor final) = 0,158270027400827 +/- 0,243781269818055
+x0 (centro) = 4,7443977691831 +/- 0,520622545868887
+dx (constante de tiempo) = 0,186445387351456 +/- 0,12249443256092
+--------------------------------------------------------------------------------------
+Chi^2 = 0,000536969959170912
+R^2 = 0,935430775355442
+---------------------------------------------------------------------------------------
+Iteraciones = 11
+Estado = success
+---------------------------------------------------------------------------------------
+[domingo, 19 de junio de 2022 13:58:41 (CEST)	Gráfica: ''Gráfica5'']
+Regresión Lineal ajuste del conjunto de datos: Tabla3_I, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 0,045 a x = 4,7
+B (y-intercección) = -0,0170796697362062 +/- 0,0143032444069614
+A (pendiente) = 0,0118332578595415 +/- 0,00374178264413564
+--------------------------------------------------------------------------------------
+Chi^2 = 0,00435585348381325
+R^2 = 0,476220080264117
+---------------------------------------------------------------------------------------
+[domingo, 19 de junio de 2022 13:59:51 (CEST)	Gráfica: ''Gráfica6'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla3_2, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A (amplitud) = -1.093.972,56672727 +/- 574.448.718.412,961
+t (constante de tiempo-e) = 924.499,640537277 +/- 0,567988202056336
+y0 (desplazamiento) = 1.093.970,85876152 +/- 574.448.718.414,246
+--------------------------------------------------------------------------------------
+Chi^2 = 43,5585695602885
+R^2 = 0,476219662739328
+---------------------------------------------------------------------------------------
+Iteraciones = 1000
+Estado = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[domingo, 19 de junio de 2022 13:59:53 (CEST)	Gráfica: ''Gráfica6'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla3_2, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A (amplitud) = -5.927.997,26497176 +/- 16.855.315.481.394,7
+t (constante de tiempo-e) = 5.009.605,32137257 +/- 0,567578068777359
+y0 (desplazamiento) = 5.927.995,55700501 +/- 16.855.315.481.396
+--------------------------------------------------------------------------------------
+Chi^2 = 43,5585412305933
+R^2 = 0,476220003396459
+---------------------------------------------------------------------------------------
+Iteraciones = 688
+Estado = success
+---------------------------------------------------------------------------------------
+[domingo, 19 de junio de 2022 14:00:06 (CEST)	Gráfica: ''Gráfica6'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla3_2, usando función : A1*exp(-x/t1)+A2*exp(-x/t2)+y0
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A1 (primer amplitud) = -299.735.835,842902 +/- 804.014.139.942.978
+t1 (primer tiempo de vida) = 19.775,3968124109 +/- 1.483,37663444949
+A2 (segunda amplitud) = 105.811.666,95898 +/- 4,48346781765588e+15
+t2 (segundo tiempo de vida) = 6.979,89298953462 +/- 1.484,35788162215
+y0 (desplazamiento) = 193.924.169,863506 +/- 3,67946052962184e+15
+--------------------------------------------------------------------------------------
+Chi^2 = 24,5284371882459
+R^2 = 0,705051997055259
+---------------------------------------------------------------------------------------
+Iteraciones = 991
+Estado = success
+---------------------------------------------------------------------------------------
+[domingo, 19 de junio de 2022 14:00:15 (CEST)	Gráfica: ''Gráfica6'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla3_2, usando función : A1*exp(-x/t1)+A2*exp(-x/t2)+A3*exp(-x/t3)+y0
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A1 (primer amplitud) = -210.593.907,295837 +/- 4,19526711952999e+15
+t1 (primer tiempo de vida) = 944,51480895707 +/- 89.208,7281614142
+A2 (segunda amplitud) = 136.812.461,272924 +/- 1,9977304834311e+15
+t2 (segundo tiempo de vida) = 269,140886317528 +/- 198.117,722813881
+A3 (tercer amplitud) = -49.112.765,7572464 +/- 8,31303966089783e+15
+t3 (tercer tiempo de vida) = 172,102743808463 +/- 108.941,484154539
+y0 (desplazamiento) = 122.894.211,283302 +/- 6,1061473653754e+15
+--------------------------------------------------------------------------------------
+Chi^2 = 13,2473703204585
+R^2 = 0,840703857718214
+---------------------------------------------------------------------------------------
+Iteraciones = 1000
+Estado = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[domingo, 19 de junio de 2022 14:00:44 (CEST)	Gráfica: ''Gráfica6'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla3_2, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A (amplitud) = -1.093.972,56672727 +/- 574.448.718.412,961
+t (constante de tiempo-e) = 924.499,640537277 +/- 0,567988202056336
+y0 (desplazamiento) = 1.093.970,85876152 +/- 574.448.718.414,246
+--------------------------------------------------------------------------------------
+Chi^2 = 43,5585695602885
+R^2 = 0,476219662739328
+---------------------------------------------------------------------------------------
+Iteraciones = 1000
+Estado = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[domingo, 19 de junio de 2022 14:00:45 (CEST)	Gráfica: ''Gráfica6'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla3_2, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A (amplitud) = -5.927.997,26497176 +/- 16.855.315.481.394,7
+t (constante de tiempo-e) = 5.009.605,32137257 +/- 0,567578068777359
+y0 (desplazamiento) = 5.927.995,55700501 +/- 16.855.315.481.396
+--------------------------------------------------------------------------------------
+Chi^2 = 43,5585412305933
+R^2 = 0,476220003396459
+---------------------------------------------------------------------------------------
+Iteraciones = 688
+Estado = success
+---------------------------------------------------------------------------------------
+[domingo, 19 de junio de 2022 14:00:52 (CEST)	Gráfica: ''Gráfica6'']
+Gauss ajuste del conjunto de datos: Tabla3_2, usando función : y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A (amplitud) = 24,6648185987745 +/- 122,525025160619
+xc (centro) = 5,39241900154448 +/- 1,98500138171023
+w (anchura) = 0,928950380752502 +/- 1,12532778453881
+y0 (desplazamiento) = 0,068210930361392 +/- 0,352124179300269
+--------------------------------------------------------------------------------------
+Chi^2 = 5,3893504106595
+R^2 = 0,935194479428344
+---------------------------------------------------------------------------------------
+Iteraciones = 19
+Estado = success
+---------------------------------------------------------------------------------------
+[domingo, 19 de junio de 2022 14:01:10 (CEST)	Gráfica: ''Gráfica6'']
+Ajustar Boltzmann (Sigmoidal) ajuste del conjunto de datos: Tabla3_2, usando función : (A1-A2)/(1+exp((x-x0)/dx))+A2
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A1 (valor inicial) = 0,0584626364254833 +/- 0,352887809890664
+A2 (valor final) = 15,8296426610578 +/- 24,3889287148861
+x0 (centro) = 4,74445456367794 +/- 0,520773928235474
+dx (constante de tiempo) = 0,186458694033588 +/- 0,122507568934949
+--------------------------------------------------------------------------------------
+Chi^2 = 5,3696995856671
+R^2 = 0,935430775428095
+---------------------------------------------------------------------------------------
+Iteraciones = 13
+Estado = success
+---------------------------------------------------------------------------------------
+[domingo, 19 de junio de 2022 14:01:25 (CEST)	Gráfica: ''Gráfica6'']
+Gauss ajuste del conjunto de datos: Tabla3_2, usando función : y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A (amplitud) = 24,6648185987745 +/- 122,525025160619
+xc (centro) = 5,39241900154448 +/- 1,98500138171023
+w (anchura) = 0,928950380752502 +/- 1,12532778453881
+y0 (desplazamiento) = 0,068210930361392 +/- 0,352124179300269
+--------------------------------------------------------------------------------------
+Chi^2 = 5,3893504106595
+R^2 = 0,935194479428344
+---------------------------------------------------------------------------------------
+Iteraciones = 19
+Estado = success
+---------------------------------------------------------------------------------------
+[domingo, 19 de junio de 2022 14:01:46 (CEST)	Gráfica: ''Gráfica6'']
+Ajustar Boltzmann (Sigmoidal) ajuste del conjunto de datos: Tabla3_2, usando función : (A1-A2)/(1+exp((x-x0)/dx))+A2
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A1 (valor inicial) = 0,0584626364254833 +/- 0,352887809890664
+A2 (valor final) = 15,8296426610578 +/- 24,3889287148861
+x0 (centro) = 4,74445456367794 +/- 0,520773928235474
+dx (constante de tiempo) = 0,186458694033588 +/- 0,122507568934949
+--------------------------------------------------------------------------------------
+Chi^2 = 5,3696995856671
+R^2 = 0,935430775428095
+---------------------------------------------------------------------------------------
+Iteraciones = 13
+Estado = success
+---------------------------------------------------------------------------------------
+[domingo, 19 de junio de 2022 14:01:56 (CEST)	Gráfica: ''Gráfica6'']
+Lorentz ajuste del conjunto de datos: Tabla3_2, usando función : y0+2*A/PI*w/(4*(x-xc)^2+w^2)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A (amplitud) = 6,10202125515459 +/- 6,98364748874946
+xc (centro) = 4,78125888736549 +/- 0,622673434479896
+w (anchura) = 0,493400815127149 +/- 0,583953107323293
+y0 (desplazamiento) = -0,0961920923454529 +/- 0,378025629956807
+--------------------------------------------------------------------------------------
+Chi^2 = 5,54491204775032
+R^2 = 0,933323891675744
+---------------------------------------------------------------------------------------
+Iteraciones = 17
+Estado = success
+---------------------------------------------------------------------------------------
+[domingo, 19 de junio de 2022 14:02:12 (CEST)	Gráfica: ''Gráfica6'']
+Ajuste gaussiano(2) multipico ajuste del conjunto de datos: GaussAjustar1, usando función : y0+sqrt(2/PI)*A1/w1*exp(-2*(x-xc1)^2/w1^2)+sqrt(2/PI)*A2/w2*exp(-2*(x-xc2)^2/w2^2)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A1 (amplitud 1) = -1,35999144587639e-15 +/- 1,43363978499341e-12
+xc1 (centro 1) = 0,834507313510789 +/- 208,103385036735
+w1 (ancho 1) = -0,404754345337893 +/- 443,133173024246
+A2 (amplitud 2) = 24,6648185987524 +/- 5,38755924628354e-10
+xc2 (centro 2) = 5,39241900154417 +/- 8,52515136738099e-12
+w2 (ancho 2) = 0,928950380754136 +/- 4,52835279377911e-12
+y0 (desplazamiento) = 0,0682109303613908 +/- 7,13146541284787e-13
+--------------------------------------------------------------------------------------
+Chi^2 = 2,695935574034e-21
+R^2 = 1
+---------------------------------------------------------------------------------------
+Iteraciones = 7
+Estado = success
+---------------------------------------------------------------------------------------
+Pico	Área	Centro	Ancho	Altura
+---------------------------------------------------------------------------------------
+1	-1,35999144587639e-15	0,834507313510789	-0,404754345337893	2,68092533159309e-15
+2	24,6648185987524	5,39241900154417	0,928950380754136	21,1848537474861
+---------------------------------------------------------------------------------------
+[domingo, 19 de junio de 2022 15:16:52 (CEST)	Gráfica: ''Gráfica8'']
+Regresión Lineal ajuste del conjunto de datos: Tabla3_2, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 0,045 a x = 2,9
+B (y-intercección) = -0,00538988516135531 +/- 0,00617823779386077
+A (pendiente) = 0,0105060277698 +/- 0,00329863635102308
+--------------------------------------------------------------------------------------
+Chi^2 = 9,9926087850134e-05
+R^2 = 0,835309290729075
+---------------------------------------------------------------------------------------
+[domingo, 19 de junio de 2022 15:16:58 (CEST)	Gráfica: ''Gráfica8'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla3_2, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 2,9
+A (amplitud) = -9.672,22439143954 +/- 9.520.715.000,59731
+t (constante de tiempo-e) = 920.645,333242769 +/- 1,06918174474328
+y0 (desplazamiento) = 9.672,21900155524 +/- 9.520.715.000,60283
+--------------------------------------------------------------------------------------
+Chi^2 = 9,99262906101434e-05
+R^2 = 0,835308956555182
+---------------------------------------------------------------------------------------
+Iteraciones = 1000
+Estado = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[domingo, 19 de junio de 2022 15:16:59 (CEST)	Gráfica: ''Gráfica8'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla3_2, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 2,9
+A (amplitud) = -34.713,6950051377 +/- 122.667.850.779,601
+t (constante de tiempo-e) = 3.304.168,26255898 +/- 1,06946838161025
+y0 (desplazamiento) = 34.713,6896152527 +/- 122.667.850.779,606
+--------------------------------------------------------------------------------------
+Chi^2 = 9,99261442441113e-05
+R^2 = 0,835309197784736
+---------------------------------------------------------------------------------------
+Iteraciones = 469
+Estado = success
+---------------------------------------------------------------------------------------
+[domingo, 19 de junio de 2022 15:17:09 (CEST)	Gráfica: ''Gráfica8'']
+Gauss ajuste del conjunto de datos: Tabla3_2, usando función : y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 2,9
+A (amplitud) = 0,0376003106796408 +/- inf
+xc (centro) = 2,59673170931792 +/- inf
+w (anchura) = 0,608405914567399 +/- inf
+y0 (desplazamiento) = -1,36498735621597e-07 +/- inf
+--------------------------------------------------------------------------------------
+Chi^2 = 3,7306264875892e-14
+R^2 = 0,999999999938515
+---------------------------------------------------------------------------------------
+Iteraciones = 145
+Estado = success
+---------------------------------------------------------------------------------------
+[domingo, 19 de junio de 2022 15:17:21 (CEST)	Gráfica: ''Gráfica8'']
+Ajustar Boltzmann (Sigmoidal) ajuste del conjunto de datos: Tabla3_2, usando función : (A1-A2)/(1+exp((x-x0)/dx))+A2
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 2,9
+A1 (valor inicial) = 6,14719929728707e-19 +/- inf
+A2 (valor final) = 0,0300000000000077 +/- inf
+x0 (centro) = 2,10733358654692 +/- inf
+dx (constante de tiempo) = 0,0273372010906275 +/- inf
+--------------------------------------------------------------------------------------
+Chi^2 = 5,08565875939754e-34
+R^2 = 1
+---------------------------------------------------------------------------------------
+Iteraciones = 34
+Estado = success
+---------------------------------------------------------------------------------------
+[domingo, 19 de junio de 2022 15:17:27 (CEST)	Gráfica: ''Gráfica8'']
+Lorentz ajuste del conjunto de datos: Tabla3_2, usando función : y0+2*A/PI*w/(4*(x-xc)^2+w^2)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 2,9
+A (amplitud) = 0,237721318898893 +/- inf
+xc (centro) = 3,89702281273909 +/- inf
+w (anchura) = 1,23545532532393 +/- inf
+y0 (desplazamiento) = -0,00317805146392715 +/- inf
+--------------------------------------------------------------------------------------
+Chi^2 = 1,74501328078248e-05
+R^2 = 0,971239995372353
+---------------------------------------------------------------------------------------
+Iteraciones = 12
+Estado = success
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:42:24 (CEST)	Gráfica: ''Gráfica4'']
+Crecimiento exponencial ajuste del conjunto de datos: Tabla1_I_R, usando función : y0+A*exp(x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,287 a x = 0,703
+A (amplitud) = 1,8854519662554e-09 +/- 4,52164679083431e-10
+t (tiempo de vida) = 0,0437523256157841 +/- 0,340552242837092
+y0 (desplazamiento) = 4,34757376710599e-05 +/- 8,08794833052477e-05
+--------------------------------------------------------------------------------------
+Chi^2 = 1,38028151573201e-07
+R^2 = 0,999884843156204
+---------------------------------------------------------------------------------------
+Iteraciones = 100
+Estado = success
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:42:27 (CEST)	Gráfica: ''Gráfica4'']
+Crecimiento exponencial ajuste del conjunto de datos: Tabla1_I_R, usando función : y0+A*exp(x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,287 a x = 0,703
+A (amplitud) = 1,88544040401931e-09 +/- 4,5216207068516e-10
+t (tiempo de vida) = 0,0437523090703148 +/- 0,340552368250328
+y0 (desplazamiento) = 4,3477189942431e-05 +/- 8,08794689933807e-05
+--------------------------------------------------------------------------------------
+Chi^2 = 1,38028151560689e-07
+R^2 = 0,999884843156214
+---------------------------------------------------------------------------------------
+Iteraciones = 0
+Estado = success
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:43:02 (CEST)	Gráfica: ''Gráfica3'']
+Crecimiento exponencial ajuste del conjunto de datos: Tabla2_I_R, usando función : y0+A*exp(x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 2 a x = 20
+A (amplitud) = 5,46436745297227e-13 +/- 1,77496472892494e-10
+t (tiempo de vida) = 1,00000002599859 +/- 16,2367840043477
+y0 (desplazamiento) = 1,00100846192649e-07 +/- 5,92753402759086e-05
+--------------------------------------------------------------------------------------
+Chi^2 = 6,98201974779428e-08
+R^2 = -51.473,584365116
+---------------------------------------------------------------------------------------
+Iteraciones = 0
+Estado = success
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:43:20 (CEST)	Gráfica: ''Gráfica3'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla2_I_R, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 2 a x = 20
+A (amplitud) = 1,85091047884386e-05 +/- 3,73815709601832e+32
+t (constante de tiempo-e) = 0,0223292595874203 +/- 0
+y0 (desplazamiento) = 2,91316526610644e-07 +/- 1,78225530502275e-07
+--------------------------------------------------------------------------------------
+Chi^2 = 7,62344153347614e-13
+R^2 = 0,437965662455458
+---------------------------------------------------------------------------------------
+Iteraciones = 2
+Estado = success
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:43:27 (CEST)	Gráfica: ''Gráfica3'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla2_I_R, usando función : A1*exp(-x/t1)+A2*exp(-x/t2)+y0
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 2 a x = 20
+A1 (primer amplitud) = 0,0905803991286812 +/- 170.075.621,912063
+t1 (primer tiempo de vida) = 35,0440696343226 +/- 3.208,5685850809
+A2 (segunda amplitud) = -0,0905906222067738 +/- 170.075.621,911963
+t2 (segundo tiempo de vida) = 35,0482675230202 +/- 3.208,44802068736
+y0 (desplazamiento) = 1,02533199007862e-05 +/- 0,000101174477393469
+--------------------------------------------------------------------------------------
+Chi^2 = 8,84054552987222e-16
+R^2 = 0,999348235291293
+---------------------------------------------------------------------------------------
+Iteraciones = 80
+Estado = success
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:44:35 (CEST)	Gráfica: ''Gráfica5'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla3_2, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A (amplitud) = -1.096.483,42016024 +/- 576.973.019.432,625
+t (constante de tiempo-e) = 926.612,728806252 +/- 0,567879772058774
+y0 (desplazamiento) = 1.096.481,71219447 +/- 576.973.019.433,91
+--------------------------------------------------------------------------------------
+Chi^2 = 43,5585694413884
+R^2 = 0,731381526368979
+---------------------------------------------------------------------------------------
+Iteraciones = 1000
+Estado = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:44:36 (CEST)	Gráfica: ''Gráfica5'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla3_2, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A (amplitud) = -4.717.612,17136349 +/- 10.672.606.614.105,7
+t (constante de tiempo-e) = 3.986.738,72174109 +/- 0,567454150648549
+y0 (desplazamiento) = 4.717.610,4633968 +/- 10.672.606.614.107
+--------------------------------------------------------------------------------------
+Chi^2 = 43,5585428726257
+R^2 = 0,731381690214133
+---------------------------------------------------------------------------------------
+Iteraciones = 573
+Estado = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:44:37 (CEST)	Gráfica: ''Gráfica5'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla3_2, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A (amplitud) = -4.717.612,17136349 +/- 10.650.005.773.965,5
+t (constante de tiempo-e) = 3.986.738,72174109 +/- 0,566252481526816
+y0 (desplazamiento) = 4.717.610,4633968 +/- 10.650.005.773.966,7
+--------------------------------------------------------------------------------------
+Chi^2 = 43,5585428726256
+R^2 = 0,731381690214133
+---------------------------------------------------------------------------------------
+Iteraciones = 0
+Estado = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:44:58 (CEST)	Gráfica: ''Gráfica5'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla3_2, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A (amplitud) = -1.096.483,42016024 +/- 576.973.019.432,625
+t (constante de tiempo-e) = 926.612,728806252 +/- 0,567879772058774
+y0 (desplazamiento) = 1.096.481,71219447 +/- 576.973.019.433,91
+--------------------------------------------------------------------------------------
+Chi^2 = 43,5585694413884
+R^2 = 0,731381526368979
+---------------------------------------------------------------------------------------
+Iteraciones = 1000
+Estado = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:44:59 (CEST)	Gráfica: ''Gráfica5'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla3_2, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A (amplitud) = -4.717.612,17136349 +/- 10.672.606.614.105,7
+t (constante de tiempo-e) = 3.986.738,72174109 +/- 0,567454150648549
+y0 (desplazamiento) = 4.717.610,4633968 +/- 10.672.606.614.107
+--------------------------------------------------------------------------------------
+Chi^2 = 43,5585428726257
+R^2 = 0,731381690214133
+---------------------------------------------------------------------------------------
+Iteraciones = 573
+Estado = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:44:59 (CEST)	Gráfica: ''Gráfica5'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla3_2, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A (amplitud) = -4.717.612,17136349 +/- 10.650.005.773.965,5
+t (constante de tiempo-e) = 3.986.738,72174109 +/- 0,566252481526816
+y0 (desplazamiento) = 4.717.610,4633968 +/- 10.650.005.773.966,7
+--------------------------------------------------------------------------------------
+Chi^2 = 43,5585428726256
+R^2 = 0,731381690214133
+---------------------------------------------------------------------------------------
+Iteraciones = 0
+Estado = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:44:59 (CEST)	Gráfica: ''Gráfica5'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla3_2, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A (amplitud) = -4.717.612,17136349 +/- 10.650.005.773.965,5
+t (constante de tiempo-e) = 3.986.738,72174109 +/- 0,566252481526816
+y0 (desplazamiento) = 4.717.610,4633968 +/- 10.650.005.773.966,7
+--------------------------------------------------------------------------------------
+Chi^2 = 43,5585428726256
+R^2 = 0,731381690214133
+---------------------------------------------------------------------------------------
+Iteraciones = 0
+Estado = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:45:00 (CEST)	Gráfica: ''Gráfica5'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla3_2, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A (amplitud) = -4.717.612,17136349 +/- 10.650.005.773.965,5
+t (constante de tiempo-e) = 3.986.738,72174109 +/- 0,566252481526816
+y0 (desplazamiento) = 4.717.610,4633968 +/- 10.650.005.773.966,7
+--------------------------------------------------------------------------------------
+Chi^2 = 43,5585428726256
+R^2 = 0,731381690214133
+---------------------------------------------------------------------------------------
+Iteraciones = 0
+Estado = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:45:00 (CEST)	Gráfica: ''Gráfica5'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla3_2, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A (amplitud) = -4.717.612,17136349 +/- 10.650.005.773.965,5
+t (constante de tiempo-e) = 3.986.738,72174109 +/- 0,566252481526816
+y0 (desplazamiento) = 4.717.610,4633968 +/- 10.650.005.773.966,7
+--------------------------------------------------------------------------------------
+Chi^2 = 43,5585428726256
+R^2 = 0,731381690214133
+---------------------------------------------------------------------------------------
+Iteraciones = 0
+Estado = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:45:00 (CEST)	Gráfica: ''Gráfica5'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla3_2, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A (amplitud) = -4.717.612,17136349 +/- 10.650.005.773.965,5
+t (constante de tiempo-e) = 3.986.738,72174109 +/- 0,566252481526816
+y0 (desplazamiento) = 4.717.610,4633968 +/- 10.650.005.773.966,7
+--------------------------------------------------------------------------------------
+Chi^2 = 43,5585428726256
+R^2 = 0,731381690214133
+---------------------------------------------------------------------------------------
+Iteraciones = 0
+Estado = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:45:00 (CEST)	Gráfica: ''Gráfica5'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla3_2, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A (amplitud) = -4.717.612,17136349 +/- 10.650.005.773.965,5
+t (constante de tiempo-e) = 3.986.738,72174109 +/- 0,566252481526816
+y0 (desplazamiento) = 4.717.610,4633968 +/- 10.650.005.773.966,7
+--------------------------------------------------------------------------------------
+Chi^2 = 43,5585428726256
+R^2 = 0,731381690214133
+---------------------------------------------------------------------------------------
+Iteraciones = 0
+Estado = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:45:00 (CEST)	Gráfica: ''Gráfica5'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla3_2, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A (amplitud) = -4.717.612,17136349 +/- 10.650.005.773.965,5
+t (constante de tiempo-e) = 3.986.738,72174109 +/- 0,566252481526816
+y0 (desplazamiento) = 4.717.610,4633968 +/- 10.650.005.773.966,7
+--------------------------------------------------------------------------------------
+Chi^2 = 43,5585428726256
+R^2 = 0,731381690214133
+---------------------------------------------------------------------------------------
+Iteraciones = 0
+Estado = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:45:01 (CEST)	Gráfica: ''Gráfica5'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla3_2, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A (amplitud) = -4.717.612,17136349 +/- 10.650.005.773.965,5
+t (constante de tiempo-e) = 3.986.738,72174109 +/- 0,566252481526816
+y0 (desplazamiento) = 4.717.610,4633968 +/- 10.650.005.773.966,7
+--------------------------------------------------------------------------------------
+Chi^2 = 43,5585428726256
+R^2 = 0,731381690214133
+---------------------------------------------------------------------------------------
+Iteraciones = 0
+Estado = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:45:08 (CEST)	Gráfica: ''Gráfica5'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla3_2, usando función : A1*exp(-x/t1)+A2*exp(-x/t2)+y0
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A1 (primer amplitud) = -323.406.439,194933 +/- 786.949.372.125.322
+t1 (primer tiempo de vida) = 20.541,3327620435 +/- 1.304,04940977894
+A2 (segunda amplitud) = 114.168.041,863431 +/- 4,41441448724527e+15
+t2 (segundo tiempo de vida) = 7.250,29771660342 +/- 1.303,44405953015
+y0 (desplazamiento) = 209.238.398,31109 +/- 3,62747389414e+15
+--------------------------------------------------------------------------------------
+Chi^2 = 24,5283560445238
+R^2 = 0,848737696259196
+---------------------------------------------------------------------------------------
+Iteraciones = 1000
+Estado = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:45:14 (CEST)	Gráfica: ''Gráfica5'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla3_2, usando función : A1*exp(-x/t1)+A2*exp(-x/t2)+A3*exp(-x/t3)+y0
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A1 (primer amplitud) = -197.847.135,630073 +/- 2,19333118643965e+15
+t1 (primer tiempo de vida) = 925,022100831786 +/- 49.145,6530810203
+A2 (segunda amplitud) = 128.548.302,329649 +/- 943.799.218.791.658
+t2 (segundo tiempo de vida) = 263,588219306601 +/- 111.178,816947888
+A3 (tercer amplitud) = -46.151.106,5411542 +/- 4,33930161860945e+15
+t3 (tercer tiempo de vida) = 168,553943734856 +/- 62.093,2372806205
+y0 (desplazamiento) = 115.449.939,34474 +/- 3,07343071277737e+15
+--------------------------------------------------------------------------------------
+Chi^2 = 13,2483844710487
+R^2 = 0,918299410188881
+---------------------------------------------------------------------------------------
+Iteraciones = 1000
+Estado = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:45:20 (CEST)	Gráfica: ''Gráfica5'']
+Ajustar Boltzmann (Sigmoidal) ajuste del conjunto de datos: Tabla3_2, usando función : (A1-A2)/(1+exp((x-x0)/dx))+A2
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A1 (valor inicial) = 0,0584626364254833 +/- 0,352887809890664
+A2 (valor final) = 15,8296426610578 +/- 24,3889287148861
+x0 (centro) = 4,74445456367794 +/- 0,520773928235474
+dx (constante de tiempo) = 0,186458694033588 +/- 0,122507568934949
+--------------------------------------------------------------------------------------
+Chi^2 = 5,3696995856671
+R^2 = 0,966885953210656
+---------------------------------------------------------------------------------------
+Iteraciones = 13
+Estado = success
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:45:53 (CEST)	Gráfica: ''Gráfica8'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla4_2, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,1 a x = 9
+A (amplitud) = 111.133,239978406 +/- 447.528.290.526,052
+t (constante de tiempo-e) = -7.125.494,30558549 +/- 0,565146800937285
+y0 (desplazamiento) = -111.128,712220104 +/- 447.528.290.526,072
+--------------------------------------------------------------------------------------
+Chi^2 = 0,0984739127736866
+R^2 = 0,999661769394854
+---------------------------------------------------------------------------------------
+Iteraciones = 982
+Estado = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:45:58 (CEST)	Gráfica: ''Gráfica8'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla4_2, usando función : A1*exp(-x/t1)+A2*exp(-x/t2)+y0
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,1 a x = 9
+A1 (primer amplitud) = -4,39330835807177 +/- 204.254.890.616.254
+t1 (primer tiempo de vida) = 0,0899998374847305 +/- 2.918.178.217,24142
+A2 (segunda amplitud) = 3,39210353326194 +/- 204.254.890.616.254
+t2 (segundo tiempo de vida) = 0,0900008543130421 +/- 3.779.469.845,12435
+y0 (desplazamiento) = 4,61229737851149 +/- 0,00828810003996306
+--------------------------------------------------------------------------------------
+Chi^2 = 0,00298690624056656
+R^2 = 0,999989740804678
+---------------------------------------------------------------------------------------
+Iteraciones = 25
+Estado = success
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:46:06 (CEST)	Gráfica: ''Gráfica8'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla4_2, usando función : A1*exp(-x/t1)+A2*exp(-x/t2)+A3*exp(-x/t3)+y0
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,1 a x = 9
+A1 (primer amplitud) = 0,292425156997597 +/- 60.638.410.871.891,8
+t1 (primer tiempo de vida) = 0,302636405177909 +/- 1.546.630.850,7372
+A2 (segunda amplitud) = -2,47225590643718 +/- 1,06044701121064
+t2 (segundo tiempo de vida) = 0,0419436669748346 +/- 6,28579973615699
+A3 (tercer amplitud) = -0,468877484404093 +/- 60.638.410.871.891,8
+t3 (tercer tiempo de vida) = 0,302635038970254 +/- 964.556.172,719324
+y0 (desplazamiento) = 4,62492058712868 +/- 0,00220222551773348
+--------------------------------------------------------------------------------------
+Chi^2 = 0,000133787762609658
+R^2 = 0,999999540476106
+---------------------------------------------------------------------------------------
+Iteraciones = 27
+Estado = success
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:46:18 (CEST)	Gráfica: ''Gráfica8'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla4_2, usando función : A1*exp(-x/t1)+A2*exp(-x/t2)+A3*exp(-x/t3)+y0
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,1 a x = 9
+A1 (primer amplitud) = 0,292425156997597 +/- 60.638.410.871.891,8
+t1 (primer tiempo de vida) = 0,302636405177909 +/- 1.546.630.850,7372
+A2 (segunda amplitud) = -2,47225590643718 +/- 1,06044701121064
+t2 (segundo tiempo de vida) = 0,0419436669748346 +/- 6,28579973615699
+A3 (tercer amplitud) = -0,468877484404093 +/- 60.638.410.871.891,8
+t3 (tercer tiempo de vida) = 0,302635038970254 +/- 964.556.172,719324
+y0 (desplazamiento) = 4,62492058712868 +/- 0,00220222551773348
+--------------------------------------------------------------------------------------
+Chi^2 = 0,000133787762609658
+R^2 = 0,999999540476106
+---------------------------------------------------------------------------------------
+Iteraciones = 27
+Estado = success
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:46:23 (CEST)	Gráfica: ''Gráfica8'']
+Crecimiento exponencial ajuste del conjunto de datos: Tabla4_2, usando función : y0+A*exp(x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,1 a x = 9
+A (amplitud) = 103.877,737017102 +/- 390.270.287.958,51
+t (tiempo de vida) = 6.660.283,96979838 +/- 0,564092074582262
+y0 (desplazamiento) = -103.873,2092588 +/- 390.270.287.958,53
+--------------------------------------------------------------------------------------
+Chi^2 = 0,0984739131557817
+R^2 = 0,999661769393542
+---------------------------------------------------------------------------------------
+Iteraciones = 953
+Estado = success
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:46:35 (CEST)	Gráfica: ''Gráfica8'']
+Ajustar Boltzmann (Sigmoidal) ajuste del conjunto de datos: Tabla4_2, usando función : (A1-A2)/(1+exp((x-x0)/dx))+A2
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,1 a x = 9
+A1 (valor inicial) = -164.738,117769949 +/- 53.676.687.942,1525
+A2 (valor final) = 4,61229623548744 +/- 0,00635629886960553
+x0 (centro) = -1,08088804791366 +/- 29.321,9332338491
+dx (constante de tiempo) = 0,0899923813806006 +/- 0,0351278467416289
+--------------------------------------------------------------------------------------
+Chi^2 = 0,00298691122373386
+R^2 = 0,999989740787562
+---------------------------------------------------------------------------------------
+Iteraciones = 1000
+Estado = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:46:40 (CEST)	Gráfica: ''Gráfica8'']
+Gauss ajuste del conjunto de datos: Tabla4_2, usando función : y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,1 a x = 9
+A (amplitud) = 21,6350644815036 +/- inf
+xc (centro) = -695,647872006192 +/- inf
+w (anchura) = 50,8958992495 +/- inf
+y0 (desplazamiento) = 4,55928571428571 +/- 0,0736350567942821
+--------------------------------------------------------------------------------------
+Chi^2 = 0,125092857142857
+R^2 = 0,999570340696545
+---------------------------------------------------------------------------------------
+Iteraciones = 4
+Estado = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:46:59 (CEST)	Gráfica: ''Gráfica8'']
+Ajuste gaussiano(2) multipico ajuste del conjunto de datos: ExpDecayAjustar1, usando función : y0+sqrt(2/PI)*A1/w1*exp(-2*(x-xc1)^2/w1^2)+sqrt(2/PI)*A2/w2*exp(-2*(x-xc2)^2/w2^2)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,1 a x = 9
+A1 (amplitud 1) = 13,0638528703125 +/- 76,0505209471645
+xc1 (centro 1) = -1,32214403209691 +/- 7,81351276989061
+w1 (ancho 1) = 6,80629890770903 +/- 8,88925827877744
+A2 (amplitud 2) = 2.279,70031914744 +/- 92.701,9928897649
+xc2 (centro 2) = 8,36756830448585 +/- 3,21771974474601
+w2 (ancho 2) = 54,2733302566743 +/- 720,296140794209
+y0 (desplazamiento) = -28,9154512644092 +/- 919,126174158984
+--------------------------------------------------------------------------------------
+Chi^2 = 0,0643151061873412
+R^2 = 0,999969836119756
+---------------------------------------------------------------------------------------
+Iteraciones = 1000
+Estado = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+Pico	Área	Centro	Ancho	Altura
+---------------------------------------------------------------------------------------
+1	13,0638528703125	-1,32214403209691	6,80629890770903	1,53144119163157
+2	2.279,70031914744	8,36756830448585	54,2733302566743	33,5143924152585
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:47:28 (CEST)	Gráfica: ''Gráfica2'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla2_I_R, usando función : A1*exp(-x/t1)+A2*exp(-x/t2)+y0
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 2 a x = 20
+A1 (primer amplitud) = 0,0905803991286812 +/- 170.075.621,912063
+t1 (primer tiempo de vida) = 35,0440696343226 +/- 3.208,5685850809
+A2 (segunda amplitud) = -0,0905906222067738 +/- 170.075.621,911963
+t2 (segundo tiempo de vida) = 35,0482675230202 +/- 3.208,44802068736
+y0 (desplazamiento) = 1,02533199007862e-05 +/- 0,000101174477393469
+--------------------------------------------------------------------------------------
+Chi^2 = 8,84054552987222e-16
+R^2 = 0,999348235291293
+---------------------------------------------------------------------------------------
+Iteraciones = 80
+Estado = success
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:47:43 (CEST)	Gráfica: ''Gráfica7'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla4_2, usando función : A1*exp(-x/t1)+A2*exp(-x/t2)+A3*exp(-x/t3)+y0
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,1 a x = 9
+A1 (primer amplitud) = -659.191,163216174 +/- 2.954.413.899,14623
+t1 (primer tiempo de vida) = 0,00612995337468534 +/- 44.849,2285526532
+A2 (segunda amplitud) = -1,06887349970391 +/- 2,01702017125254
+t2 (segundo tiempo de vida) = 0,058543752202846 +/- 11,790454030742
+A3 (tercer amplitud) = -0,143535422076255 +/- 0,0547613059124889
+t3 (tercer tiempo de vida) = 0,343881954616035 +/- 0,723018975976605
+y0 (desplazamiento) = 4,62523065697712 +/- 0,00199811718114276
+--------------------------------------------------------------------------------------
+Chi^2 = 0,000113144408588504
+R^2 = 0,999999611380307
+---------------------------------------------------------------------------------------
+Iteraciones = 1000
+Estado = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:47:45 (CEST)	Gráfica: ''Gráfica7'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla4_2, usando función : A1*exp(-x/t1)+A2*exp(-x/t2)+A3*exp(-x/t3)+y0
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,1 a x = 9
+A1 (primer amplitud) = 0,00235783731566995 +/- 0,00951590783536566
+t1 (primer tiempo de vida) = -4,98990633163981 +/- 0,355262551054864
+A2 (segunda amplitud) = -0,200534887845527 +/- 0,030212462427503
+t2 (segundo tiempo de vida) = 0,250339313763709 +/- 0,613505641292846
+A3 (tercer amplitud) = -2,72918833118251 +/- 0,504079668776636
+t3 (tercer tiempo de vida) = 0,0393175851713483 +/- 2,43338749102435
+y0 (desplazamiento) = 4,61674768473672 +/- 0,0134653336465663
+--------------------------------------------------------------------------------------
+Chi^2 = 6,45264118537115e-05
+R^2 = 0,999999778369654
+---------------------------------------------------------------------------------------
+Iteraciones = 97
+Estado = success
+---------------------------------------------------------------------------------------
+[miércoles, 17 de agosto de 2022 18:55:02 (CEST)	Gráfica: ''Gráfica4'']
+Regresión Lineal ajuste del conjunto de datos: Tabla1_I_R, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 0,287 a x = 0,703
+B (y-intercección) = -0,016356638246455 +/- 0,00728135705685055
+A (pendiente) = 0,0392328675296931 +/- 0,011579317612378
+--------------------------------------------------------------------------------------
+Chi^2 = 0,000208858574035078
+R^2 = 0,825749356841282
+---------------------------------------------------------------------------------------
+[jueves, 25 de agosto de 2022 11:37:50 (CEST)	Gráfica: ''Gráfica9'']
+Crecimiento exponencial ajuste del conjunto de datos: Tabla4_2, usando función : y0+A*exp(x/t)
+errores estándar Y: conjunto de datos asociados (Tabla4_4)
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,1 a x = 9
+A (amplitud) = 117.873,589579699 +/- 53.114.770.877,5955
+t (tiempo de vida) = 7.557.649,25552923 +/- 0,0596227271889808
+y0 (desplazamiento) = -117.869,061821399 +/- 53.114.770.877,5976
+--------------------------------------------------------------------------------------
+Chi^2 = 984,739124625691
+R^2 = 0,212793482284037
+---------------------------------------------------------------------------------------
+Iteraciones = 999
+Estado = success
+---------------------------------------------------------------------------------------
+[jueves, 25 de agosto de 2022 11:38:14 (CEST)	Gráfica: ''Gráfica9'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla4_2, usando función : y0+A*exp(-x/t)
+errores estándar Y: conjunto de datos asociados (Tabla4_4)
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,1 a x = 9
+A (amplitud) = 99.548,3159288268 +/- 37.963.452.450,8461
+t (constante de tiempo-e) = -6.382.702,11037871 +/- 0,0597484896206887
+y0 (desplazamiento) = -99.543,7881705242 +/- 37.963.452.450,8482
+--------------------------------------------------------------------------------------
+Chi^2 = 984,739134124872
+R^2 = 0,212793474690334
+---------------------------------------------------------------------------------------
+Iteraciones = 924
+Estado = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[jueves, 25 de agosto de 2022 11:38:20 (CEST)	Gráfica: ''Gráfica9'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla4_2, usando función : A1*exp(-x/t1)+A2*exp(-x/t2)+y0
+errores estándar Y: conjunto de datos asociados (Tabla4_4)
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,1 a x = 9
+A1 (primer amplitud) = -0,176451471094427 +/- 0,0611168635170654
+t1 (primer tiempo de vida) = 0,302634064310749 +/- 1,00368293647921
+A2 (segunda amplitud) = -2,47224332140169 +/- 1,13111493564459
+t2 (segundo tiempo de vida) = 0,041943791615555 +/- 5,69059556580306
+y0 (desplazamiento) = 4,62492061733864 +/- 0,00482257887889816
+--------------------------------------------------------------------------------------
+Chi^2 = 1,33787762646821
+R^2 = 0,998930492390193
+---------------------------------------------------------------------------------------
+Iteraciones = 15
+Estado = success
+---------------------------------------------------------------------------------------
+[jueves, 25 de agosto de 2022 11:38:48 (CEST)	Gráfica: ''Gráfica9'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla4_2, usando función : A1*exp(-x/t1)+A2*exp(-x/t2)+A3*exp(-x/t3)+y0
+errores estándar Y: conjunto de datos asociados (Tabla4_4)
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,1 a x = 9
+A1 (primer amplitud) = -1,06887475617575 +/- 5,01698067926474
+t1 (primer tiempo de vida) = 0,0585437292275231 +/- 29,3266507489453
+A2 (segunda amplitud) = -0,143535441847166 +/- 0,136209047319526
+t2 (segundo tiempo de vida) = 0,343881929437916 +/- 1,79838193257239
+A3 (tercer amplitud) = -661.262,138482766 +/- 7.383.269.433,37784
+t3 (tercer tiempo de vida) = 0,00612877397888807 +/- 111.729,952219364
+y0 (desplazamiento) = 4,62523065690413 +/- 0,00496996601942201
+--------------------------------------------------------------------------------------
+Chi^2 = 1,13144407278405
+R^2 = 0,999095516643695
+---------------------------------------------------------------------------------------
+Iteraciones = 1000
+Estado = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[jueves, 25 de agosto de 2022 11:42:58 (CEST)	Gráfica: ''Gráfica10'']
+Crecimiento exponencial ajuste del conjunto de datos: Tabla3_2, usando función : y0+A*exp(x/t)
+errores estándar Y: conjunto de datos asociados (Tabla3_3)
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A (amplitud) = -10.510,2299875355 +/- 497.598.233,205209
+t (tiempo de vida) = -3.252.032,83398695 +/- 0,0145583438115867
+y0 (desplazamiento) = 10.510,226132654 +/- 497.598.233,205266
+--------------------------------------------------------------------------------------
+Chi^2 = 30.346,0018361485
+R^2 = 0,269674071349431
+---------------------------------------------------------------------------------------
+Iteraciones = 1000
+Estado = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[jueves, 25 de agosto de 2022 11:43:02 (CEST)	Gráfica: ''Gráfica10'']
+Lorentz ajuste del conjunto de datos: Tabla3_2, usando función : y0+2*A/PI*w/(4*(x-xc)^2+w^2)
+errores estándar Y: conjunto de datos asociados (Tabla3_3)
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0,045 a x = 4,7
+A (amplitud) = 1,18285826798821 +/- 13.861,4248442731
+xc (centro) = 5,02218955494605 +/- 6.138,57760173705
+w (anchura) = 0,0431379361877412 +/- 265,161090158577
+y0 (desplazamiento) = -0,000963158526684123 +/- 5,83575975418598e-05
+--------------------------------------------------------------------------------------
+Chi^2 = 1.537,64089723264
+R^2 = 0,962994168975999
+---------------------------------------------------------------------------------------
+Iteraciones = 25
+Estado = success
+---------------------------------------------------------------------------------------
+[jueves, 25 de agosto de 2022 11:59:24 (CEST)	Gráfica: ''Gráfica11'']
+Crecimiento exponencial ajuste del conjunto de datos: Tabla2_I_R, usando función : y0+A*exp(x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 2 a x = 20
+A (amplitud) = 5,46436750379424e-13 +/- 1,77496474487267e-10
+t (tiempo de vida) = 1,00000002606407 +/- 16,2367839992187
+y0 (desplazamiento) = 1,00100842019752e-07 +/- 5,92753407502879e-05
+--------------------------------------------------------------------------------------
+Chi^2 = 6,98201985953275e-08
+R^2 = -51.473,5851889022
+---------------------------------------------------------------------------------------
+Iteraciones = 0
+Estado = success
+---------------------------------------------------------------------------------------
+[jueves, 25 de agosto de 2022 11:59:36 (CEST)	Gráfica: ''Gráfica11'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla2_I_R, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 2 a x = 20
+A (amplitud) = 1,85180689749591e-05 +/- 4,61762493601588e+32
+t (constante de tiempo-e) = 0,0222767099522078 +/- 0
+y0 (desplazamiento) = 2,91316526610644e-07 +/- 1,78225530502275e-07
+--------------------------------------------------------------------------------------
+Chi^2 = 7,62344153347614e-13
+R^2 = 0,437965662455458
+---------------------------------------------------------------------------------------
+Iteraciones = 2
+Estado = success
+---------------------------------------------------------------------------------------
+[jueves, 25 de agosto de 2022 11:59:41 (CEST)	Gráfica: ''Gráfica11'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla2_I_R, usando función : A1*exp(-x/t1)+A2*exp(-x/t2)+y0
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 2 a x = 20
+A1 (primer amplitud) = -0,635410748800479 +/- 133.583.039,137539
+t1 (primer tiempo de vida) = 35,1291754112304 +/- 51,2661703163738
+A2 (segunda amplitud) = 0,635400487798671 +/- 133.583.039,137534
+t2 (segundo tiempo de vida) = 35,1285734545728 +/- 51,2841629387713
+y0 (desplazamiento) = 1,02911442092124e-05 +/- 1,51011680833496e-05
+--------------------------------------------------------------------------------------
+Chi^2 = 8,83961213130497e-16
+R^2 = 0,999348304105626
+---------------------------------------------------------------------------------------
+Iteraciones = 83
+Estado = success
+---------------------------------------------------------------------------------------
+[jueves, 25 de agosto de 2022 12:10:45 (CEST)	Gráfica: ''Gráfica12'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla2_I_R, usando función : A1*exp(-x/t1)+A2*exp(-x/t2)+y0
+errores estándar Y: conjunto de datos asociados (Tabla2_2)
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 2 a x = 20
+A1 (primer amplitud) = 0,0744021782443349 +/- 195.671.807,888634
+t1 (primer tiempo de vida) = 12,709315115758 +/- 4.422,73077680329
+A2 (segunda amplitud) = -0,0744045783573708 +/- 195.671.807,888635
+t2 (segundo tiempo de vida) = 12,7098584077463 +/- 4.422,4363531287
+y0 (desplazamiento) = 2,49863642636002e-06 +/- 2,31423126610369e-06
+--------------------------------------------------------------------------------------
+Chi^2 = 0,284300103132066
+R^2 = 0,995288489580393
+---------------------------------------------------------------------------------------
+Iteraciones = 40
+Estado = success
+---------------------------------------------------------------------------------------
+</log>

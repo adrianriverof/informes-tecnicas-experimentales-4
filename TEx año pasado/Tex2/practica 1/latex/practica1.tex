@@ -1,0 +1,180 @@
+%La clase del documento le indica al LaTeX c�mo formatear el contenido,
+% que es lo que realmente se indica a continuaci�n, bas�ndose en su
+% significado (sem�ntica); las cosas no se representan bas�ndose en un
+% sentido est�tico (aunque tambi�n se considera), sino en el papel que
+% desempe�an en el escrito
+\documentclass[a4paper,12pt,spanish]{article}
+
+%twoside,twocolumn,
+
+%Estos dos paquetes son necesarios para escribir c�modamente los
+% los documentos en Español, sin necesidad de utilizar secuencias
+% de escape como {\'\i} para poner una "�".
+\usepackage[T1]{fontenc}
+%\usepackage[latin9]{inputenc}
+\usepackage[utf8]{inputenc}
+
+%Para incluir figuras se necesitar�n las macros definidas en este paquete
+\usepackage{graphicx}
+
+%El paquete Babel hace que LaTeX seleccione algunos textos preprogramados
+% en el idioma pasado como opci�n al documentclass (en este caso, spanish)
+%Por ejemplo, la fecha, o los nombres de las figuras o tablas
+%(a las tablas las llama cuadros...)
+%\usepackage{babel}
+\usepackage[spanish,es-tabla]{babel}
+
+
+%\addto\shorthandsspanish{\spanishdeactivate{~<>}}
+%\usepackage{textcomp}
+
+%Este paquete permite incluir y resaltar URLs
+\usepackage{url}
+
+\usepackage{enumitem}
+%\setlist{nosep}
+
+%Este paquete, cuando se usa pdflatex, formatea el documento a�adiendo
+% enlaces internos entre las referencias y los objetos referenciados
+% (por ejemplos, figuras, tablas, referencias de la bibliograf�a).
+\usepackage[unicode=true, pdfusetitle,
+ bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
+ breaklinks=true,pdfborder={0 0 1},backref=false,colorlinks=false]
+ {hyperref}
+
+%Este paquete es muy �til, porque permite incluir c�digo escrito
+% en varios lenguajes de programaci�n con el formato adecuado con
+% s�lo indicar el archivo fuente.
+\usepackage{listings}
+
+%Este paquete puede ser �til si se quieren incluir algunos s�mbolos
+% especiales en las ecuaciones
+%\usepackage{amssymb}
+
+
+\usepackage{siunitx} %para el sistema internacional
+\usepackage[export]{adjustbox}
+\usepackage{booktabs} 
+ \usepackage{subcaption}
+ 
+ \usepackage{float}
+ 
+
+
+%Esta definici�n permite introducir la direcci�n de los autores
+% y mostrarla convenientemente
+\newcommand{\address}[1]{
+\par {\raggedright #1
+\vspace{1.4em}
+\noindent\par}
+}
+
+
+
+
+%esto es para modificar la numeración
+\pagenumbering{gobble}
+\include{noNumberPage}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+%tutorial de tablas latex: https://manualdelatex.com/tutoriales/tablas
+
+\usepackage{multirow}
+
+
+
+
+%Inicio del documento (hasta que se cierre con \end{document}
+\begin{document}
+
+
+
+\title{Prueba 1 de Evaluación Continua}
+%\address{Mecánica Teórica 2022} 
+\author{Adrián Rivero Fernández}
+\date{}
+
+
+\maketitle
+
+
+
+
+\section*{Problema}
+%\subsection*{a)}
+\textbf{a) Analice el problema del péndulo simple con el método hamiltoniano sin
+asumir que el ángulo de giro sea pequeño. Para ello, obtenga el hamiltoniano,
+establezca las ecuaciones de Hamilton y resuelva dichas ecuaciones por
+cuadraturas.
+}
+\vspace{\baselineskip}
+El péndulo simple es un sistema con un grado de libertad. Escogemos la coordenada generalizada $\theta$ que representa el ángulo del péndulo con la vertical. 
+
+Para un péndulo de longitud $l$ y masa $m$, el lagrangiano vendrá dado por 
+\[ \mathcal{L} = T - V
+\]
+Donde 
+\[T = \frac{m}{2} v_m^2\]
+\[V = - mgy_m\]
+
+\[x_m = l\sin \theta \Longrightarrow \dot{x_m}=l\dot{\theta}\cos\theta
+\]
+\[y_m = -l\cos\theta \Longrightarrow \dot{y_m} = l\dot{\theta}\sin\theta
+\]
+
+\[v_m^2 = x_m^2+y_m^2 = l^2\dot{\theta}^2
+\]
+
+
+\[ \mathcal{L}(\theta,\dot{\theta}) = \frac{1}{2}ml^2\dot{\theta}^2 + mgl\cos\theta
+\]
+
+Y de la expresión del momento conjugado deducimos
+
+\[p_\theta = \frac{\partial\mathcal{L}}{\partial \dot{\theta}} 
+= 
+ml^2\dot{\theta}
+\]
+\[p_\theta = ml^2\dot{\theta}  \Longleftrightarrow  
+\dot{\theta} = \frac{p_\theta}{ml^2}  \]
+
+El hamiltoniano será por tanto:
+\[ H = p_\theta \dot{\theta} - \mathcal{L}
+\]
+\[ H(\theta,p_\theta) = \frac{p_\theta^2}{2ml^2} - mgl\cos\theta
+\]
+
+Y utilizando las ecuaciones de Hamilton obtenemos que
+
+\[\dot{\theta} = \frac{\partial H }{\partial p_\theta } = 
+\frac{p_\theta}{ml^2}
+\]
+\[\dot{p_\theta} =  \frac{\partial H }{\partial \theta }=
+-mgl\sin\theta
+\]
+
+Podemos resolver por cuadraturas estas ecuaciones obteniendo:
+
+\[ \int  d\theta = \int \frac{p_\theta}{ml^2} dt 
+\]
+\[ \int dp_\theta = -\int mgl\sin\theta dt
+\]
+
+
+\vspace{\baselineskip}
+%\subsection*{b)}
+\textbf{b) Con ayuda de los corchetes de Poisson, obtenga la ley de movimiento
+	general del péndulo. Deduzca que el movimiento es armónico cuando la
+	amplitud del movimiento es suficientemente pequeña.
+}
+
+
+
+
+
+
+\end{document}
+
+
+

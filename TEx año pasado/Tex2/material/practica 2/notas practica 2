@@ -1,0 +1,27 @@
+NOTAS PRACTICAS
+
+Masa de la rueda: 370g - 5g = 365g +_ 1g
+Radio 6.2cm +_ 0.1
+
+es el montaje nos hemos encontrado una tercera barra que no sabemos que hace, esta conectada al contador digital pero no es lector optico
+
+en la medicion de la masa hemos usado un calzo de unos gramos
+
+
+vale, esto ha ido de ir descubriendo como funciona todos. EL sensor este mide el tiempo de exposicón, el tiempo en el que el laser esta obstruido.
+El digitalizador esta programado para iniciarse cuando se golpea el sensor, y se para el temporizador cuando el laser se corta.
+Es decir, tenemos dos datos de tiempo: el digitalizador y el sensor laser. Solo el digital nos da el tiempo que tarda en llegar la barra al sensor. El del sensor nos da el tiempo que tarda la barra en entrar y salir, sumandolos nos da el tiempo desde arriba hasta la parte superior de la barra, sin sumarlo hasta la parte inferior.
+
+El desnivel en la mesa en leve pero interesante. Se ve en las fotos como sobresale el hilo.
+EL desnivel en el sensor es importante que se controle, porque puede resultar en errores 
+
+Tambien estamos teniendo en cuenta que el sensor nos pille lo rojo o el metal. es mas importante que sea consistente la medida, o sea que pille siempre uno de los dos, y que no baile.
+
+Pulsador
+
+
+
+
+
+
+

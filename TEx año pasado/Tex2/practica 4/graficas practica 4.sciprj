@@ -1,0 +1,438 @@
+SciDAVis 2.9.2 project file
+<scripting-lang>	muParser
+<windows>	9
+<table>
+4012
+<table creation_time="2022-15-06 13:32:47:000" caption_spec="%n%C{ - }%c" name="Tabla1" columns="4" rows="4"><comment><![CDATA[]]></comment><column creation_time="2022-15-06 13:32:47:587" caption_spec="%n%C{ - }%c" name="V_ind" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-15-06 13:32:47:606" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-15-06 13:32:47:607" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">7.0000000000000007e-02</row><row type="TypeDouble" index="1" invalid="no">8.5000000000000006e-02</row><row type="TypeDouble" index="2" invalid="no">9.5000000000000001e-02</row><row type="TypeDouble" index="3" invalid="no">1.0750000000000000e-01</row></column><column creation_time="2022-11-08 11:35:13:450" caption_spec="%n%C{ - }%c" name="1" type="TypeDouble" mode="Numeric" plot_designation="yErr"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-11-08 11:35:13:450" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-11-08 11:35:13:450" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">2.0000000000000000e-03</row><row type="TypeDouble" index="1" invalid="no">5.0000000000000001e-03</row><row type="TypeDouble" index="2" invalid="no">5.0000000000000001e-03</row><row type="TypeDouble" index="3" invalid="no">5.0000000000000001e-03</row></column><column creation_time="2022-15-06 13:32:47:608" caption_spec="%n%C{ - }%c" name="I_R" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-15-06 13:32:47:608" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-15-06 13:32:47:608" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">3.4666666666670000e-03</row><row type="TypeDouble" index="1" invalid="no">4.1333333333330004e-03</row><row type="TypeDouble" index="2" invalid="no">4.7999999999999996e-03</row><row type="TypeDouble" index="3" invalid="no">5.3333333333330001e-03</row></column><column creation_time="2022-11-08 11:35:41:001" caption_spec="%n%C{ - }%c" name="2" type="TypeDouble" mode="Numeric" plot_designation="xErr"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-11-08 11:35:41:001" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-11-08 11:35:41:001" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">1.3333333333300000e-04</row><row type="TypeDouble" index="1" invalid="no">1.3333333333300000e-04</row><row type="TypeDouble" index="2" invalid="no">1.3333333333300000e-04</row><row type="TypeDouble" index="3" invalid="no">3.3333333333299998e-04</row></column><column_width column="0">90</column_width><column_width column="1">90</column_width><column_width column="2">90</column_width><column_width column="3">90</column_width></table>
+geometry	638	-430	553	300	
+
+</table>
+<table>
+4013
+<table creation_time="2022-15-06 13:34:27:000" caption_spec="%n%C{ - }%c" name="Tabla2" columns="4" rows="4"><comment><![CDATA[]]></comment><column creation_time="2022-15-06 13:34:27:854" caption_spec="%n%C{ - }%c" name="V_ind" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-15-06 13:34:27:854" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-15-06 13:34:27:854" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">6.7500000000000004e-02</row><row type="TypeDouble" index="1" invalid="no">8.5000000000000006e-02</row><row type="TypeDouble" index="2" invalid="no">9.5000000000000001e-02</row><row type="TypeDouble" index="3" invalid="no">1.0500000000000000e-01</row></column><column creation_time="2022-11-08 11:35:09:275" caption_spec="%n%C{ - }%c" name="1" type="TypeDouble" mode="Numeric" plot_designation="yErr"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-11-08 11:35:09:275" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-11-08 11:35:09:275" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">5.0000000000000001e-03</row><row type="TypeDouble" index="1" invalid="no">5.0000000000000001e-03</row><row type="TypeDouble" index="2" invalid="no">5.0000000000000001e-03</row><row type="TypeDouble" index="3" invalid="no">5.0000000000000001e-03</row></column><column creation_time="2022-15-06 13:34:27:857" caption_spec="%n%C{ - }%c" name="I_R" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-15-06 13:34:27:857" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-15-06 13:34:27:857" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">7.3333333333299995e-04</row><row type="TypeDouble" index="1" invalid="no">8.3333333333299999e-04</row><row type="TypeDouble" index="2" invalid="no">9.6666666666699996e-04</row><row type="TypeDouble" index="3" invalid="no">1.1000000000000001e-03</row></column><column creation_time="2022-11-08 11:43:47:352" caption_spec="%n%C{ - }%c" name="2" type="TypeDouble" mode="Numeric" plot_designation="xErr"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-11-08 11:43:47:352" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-11-08 11:43:47:353" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">6.6666666666666697e-05</row><row type="TypeDouble" index="1" invalid="no">6.6666666666666697e-05</row><row type="TypeDouble" index="2" invalid="no">6.6666666666666697e-05</row><row type="TypeDouble" index="3" invalid="no">6.6666666666666697e-05</row></column><column_width column="0">86</column_width><column_width column="1">90</column_width><column_width column="2">90</column_width><column_width column="3">451</column_width></table>
+geometry	343	-13	1015	300	
+
+</table>
+<table>
+4012
+<table creation_time="2022-15-06 13:34:39:000" caption_spec="%n%C{ - }%c" name="Tabla3" columns="4" rows="4"><comment><![CDATA[]]></comment><column creation_time="2022-15-06 13:34:39:327" caption_spec="%n%C{ - }%c" name="V_ind" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-15-06 13:34:39:327" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-15-06 13:34:39:327" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">8.0000000000000002e-02</row><row type="TypeDouble" index="1" invalid="no">9.5000000000000001e-02</row><row type="TypeDouble" index="2" invalid="no">1.1000000000000000e-01</row><row type="TypeDouble" index="3" invalid="no">1.2250000000000000e-01</row></column><column creation_time="2022-11-08 11:45:41:762" caption_spec="%n%C{ - }%c" name="1" type="TypeDouble" mode="Numeric" plot_designation="yErr"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-11-08 11:45:41:762" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-11-08 11:45:41:762" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">5.0000000000000001e-03</row><row type="TypeDouble" index="1" invalid="no">5.0000000000000001e-03</row><row type="TypeDouble" index="2" invalid="no">5.0000000000000001e-03</row><row type="TypeDouble" index="3" invalid="no">5.0000000000000001e-03</row></column><column creation_time="2022-15-06 13:34:39:330" caption_spec="%n%C{ - }%c" name="I_R" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-15-06 13:34:39:330" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-15-06 13:34:39:331" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">4.3333333333299998e-04</row><row type="TypeDouble" index="1" invalid="no">5.3333333333299997e-04</row><row type="TypeDouble" index="2" invalid="no">5.9999999999999995e-04</row><row type="TypeDouble" index="3" invalid="no">6.6666666666700004e-04</row></column><column creation_time="2022-11-08 11:45:44:069" caption_spec="%n%C{ - }%c" name="2" type="TypeDouble" mode="Numeric" plot_designation="xErr"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2022-11-08 11:45:44:069" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2022-11-08 11:45:44:069" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">6.6666666666666697e-05</row><row type="TypeDouble" index="1" invalid="no">6.6666666666666697e-05</row><row type="TypeDouble" index="2" invalid="no">6.6666666666666697e-05</row><row type="TypeDouble" index="3" invalid="no">6.6666666666666697e-05</row></column><column_width column="0">68</column_width><column_width column="1">60</column_width><column_width column="2">90</column_width><column_width column="3">86</column_width></table>
+geometry	294	437	1012	300	
+
+</table>
+<multiLayer>
+Gráfica1	1	1	miércoles, 15 de junio de 2022 13:36:44 (CEST)
+geometry	1437	-488	500	401	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	418	276
+Alignement	0	0
+<graph>
+ggeometry	5	5	482	343
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	I<sub>R</sub>	V<sub>ind</sub>			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla1_I_R	Tabla1_V_ind	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	3	1
+FunctionCurve	0,LinealAjustar1,x,0.003466666666667,0.005333333333333	2			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	0	64		2	0	692283264	22084	1
+<formula>
+B=0.00287246049659463
+A=19.5118510158061
+
+A*x+B
+
+</formula>
+scale	0	0.06	0.11	0	8	5	0	0
+scale	1	0.06	0.11	0	8	5	0	0
+scale	2	0.003	0.0055	0	8	5	0	0
+scale	3	0.003	0.0055	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica3	1	1	miércoles, 15 de junio de 2022 13:37:02 (CEST)
+geometry	1424	422	500	400	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	425	276
+Alignement	0	0
+<graph>
+ggeometry	5	5	482	342
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	I<sub>R</sub>	V<sub>ind</sub><br>			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla3_I_R	Tabla3_V_ind	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	3	1
+FunctionCurve	0,LinealAjustar1,x,0.000433333333333,0.000666666666667	2			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	0	64		2	0	692440592	22084	1
+<formula>
+B=-0.00105140186885627
+A=184.345794392009
+
+A*x+B
+
+</formula>
+scale	0	0.07	0.13	0	8	5	0	0
+scale	1	0.07	0.13	0	8	5	0	0
+scale	2	0.0004	0.0007	0	8	5	0	0
+scale	3	0.0004	0.0007	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica4	1	1	miércoles, 15 de junio de 2022 13:38:43 (CEST)
+geometry	1413	-37	500	400	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	418	276
+Alignement	0	0
+<graph>
+ggeometry	5	5	482	342
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	I<sub>R</sub>	V<sub>ind</sub><br>			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla2_I_R	Tabla2_V_ind	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	3	1
+FunctionCurve	0,LinealAjustar1,x,0.000733333333333,0.0011	2			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	0	64		2	0	692621072	22084	1
+<formula>
+B=-0.000809090908964777
+A=97.909090908961
+
+A*x+B
+
+</formula>
+scale	0	0.06	0.11	0	8	5	0	0
+scale	1	0.06	0.11	0	8	5	0	0
+scale	2	0.0007	0.00115	0	8	5	0	0
+scale	3	0.0007	0.00115	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica6	1	1	jueves, 11 de agosto de 2022 11:42:08 (CEST)
+geometry	1357	-483	500	400	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	421	274
+Alignement	0	0
+<graph>
+ggeometry	5	5	481	340
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	I<sub>R</sub> (A)	V<sub>ind</sub> (V)			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla1_I_R	Tabla1_V_ind	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	3	1
+ErrorBars	1	Tabla1_I_R	Tabla1_V_ind	Tabla1_1	1	8	#ff000000	1	1	1
+ErrorBars	0	Tabla1_I_R	Tabla1_V_ind	Tabla1_2	1	8	#ff000000	1	1	1
+FunctionCurve	0,LinealAjustar1,x,0.003466666666667,0.005333333333333	2			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	16	64		2	0	696440208	22084	1
+<formula>
+B=0.00151063079992389
+A=19.7873840009465
+
+A*x+B
+</formula>
+scale	0	0.06	0.12	0	8	5	0	0
+scale	1	0.06	0.12	0	8	5	0	0
+scale	2	0.003	0.006	0	8	5	0	0
+scale	3	0.003	0.006	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica5	1	1	jueves, 11 de agosto de 2022 11:44:26 (CEST)
+geometry	1329	-33	500	400	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	421	274
+Alignement	0	0
+<graph>
+ggeometry	5	5	481	340
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	I<sub>R</sub> (A)	V<sub>ind</sub> (V)			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla2_I_R	Tabla2_V_ind	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	3	1
+ErrorBars	1	Tabla2_I_R	Tabla2_V_ind	Tabla2_1	1	8	#ff000000	1	1	1
+ErrorBars	0	Tabla2_I_R	Tabla2_V_ind	Tabla2_2	1	8	#ff000000	1	1	1
+FunctionCurve	0,LinealAjustar1,x,0.000733333333333,0.0011	2			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	16	64		2	0	704096496	22084	1
+<formula>
+B=-0.000809090908964777
+A=97.909090908961
+
+A*x+B
+</formula>
+scale	0	0.06	0.11	0	8	5	0	0
+scale	1	0.06	0.11	0	8	5	0	0
+scale	2	0.0006	0.0012	0	8	5	0	0
+scale	3	0.0006	0.0012	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica7	1	1	jueves, 11 de agosto de 2022 11:46:08 (CEST)
+geometry	1326	469	500	419	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	420	274
+Alignement	0	0
+<graph>
+ggeometry	5	4	481	361
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	I<sub>R</sub> (A)	V<sub>ind</sub> (V)			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	13	75	0	0	0
+ScaleFont0	Ubuntu	11	75	0	0	0
+ScaleFont1	Ubuntu	11	75	0	0	0
+ScaleFont2	Ubuntu	11	75	0	0	0
+ScaleFont3	Ubuntu	11	75	0	0	0
+AxisFont0	Ubuntu	11	50	0	0	0
+AxisFont1	Ubuntu	11	50	0	0	0
+AxisFont2	Ubuntu	11	50	0	0	0
+AxisFont3	Ubuntu	11	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla3_I_R	Tabla3_V_ind	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	3	1
+ErrorBars	1	Tabla3_I_R	Tabla3_V_ind	Tabla3_1	1	8	#ff000000	1	1	1
+ErrorBars	0	Tabla3_I_R	Tabla3_V_ind	Tabla3_2	1	8	#ff000000	1	1	1
+FunctionCurve	0,LinealAjustar1,x,0.000433333333333,0.000666666666667	2			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	16	64		2	0	708469072	22084	1
+<formula>
+B=-0.00105140186885627
+A=184.345794392009
+
+A*x+B
+</formula>
+scale	0	0.07	0.13	0	8	5	0	0
+scale	1	0.07	0.13	0	8	5	0	0
+scale	2	0.00035	0.00075	0	8	5	0	0
+scale	3	0.00035	0.00075	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<log>
+[miércoles, 15 de junio de 2022 13:39:37 (CEST)	Gráfica: ''Gráfica1'']
+Regresión Lineal ajuste del conjunto de datos: Tabla1_V_ind, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 0,003466666666667 a x = 0,005333333333333
+B (y-intercección) = 0,00287246049659463 +/- 0,00511173615532858
+A (pendiente) = 19,5118510158061 +/- 1,13885079405652
+--------------------------------------------------------------------------------------
+Chi^2 = 5,10722347633118e-06
+R^2 = 0,99323266454482
+---------------------------------------------------------------------------------------
+[miércoles, 15 de junio de 2022 13:39:40 (CEST)	Gráfica: ''Gráfica4'']
+Regresión Lineal ajuste del conjunto de datos: Tabla2_V_ind, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 0,000733333333333 a x = 0,0011
+B (y-intercección) = -0,000809090908964777 +/- 0,013888433858453
+A (pendiente) = 97,909090908961 +/- 15,1160797751201
+--------------------------------------------------------------------------------------
+Chi^2 = 3,49090909090625e-05
+R^2 = 0,954497315312016
+---------------------------------------------------------------------------------------
+[miércoles, 15 de junio de 2022 13:39:43 (CEST)	Gráfica: ''Gráfica3'']
+Regresión Lineal ajuste del conjunto de datos: Tabla3_V_ind, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 0,000433333333333 a x = 0,000666666666667
+B (y-intercección) = -0,00105140186885627 +/- 0,00618559046412136
+A (pendiente) = 184,345794392009 +/- 10,9489481435972
+--------------------------------------------------------------------------------------
+Chi^2 = 7,12616822408368e-06
+R^2 = 0,992994243220563
+---------------------------------------------------------------------------------------
+[jueves, 11 de agosto de 2022 11:36:46 (CEST)	Gráfica: ''Gráfica5'']
+Regresión Lineal ajuste del conjunto de datos: Tabla1_I_R, usando función : A*x+B
+errores estándar Y: conjunto de datos asociados (Tabla1_2)
+Desde x = 0,07 a x = 0,1075
+B (y-intercección) = -0,000201196981523683 +/- 0,000564961233400438
+A (pendiente) = 0,0519802237834886 +/- 0,0066222826473198
+--------------------------------------------------------------------------------------
+Chi^2 = 0,692427790796385
+R^2 = 0,988886266665441
+---------------------------------------------------------------------------------------
+[jueves, 11 de agosto de 2022 11:42:35 (CEST)	Gráfica: ''Gráfica6'']
+Regresión Lineal ajuste del conjunto de datos: Tabla1_V_ind, usando función : A*x+B
+errores estándar Y: conjunto de datos asociados (Tabla1_1)
+Desde x = 0,003466666666667 a x = 0,005333333333333
+B (y-intercección) = 0,00151063079992389 +/- 0,00974356992788456
+A (pendiente) = 19,7873840009465 +/- 2,47224104846581
+--------------------------------------------------------------------------------------
+Chi^2 = 0,215816985787934
+R^2 = 0,996642393157089
+---------------------------------------------------------------------------------------
+[jueves, 11 de agosto de 2022 11:44:36 (CEST)	Gráfica: ''Gráfica5'']
+Regresión Lineal ajuste del conjunto de datos: Tabla2_V_ind, usando función : A*x+B
+errores estándar Y: conjunto de datos asociados (Tabla2_1)
+Desde x = 0,000733333333333 a x = 0,0011
+B (y-intercección) = -0,000809090908964777 +/- 0,0166214538254616
+A (pendiente) = 97,909090908961 +/- 18,0906806746415
+--------------------------------------------------------------------------------------
+Chi^2 = 1,3963636363625
+R^2 = 0,954497315312016
+---------------------------------------------------------------------------------------
+[jueves, 11 de agosto de 2022 11:46:27 (CEST)	Gráfica: ''Gráfica7'']
+Regresión Lineal ajuste del conjunto de datos: Tabla3_V_ind, usando función : A*x+B
+errores estándar Y: conjunto de datos asociados (Tabla3_1)
+Desde x = 0,000433333333333 a x = 0,000666666666667
+B (y-intercección) = -0,00105140186885627 +/- 0,016384686262594
+A (pendiente) = 184,345794392009 +/- 29,0020946712859
+--------------------------------------------------------------------------------------
+Chi^2 = 0,285046728963347
+R^2 = 0,992994243220563
+---------------------------------------------------------------------------------------
+</log>

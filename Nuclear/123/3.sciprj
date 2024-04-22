@@ -1,0 +1,1003 @@
+SciDAVis 2.9.2 project file
+<scripting-lang>	muParser
+<windows>	14
+<table>
+7718
+<table creation_time="2024-03-04 22:00:17:000" caption_spec="%n%C{ - }%c" name="Tabla1" columns="4" rows="30"><comment><![CDATA[]]></comment><column creation_time="2024-03-04 22:00:17:973" caption_spec="%n%C{ - }%c" name="1" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2024-03-04 22:00:17:974" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2024-03-04 22:00:17:974" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">4.0000000000000002e-01</row><row type="TypeDouble" index="2" invalid="no">8.0000000000000004e-01</row><row type="TypeDouble" index="3" invalid="no">1.2000000000000000e+00</row><row type="TypeDouble" index="4" invalid="no">1.6000000000000001e+00</row><row type="TypeDouble" index="5" invalid="no">2.0000000000000000e+00</row><row type="TypeDouble" index="6" invalid="no">2.3999999999999999e+00</row><row type="TypeDouble" index="7" invalid="no">2.7999999999999998e+00</row><row type="TypeDouble" index="8" invalid="no">3.2000000000000002e+00</row><row type="TypeDouble" index="9" invalid="no">3.6000000000000001e+00</row><row type="TypeDouble" index="10" invalid="no">4.0000000000000000e+00</row><row type="TypeDouble" index="11" invalid="no">4.4000000000000004e+00</row><row type="TypeDouble" index="12" invalid="no">5.5999999999999996e+00</row></column><column creation_time="2024-03-04 22:00:44:962" caption_spec="%n%C{ - }%c" name="3" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2024-03-04 22:00:44:962" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2024-03-04 22:00:44:963" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">1.1000000000000000e-01</row><row type="TypeDouble" index="2" invalid="no">2.2000000000000000e-01</row><row type="TypeDouble" index="3" invalid="no">3.3000000000000002e-01</row><row type="TypeDouble" index="4" invalid="no">4.4000000000000000e-01</row><row type="TypeDouble" index="5" invalid="no">5.5000000000000004e-01</row><row type="TypeDouble" index="6" invalid="no">6.6000000000000003e-01</row><row type="TypeDouble" index="7" invalid="no">7.7000000000000002e-01</row><row type="TypeDouble" index="8" invalid="no">8.8000000000000000e-01</row><row type="TypeDouble" index="9" invalid="no">9.8999999999999999e-01</row><row type="TypeDouble" index="10" invalid="no">1.1000000000000001e+00</row><row type="TypeDouble" index="11" invalid="no">1.2100000000000000e+00</row><row type="TypeDouble" index="12" invalid="no">1.5400000000000000e+00</row></column><column creation_time="2024-03-04 22:00:17:975" caption_spec="%n%C{ - }%c" name="2" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2024-03-04 22:00:17:975" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2024-03-04 22:00:17:975" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">2.0352000000000000e+04</row><row type="TypeDouble" index="1" invalid="no">1.3581000000000000e+04</row><row type="TypeDouble" index="2" invalid="no">8.5640000000000000e+03</row><row type="TypeDouble" index="3" invalid="no">5.2250000000000000e+03</row><row type="TypeDouble" index="4" invalid="no">2.8390000000000000e+03</row><row type="TypeDouble" index="5" invalid="no">1.4800000000000000e+03</row><row type="TypeDouble" index="6" invalid="no">7.2700000000000000e+02</row><row type="TypeDouble" index="7" invalid="no">3.3200000000000000e+02</row><row type="TypeDouble" index="8" invalid="no">1.4500000000000000e+02</row><row type="TypeDouble" index="9" invalid="no">9.4000000000000000e+01</row><row type="TypeDouble" index="10" invalid="no">6.2000000000000000e+01</row><row type="TypeDouble" index="11" invalid="no">6.5000000000000000e+01</row><row type="TypeDouble" index="12" invalid="no">6.0000000000000000e+01</row></column><column creation_time="2024-03-04 22:09:56:087" caption_spec="%n%C{ - }%c" name="4" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2024-03-04 22:09:56:087" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2024-03-04 22:09:56:087" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="29">log10(col(&quot;2&quot;))</formula><row type="TypeDouble" index="0" invalid="no">4.3086070939683196e+00</row><row type="TypeDouble" index="1" invalid="no">4.1329317492149151e+00</row><row type="TypeDouble" index="2" invalid="no">3.9326766586224009e+00</row><row type="TypeDouble" index="3" invalid="no">3.7180862947830917e+00</row><row type="TypeDouble" index="4" invalid="no">3.4531653925258574e+00</row><row type="TypeDouble" index="5" invalid="no">3.1702617153949575e+00</row><row type="TypeDouble" index="6" invalid="no">2.8615344108590377e+00</row><row type="TypeDouble" index="7" invalid="no">2.5211380837040362e+00</row><row type="TypeDouble" index="8" invalid="no">2.1613680022349748e+00</row><row type="TypeDouble" index="9" invalid="no">1.9731278535996986e+00</row><row type="TypeDouble" index="10" invalid="no">1.7923916894982539e+00</row><row type="TypeDouble" index="11" invalid="no">1.8129133566428555e+00</row><row type="TypeDouble" index="12" invalid="no">1.7781512503836436e+00</row><row type="TypeDouble" index="13" invalid="no">-inf</row><row type="TypeDouble" index="14" invalid="no">-inf</row><row type="TypeDouble" index="15" invalid="no">-inf</row><row type="TypeDouble" index="16" invalid="no">-inf</row><row type="TypeDouble" index="17" invalid="no">-inf</row><row type="TypeDouble" index="18" invalid="no">-inf</row><row type="TypeDouble" index="19" invalid="no">-inf</row><row type="TypeDouble" index="20" invalid="no">-inf</row><row type="TypeDouble" index="21" invalid="no">-inf</row><row type="TypeDouble" index="22" invalid="no">-inf</row><row type="TypeDouble" index="23" invalid="no">-inf</row><row type="TypeDouble" index="24" invalid="no">-inf</row><row type="TypeDouble" index="25" invalid="no">-inf</row><row type="TypeDouble" index="26" invalid="no">-inf</row><row type="TypeDouble" index="27" invalid="no">-inf</row><row type="TypeDouble" index="28" invalid="no">-inf</row><row type="TypeDouble" index="29" invalid="no">-inf</row></column><column_width column="0">64</column_width><column_width column="1">70</column_width><column_width column="2">85</column_width><column_width column="3">120</column_width></table>
+geometry	25	45	816	672	
+
+</table>
+<table>
+6895
+<table creation_time="2024-04-04 06:11:07:000" caption_spec="%n%C{ - }%c" name="Tabla2" columns="2" rows="37"><comment><![CDATA[]]></comment><column creation_time="2024-04-04 06:11:07:999" caption_spec="%n%C{ - }%c" name="Energia Max (MeV)" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2024-04-04 06:11:07:999" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2024-04-04 06:11:08:000" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">5.2999999999999999e-02</row><row type="TypeDouble" index="1" invalid="no">1.3000000000000000e-01</row><row type="TypeDouble" index="2" invalid="no">1.4599999999999999e-01</row><row type="TypeDouble" index="3" invalid="no">2.2000000000000000e-01</row><row type="TypeDouble" index="4" invalid="no">3.1000000000000000e-01</row><row type="TypeDouble" index="5" invalid="no">4.0000000000000002e-01</row><row type="TypeDouble" index="6" invalid="no">5.5500000000000005e-01</row><row type="TypeDouble" index="7" invalid="no">5.9999999999999998e-01</row><row type="TypeDouble" index="8" invalid="no">6.5000000000000002e-01</row><row type="TypeDouble" index="9" invalid="no">7.2999999999999998e-01</row><row type="TypeDouble" index="10" invalid="no">9.6999999999999997e-01</row><row type="TypeDouble" index="11" invalid="no">9.7999999999999998e-01</row><row type="TypeDouble" index="12" invalid="no">1.0220000000000000e+00</row><row type="TypeDouble" index="13" invalid="no">1.0500000000000000e+00</row><row type="TypeDouble" index="14" invalid="no">1.1299999999999999e+00</row><row type="TypeDouble" index="15" invalid="no">1.1699999999999999e+00</row><row type="TypeDouble" index="16" invalid="no">1.2400000000000000e+00</row><row type="TypeDouble" index="17" invalid="no">1.3899999999999999e+00</row><row type="TypeDouble" index="18" invalid="no">1.5000000000000000e+00</row><row type="TypeDouble" index="19" invalid="no">1.7100000000000000e+00</row><row type="TypeDouble" index="20" invalid="no">1.8000000000000000e+00</row><row type="TypeDouble" index="21" invalid="no">1.8000000000000000e+00</row><row type="TypeDouble" index="22" invalid="no">1.8000000000000000e+00</row><row type="TypeDouble" index="23" invalid="no">2.0000000000000000e+00</row><row type="TypeDouble" index="24" invalid="no">2.2500000000000000e+00</row><row type="TypeDouble" index="25" invalid="no">2.2999999999999998e+00</row><row type="TypeDouble" index="26" invalid="no">2.3199999999999998e+00</row><row type="TypeDouble" index="27" invalid="no">2.3700000000000001e+00</row><row type="TypeDouble" index="28" invalid="no">2.5600000000000001e+00</row><row type="TypeDouble" index="29" invalid="no">2.6000000000000001e+00</row><row type="TypeDouble" index="30" invalid="no">2.8599999999999999e+00</row><row type="TypeDouble" index="31" invalid="no">2.9199999999999999e+00</row><row type="TypeDouble" index="32" invalid="no">3.0000000000000000e+00</row><row type="TypeDouble" index="33" invalid="no">3.0699999999999998e+00</row><row type="TypeDouble" index="34" invalid="no">3.1200000000000001e+00</row><row type="TypeDouble" index="35" invalid="no">3.5499999999999998e+00</row></column><column creation_time="2024-04-04 06:11:08:001" caption_spec="%n%C{ - }%c" name="Alcance (g/cm2)" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2024-04-04 06:11:08:001" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2024-04-04 06:11:08:001" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">6.0000000000000001e-03</row><row type="TypeDouble" index="1" invalid="no">2.0000000000000000e-02</row><row type="TypeDouble" index="2" invalid="no">2.9999999999999999e-02</row><row type="TypeDouble" index="3" invalid="no">4.8000000000000001e-02</row><row type="TypeDouble" index="4" invalid="no">8.1000000000000003e-02</row><row type="TypeDouble" index="5" invalid="no">1.2200000000000000e-01</row><row type="TypeDouble" index="6" invalid="no">1.8099999999999999e-01</row><row type="TypeDouble" index="7" invalid="no">2.1299999999999999e-01</row><row type="TypeDouble" index="8" invalid="no">2.5400000000000000e-01</row><row type="TypeDouble" index="9" invalid="no">2.7700000000000002e-01</row><row type="TypeDouble" index="10" invalid="no">3.9900000000000002e-01</row><row type="TypeDouble" index="11" invalid="no">4.4700000000000001e-01</row><row type="TypeDouble" index="12" invalid="no">4.2599999999999999e-01</row><row type="TypeDouble" index="13" invalid="no">4.6200000000000002e-01</row><row type="TypeDouble" index="14" invalid="no">5.2700000000000002e-01</row><row type="TypeDouble" index="15" invalid="no">5.0800000000000001e-01</row><row type="TypeDouble" index="16" invalid="no">5.5700000000000005e-01</row><row type="TypeDouble" index="17" invalid="no">6.0099999999999998e-01</row><row type="TypeDouble" index="18" invalid="no">7.4099999999999999e-01</row><row type="TypeDouble" index="19" invalid="no">8.1000000000000005e-01</row><row type="TypeDouble" index="20" invalid="no">8.1200000000000006e-01</row><row type="TypeDouble" index="21" invalid="no">8.2099999999999995e-01</row><row type="TypeDouble" index="22" invalid="no">8.8500000000000001e-01</row><row type="TypeDouble" index="23" invalid="no">9.6599999999999997e-01</row><row type="TypeDouble" index="24" invalid="no">1.0229999999999999e+00</row><row type="TypeDouble" index="25" invalid="no">1.0800000000000001e+00</row><row type="TypeDouble" index="26" invalid="no">1.1050000000000000e+00</row><row type="TypeDouble" index="27" invalid="no">1.2200000000000000e+00</row><row type="TypeDouble" index="28" invalid="no">1.3839999999999999e+00</row><row type="TypeDouble" index="29" invalid="no">1.1980000000000000e+00</row><row type="TypeDouble" index="30" invalid="no">1.4399999999999999e+00</row><row type="TypeDouble" index="31" invalid="no">1.4399999999999999e+00</row><row type="TypeDouble" index="32" invalid="no">1.5400000000000000e+00</row><row type="TypeDouble" index="33" invalid="no">1.5750000000000000e+00</row><row type="TypeDouble" index="34" invalid="no">1.4540000000000000e+00</row><row type="TypeDouble" index="35" invalid="no">1.7700000000000000e+00</row></column><column_width column="0">205</column_width><column_width column="1">205</column_width></table>
+geometry	68	1285	1067	872	
+
+</table>
+<table>
+6895
+<table creation_time="2024-04-04 07:07:00:000" caption_spec="%n%C{ - }%c" name="Tabla3" columns="2" rows="37"><comment><![CDATA[]]></comment><column creation_time="2024-04-04 07:07:00:522" caption_spec="%n%C{ - }%c" name="Alcance (g/cm2)" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2024-04-04 07:07:00:522" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2024-04-04 07:07:00:522" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">6.0000000000000001e-03</row><row type="TypeDouble" index="1" invalid="no">2.0000000000000000e-02</row><row type="TypeDouble" index="2" invalid="no">2.9999999999999999e-02</row><row type="TypeDouble" index="3" invalid="no">4.8000000000000001e-02</row><row type="TypeDouble" index="4" invalid="no">8.1000000000000003e-02</row><row type="TypeDouble" index="5" invalid="no">1.2200000000000000e-01</row><row type="TypeDouble" index="6" invalid="no">1.8099999999999999e-01</row><row type="TypeDouble" index="7" invalid="no">2.1299999999999999e-01</row><row type="TypeDouble" index="8" invalid="no">2.5400000000000000e-01</row><row type="TypeDouble" index="9" invalid="no">2.7700000000000002e-01</row><row type="TypeDouble" index="10" invalid="no">3.9900000000000002e-01</row><row type="TypeDouble" index="11" invalid="no">4.4700000000000001e-01</row><row type="TypeDouble" index="12" invalid="no">4.2599999999999999e-01</row><row type="TypeDouble" index="13" invalid="no">4.6200000000000002e-01</row><row type="TypeDouble" index="14" invalid="no">5.2700000000000002e-01</row><row type="TypeDouble" index="15" invalid="no">5.0800000000000001e-01</row><row type="TypeDouble" index="16" invalid="no">5.5700000000000005e-01</row><row type="TypeDouble" index="17" invalid="no">6.0099999999999998e-01</row><row type="TypeDouble" index="18" invalid="no">7.4099999999999999e-01</row><row type="TypeDouble" index="19" invalid="no">8.1000000000000005e-01</row><row type="TypeDouble" index="20" invalid="no">8.1200000000000006e-01</row><row type="TypeDouble" index="21" invalid="no">8.2099999999999995e-01</row><row type="TypeDouble" index="22" invalid="no">8.8500000000000001e-01</row><row type="TypeDouble" index="23" invalid="no">9.6599999999999997e-01</row><row type="TypeDouble" index="24" invalid="no">1.0229999999999999e+00</row><row type="TypeDouble" index="25" invalid="no">1.0800000000000001e+00</row><row type="TypeDouble" index="26" invalid="no">1.1050000000000000e+00</row><row type="TypeDouble" index="27" invalid="no">1.2200000000000000e+00</row><row type="TypeDouble" index="28" invalid="no">1.3839999999999999e+00</row><row type="TypeDouble" index="29" invalid="no">1.1980000000000000e+00</row><row type="TypeDouble" index="30" invalid="no">1.4399999999999999e+00</row><row type="TypeDouble" index="31" invalid="no">1.4399999999999999e+00</row><row type="TypeDouble" index="32" invalid="no">1.5400000000000000e+00</row><row type="TypeDouble" index="33" invalid="no">1.5750000000000000e+00</row><row type="TypeDouble" index="34" invalid="no">1.4540000000000000e+00</row><row type="TypeDouble" index="35" invalid="no">1.7700000000000000e+00</row></column><column creation_time="2024-04-04 07:07:00:521" caption_spec="%n%C{ - }%c" name="Energia Max (MeV)" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2024-04-04 07:07:00:521" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2024-04-04 07:07:00:521" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">5.2999999999999999e-02</row><row type="TypeDouble" index="1" invalid="no">1.3000000000000000e-01</row><row type="TypeDouble" index="2" invalid="no">1.4599999999999999e-01</row><row type="TypeDouble" index="3" invalid="no">2.2000000000000000e-01</row><row type="TypeDouble" index="4" invalid="no">3.1000000000000000e-01</row><row type="TypeDouble" index="5" invalid="no">4.0000000000000002e-01</row><row type="TypeDouble" index="6" invalid="no">5.5500000000000005e-01</row><row type="TypeDouble" index="7" invalid="no">5.9999999999999998e-01</row><row type="TypeDouble" index="8" invalid="no">6.5000000000000002e-01</row><row type="TypeDouble" index="9" invalid="no">7.2999999999999998e-01</row><row type="TypeDouble" index="10" invalid="no">9.6999999999999997e-01</row><row type="TypeDouble" index="11" invalid="no">9.7999999999999998e-01</row><row type="TypeDouble" index="12" invalid="no">1.0220000000000000e+00</row><row type="TypeDouble" index="13" invalid="no">1.0500000000000000e+00</row><row type="TypeDouble" index="14" invalid="no">1.1299999999999999e+00</row><row type="TypeDouble" index="15" invalid="no">1.1699999999999999e+00</row><row type="TypeDouble" index="16" invalid="no">1.2400000000000000e+00</row><row type="TypeDouble" index="17" invalid="no">1.3899999999999999e+00</row><row type="TypeDouble" index="18" invalid="no">1.5000000000000000e+00</row><row type="TypeDouble" index="19" invalid="no">1.7100000000000000e+00</row><row type="TypeDouble" index="20" invalid="no">1.8000000000000000e+00</row><row type="TypeDouble" index="21" invalid="no">1.8000000000000000e+00</row><row type="TypeDouble" index="22" invalid="no">1.8000000000000000e+00</row><row type="TypeDouble" index="23" invalid="no">2.0000000000000000e+00</row><row type="TypeDouble" index="24" invalid="no">2.2500000000000000e+00</row><row type="TypeDouble" index="25" invalid="no">2.2999999999999998e+00</row><row type="TypeDouble" index="26" invalid="no">2.3199999999999998e+00</row><row type="TypeDouble" index="27" invalid="no">2.3700000000000001e+00</row><row type="TypeDouble" index="28" invalid="no">2.5600000000000001e+00</row><row type="TypeDouble" index="29" invalid="no">2.6000000000000001e+00</row><row type="TypeDouble" index="30" invalid="no">2.8599999999999999e+00</row><row type="TypeDouble" index="31" invalid="no">2.9199999999999999e+00</row><row type="TypeDouble" index="32" invalid="no">3.0000000000000000e+00</row><row type="TypeDouble" index="33" invalid="no">3.0699999999999998e+00</row><row type="TypeDouble" index="34" invalid="no">3.1200000000000001e+00</row><row type="TypeDouble" index="35" invalid="no">3.5499999999999998e+00</row></column><column_width column="0">180</column_width><column_width column="1">205</column_width></table>
+geometry	18	2261	1067	872	
+
+</table>
+<multiLayer>
+Gráfica1	1	1	miércoles, 3 de abril de 2024 22:01:05 (CEST)
+geometry	623	3766	670	523	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	380	254
+Alignement	0	0
+<graph>
+ggeometry	5	5	650	457
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Espesor de absorvente	Cuentas			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	16	75	0	0	0
+ScaleFont0	Ubuntu	14	75	0	0	0
+ScaleFont1	Ubuntu	14	75	0	0	0
+ScaleFont2	Ubuntu	14	75	0	0	0
+ScaleFont3	Ubuntu	14	75	0	0	0
+AxisFont0	Ubuntu	14	50	0	0	0
+AxisFont1	Ubuntu	14	50	0	0	0
+AxisFont2	Ubuntu	14	50	0	0	0
+AxisFont3	Ubuntu	14	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla1_3	Tabla1_2	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	29	1
+scale	0	-5000	25000	0	7	5	0	0
+scale	1	-5000	25000	0	8	5	0	0
+scale	2	-0.5	2	0	8	5	0	0
+scale	3	-0.5	2	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica2	1	1	miércoles, 3 de abril de 2024 22:04:54 (CEST)
+geometry	126	248	699	790	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	380	254
+Alignement	0	0
+<graph>
+ggeometry	5	6	679	724
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Espesor (g/cm<sup>2</sup>)	Cuentas			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	22	75	0	0	0
+ScaleFont0	Ubuntu	18	75	0	0	0
+ScaleFont1	Ubuntu	18	75	0	0	0
+ScaleFont2	Ubuntu	18	75	0	0	0
+ScaleFont3	Ubuntu	18	75	0	0	0
+AxisFont0	Ubuntu	18	50	0	0	0
+AxisFont1	Ubuntu	18	50	0	0	0
+AxisFont2	Ubuntu	18	50	0	0	0
+AxisFont3	Ubuntu	18	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla1_3	Tabla1_2	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	12	1
+scale	0	10	100000	0	7	5	1	0
+scale	1	10	100000	0	8	5	1	0
+scale	2	-0.2	1.6	0	8	5	0	0
+scale	3	-0.2	1.6	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica3	1	1	miércoles, 3 de abril de 2024 22:10:47 (CEST)
+geometry	1377	655	500	400	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	423	254
+Alignement	0	0
+<graph>
+ggeometry	5	5	480	334
+PlotTitle	Título	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	título eje X	título eje Y			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	5124	4	5124	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla1_3	Tabla1_4	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	29	1
+scale	0	1.5	5	0	8	5	0	0
+scale	1	3	11	0	8	5	0	0
+scale	2	-0.5	2	0	8	5	0	0
+scale	3	-0.5	2	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+<legend>	-0.392601431980907	10.7429718875502	Ubuntu	10	50	0	0	0	#ff000000	1	0	#00ffffff	0	\c{1}Tabla1_4</legend>
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica4	1	1	miércoles, 3 de abril de 2024 22:29:18 (CEST)
+geometry	864	246	500	400	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	422	254
+Alignement	0	0
+<graph>
+ggeometry	5	5	480	334
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Espesor (g/cm<sup>2</sup>)	log(Cuentas)			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla1_3	Tabla1_4	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	10	1
+FunctionCurve	0,LinealAjustar1,x,0,1.1	2			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	16	64		2	0	-862328416	21845	1
+<formula>
+B=4.43501472120952
+A=-2.43964842791722
+
+A*x+B
+</formula>
+scale	0	1.5	4.5	0	8	5	0	0
+scale	1	1.5	4.5	0	8	5	0	0
+scale	2	-0.2	1.2	0	8	5	0	0
+scale	3	-0.2	1.2	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica6	1	1	miércoles, 3 de abril de 2024 22:34:53 (CEST)
+geometry	1377	198	527	449	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	380	254
+Alignement	0	0
+<graph>
+ggeometry	5	5	507	383
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Espesor (g/cm<sup>2</sup>)	Cuentas			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	14	75	0	0	0
+ScaleFont0	Ubuntu	11	75	0	0	0
+ScaleFont1	Ubuntu	11	75	0	0	0
+ScaleFont2	Ubuntu	11	75	0	0	0
+ScaleFont3	Ubuntu	11	75	0	0	0
+AxisFont0	Ubuntu	11	50	0	0	0
+AxisFont1	Ubuntu	11	50	0	0	0
+AxisFont2	Ubuntu	11	50	0	0	0
+AxisFont3	Ubuntu	11	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla1_3	Tabla1_2	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	12	1
+scale	0	10	100000	0	7	5	1	0
+scale	1	10	100000	0	8	5	1	0
+scale	2	0	2	0	6	5	0	0
+scale	3	0	2	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica7	1	1	jueves, 4 de abril de 2024 6:44:20 (CEST)
+geometry	1316	1352	798	638	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	414	254
+Alignement	0	0
+<graph>
+ggeometry	5	5	778	572
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Energía Máx (MeV)	Alcance (g/cm<sup>2</sup>)			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla2_Energia Max (MeV)	Tabla2_Alcance (g/cm2)	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	36	1
+scale	0	0	2	0	5	5	0	0
+scale	1	0	2	0	8	5	0	0
+scale	2	0	4	0	9	5	0	0
+scale	3	0	4	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica9	1	1	jueves, 4 de abril de 2024 7:11:16 (CEST)
+geometry	1404	2263	745	600	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	414	254
+Alignement	0	0
+<graph>
+ggeometry	5	5	725	534
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Alcance (g/cm<sup>2</sup>)	Energía Máx (MeV)			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla3_Alcance (g/cm2)	Tabla3_Energia Max (MeV)	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	36	1
+scale	0	-0.5	4	0	10	5	0	0
+scale	1	-0.5	4	0	8	5	0	0
+scale	2	-0.5	2	0	6	5	0	0
+scale	3	-0.5	2	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica10	1	1	sábado, 6 de abril de 2024 17:24:06 (CEST)
+geometry	1548	645	504	482	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<graph>
+ggeometry	5	6	512	465
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Espesor (g/cm<sup>2</sup>)	Cuentas			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	14	75	0	0	0
+ScaleFont0	Ubuntu	11	75	0	0	0
+ScaleFont1	Ubuntu	11	75	0	0	0
+ScaleFont2	Ubuntu	11	75	0	0	0
+ScaleFont3	Ubuntu	11	75	0	0	0
+AxisFont0	Ubuntu	11	50	0	0	0
+AxisFont1	Ubuntu	11	50	0	0	0
+AxisFont2	Ubuntu	11	50	0	0	0
+AxisFont3	Ubuntu	11	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla1_3	Tabla1_2	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	12	1
+scale	0	10	100000	0	7	5	1	0
+scale	1	10	100000	0	8	5	1	0
+scale	2	-0.5	2	0	6	5	0	0
+scale	3	-0.5	2	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica11	1	1	sábado, 6 de abril de 2024 17:29:03 (CEST)
+geometry	283	769	500	400	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	422	254
+Alignement	0	0
+<graph>
+ggeometry	5	5	479	333
+PlotTitle	Título	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	título eje X	título eje Y			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	5124	4	5124	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla1_3	Tabla1_4	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	10	1
+scale	0	1.5	4.5	0	8	5	0	0
+scale	1	3	11	0	8	5	0	0
+scale	2	-0.2	1.2	0	8	5	0	0
+scale	3	-0.2	1.2	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica12	1	1	sábado, 6 de abril de 2024 17:29:39 (CEST)
+geometry	861	660	500	412	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	379	254
+Alignement	0	0
+<graph>
+ggeometry	5	5	479	345
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	título eje X	título eje Y			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	5124	4	5124	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla1_3	Tabla1_2	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	10	1
+FunctionCurve	0,ExpDecayAjustar1,x,0,1.1	100			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	16	64		2	0	-867128720	21845	1
+<formula>
+A=21191.5187233131
+t=0.253661028566848
+y0=-574.122203805864
+
+y0+A*exp(-x/t)
+</formula>
+scale	0	-5000	25000	0	8	5	0	0
+scale	1	-5000	25000	0	8	5	0	0
+scale	2	-0.2	1.2	0	8	5	0	0
+scale	3	-0.2	1.2	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica13	1	1	sábado, 6 de abril de 2024 18:22:27 (CEST)
+geometry	1196	71	500	400	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	379	254
+Alignement	0	0
+<graph>
+ggeometry	5	5	479	333
+PlotTitle	Título	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	título eje X	título eje Y			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	5124	4	5124	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Tabla1_3	Tabla1_2	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	10	1
+FunctionCurve	0,ExpDecayAjustar1,x,0,1.1	100			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	16	64		2	0	-875081136	21845	1
+<formula>
+A=21191.5187233131
+t=0.253661028566848
+y0=-574.122203805864
+
+y0+A*exp(-x/t)
+</formula>
+scale	0	-5000	25000	0	8	5	0	0
+scale	1	-5000	25000	0	8	5	0	0
+scale	2	-0.2	1.2	0	8	5	0	0
+scale	3	-0.2	1.2	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<log>
+[miércoles, 3 de abril de 2024 22:26:36 (CEST)	Gráfica: ''Gráfica2'']
+Polinomial ajuste del conjunto de datos: Tabla1_2, usando función : a0+a1*x
+errores estándar Y: Desconocido
+Desde x = 0 a x = 1,1
+a0  = 13.607,0454545454 +/- 2.006,76887520791
+a1  = -15.913,4710743802 +/- 3.083,68955116132
+--------------------------------------------------------------------------------------
+Chi^2 = 113.910.003,009091
+R^2 = 0,83961148469165
+---------------------------------------------------------------------------------------
+[miércoles, 3 de abril de 2024 22:26:51 (CEST)	Gráfica: ''Gráfica2'']
+Polinomial ajuste del conjunto de datos: Tabla1_2, usando función : a0+a1*x
+errores estándar Y: Desconocido
+Desde x = 0 a x = 1,54
+a0  = 11.553,4453411592 +/- 2.073,53097720084
+a1  = -10.985,0897085307 +/- 2.565,19841413971
+--------------------------------------------------------------------------------------
+Chi^2 = 183.654.883,151504
+R^2 = 0,741411564210189
+---------------------------------------------------------------------------------------
+[miércoles, 3 de abril de 2024 22:27:12 (CEST)	Gráfica: ''Gráfica2'']
+Regresión Lineal ajuste del conjunto de datos: Tabla1_2, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 0 a x = 1,54
+B (y-intercección) = 11.553,4453411592 +/- 2.073,53097720084
+A (pendiente) = -10.985,0897085306 +/- 2.565,19841413971
+--------------------------------------------------------------------------------------
+Chi^2 = 183.654.883,151504
+R^2 = 0,741411564210189
+---------------------------------------------------------------------------------------
+[miércoles, 3 de abril de 2024 22:27:31 (CEST)	Gráfica: ''Gráfica2'']
+Polinomial ajuste del conjunto de datos: Tabla1_2, usando función : a0+a1*x+a2*x^2
+errores estándar Y: Desconocido
+Desde x = 0 a x = 0,99
+a0  = 19.221,7272727273 +/- 705,187357979698
+a1  = -51.195,564738292 +/- 3.317,35901015535
+a2  = 33.214,3751565239 +/- 3.225,84928368549
+--------------------------------------------------------------------------------------
+Chi^2 = 5.631.068,99393937
+R^2 = 0,992071252216515
+---------------------------------------------------------------------------------------
+[miércoles, 3 de abril de 2024 22:28:20 (CEST)	Gráfica: ''Gráfica2'']
+Polinomial ajuste del conjunto de datos: Tabla1_2, usando función : a0+a1*x
+errores estándar Y: Desconocido
+Desde x = 0 a x = 1,54
+a0  = 11.553,4453411592 +/- 2.073,53097720084
+a1  = -10.985,0897085307 +/- 2.565,19841413971
+--------------------------------------------------------------------------------------
+Chi^2 = 183.654.883,151504
+R^2 = 0,741411564210189
+---------------------------------------------------------------------------------------
+[miércoles, 3 de abril de 2024 22:29:24 (CEST)	Gráfica: ''Gráfica4'']
+Regresión Lineal ajuste del conjunto de datos: Tabla1_4, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 0 a x = 1,1
+B (y-intercección) = 10,2119987842662 +/- 0,108594301489288
+A (pendiente) = -5,61749810226856 +/- 0,166870792623533
+--------------------------------------------------------------------------------------
+Chi^2 = 0,333565574079628
+R^2 = 0,99944437726328
+---------------------------------------------------------------------------------------
+[miércoles, 3 de abril de 2024 22:30:35 (CEST)	Gráfica: ''Gráfica5'']
+Regresión Lineal ajuste del conjunto de datos: Tabla1_2, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 0 a x = 1,1
+B (y-intercección) = 13.607,0454545455 +/- 2.006,76887520791
+A (pendiente) = -15.913,4710743802 +/- 3.083,68955116131
+--------------------------------------------------------------------------------------
+Chi^2 = 113.910.003,009091
+R^2 = 0,83961148469165
+---------------------------------------------------------------------------------------
+[miércoles, 3 de abril de 2024 22:30:47 (CEST)	Gráfica: ''Gráfica5'']
+Polinomial ajuste del conjunto de datos: Tabla1_2, usando función : a0+a1*x+a2*x^2
+errores estándar Y: Desconocido
+Desde x = 0 a x = 1,1
+a0  = 18.839,8251748252 +/- 829,920110260207
+a1  = -47.627,2875609239 +/- 3.510,25213556514
+a2  = 28.830,7422604943 +/- 3.073,52143767444
+--------------------------------------------------------------------------------------
+Chi^2 = 9.493.372,21072261
+R^2 = 0,986633062646607
+---------------------------------------------------------------------------------------
+[miércoles, 3 de abril de 2024 22:30:56 (CEST)	Gráfica: ''Gráfica5'']
+Gauss ajuste del conjunto de datos: Tabla1_2, usando función : y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0 a x = 1,1
+A (amplitud) = 74.551,5744399993 +/- 10.163,9101244091
+xc (centro) = -0,693494291799946 +/- 0,0523916055998246
+w (anchura) = 0,905907092502806 +/- 0,0289797106444643
+y0 (desplazamiento) = 0,0790464943994947 +/- 33,900479627089
+--------------------------------------------------------------------------------------
+Chi^2 = 20.629,5748471373
+R^2 = 0,999970952973455
+---------------------------------------------------------------------------------------
+Iteraciones = 11
+Estado = success
+---------------------------------------------------------------------------------------
+[miércoles, 3 de abril de 2024 22:31:28 (CEST)	Gráfica: ''Gráfica2'']
+Ajuste gaussiano ajuste del conjunto de datos: Tabla1_2, usando función : y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0 a x = 1,1
+A (amplitud) = 74.551,5727475552 +/- 10.163,9097191882
+xc (centro) = -0,693494282957171 +/- 0,0523916045601497
+w (anchura) = 0,905907087454594 +/- 0,0289797102181129
+y0 (desplazamiento) = 0,0790511070821336 +/- 33,9004794906991
+--------------------------------------------------------------------------------------
+Chi^2 = 20.629,5748471378
+R^2 = 0,999970952973455
+---------------------------------------------------------------------------------------
+Iteraciones = 57
+Estado = success
+---------------------------------------------------------------------------------------
+[miércoles, 3 de abril de 2024 22:32:21 (CEST)	Gráfica: ''Gráfica2'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla1_2, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0 a x = 1,1
+A (amplitud) = 21.191,5187221034 +/- 320,244624428697
+t (constante de tiempo-e) = 0,25366102619853 +/- 0,150431728175503
+y0 (desplazamiento) = -574,122165077788 +/- 202,801976762882
+--------------------------------------------------------------------------------------
+Chi^2 = 822.207,141915295
+R^2 = 0,998842309022174
+---------------------------------------------------------------------------------------
+Iteraciones = 24
+Estado = success
+---------------------------------------------------------------------------------------
+[miércoles, 3 de abril de 2024 22:32:47 (CEST)	Gráfica: ''Gráfica2'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla1_2, usando función : A1*exp(-x/t1)+A2*exp(-x/t2)+y0
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0 a x = 1,1
+A1 (primer amplitud) = 10.595,7596844949 +/- 1,01048385443095e+18
+t1 (primer tiempo de vida) = 0,25366055753989 +/- 639.964.487,383998
+A2 (segunda amplitud) = 10.595,7597125902 +/- 1,01048385443095e+18
+t2 (segundo tiempo de vida) = 0,25366142114517 +/- 640.021.502,478758
+y0 (desplazamiento) = -574,121812689125 +/- 554,010911434882
+--------------------------------------------------------------------------------------
+Chi^2 = 822.207,141929236
+R^2 = 0,998842309022155
+---------------------------------------------------------------------------------------
+Iteraciones = 25
+Estado = success
+---------------------------------------------------------------------------------------
+[miércoles, 3 de abril de 2024 22:32:57 (CEST)	Gráfica: ''Gráfica2'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla1_2, usando función : A1*exp(-x/t1)+A2*exp(-x/t2)+y0
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0 a x = 0,88
+A1 (primer amplitud) = 10.747,2948685749 +/- 7,19533083766051e+17
+t1 (primer tiempo de vida) = 0,265304649901782 +/- 2.093.925.806,47248
+A2 (segunda amplitud) = 10.747,5596332132 +/- 7,19533083766052e+17
+t2 (segundo tiempo de vida) = 0,265300247189104 +/- 2.093.856.341,70947
+y0 (desplazamiento) = -952,010030029943 +/- 1.298,58177009032
+--------------------------------------------------------------------------------------
+Chi^2 = 455.101,692845493
+R^2 = 0,999359192466608
+---------------------------------------------------------------------------------------
+Iteraciones = 6
+Estado = success
+---------------------------------------------------------------------------------------
+[miércoles, 3 de abril de 2024 22:33:00 (CEST)	Gráfica: ''Gráfica2'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla1_2, usando función : A1*exp(-x/t1)+A2*exp(-x/t2)+y0
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0 a x = 0,66
+A1 (primer amplitud) = 11.070,2719282343 +/- 1,31686163253123e+18
+t1 (primer tiempo de vida) = 0,284484386245331 +/- 383.463.549,277283
+A2 (segunda amplitud) = 11.035,2279581271 +/- 1,31686163253123e+18
+t2 (segundo tiempo de vida) = 0,284484907566207 +/- 384.000.741,944846
+y0 (desplazamiento) = -1.651,86564015505 +/- 2.507,47052533984
+--------------------------------------------------------------------------------------
+Chi^2 = 154.024,678850425
+R^2 = 0,999783084924083
+---------------------------------------------------------------------------------------
+Iteraciones = 8
+Estado = success
+---------------------------------------------------------------------------------------
+[miércoles, 3 de abril de 2024 22:33:20 (CEST)	Gráfica: ''Gráfica2'']
+juste de Lorentz ajuste del conjunto de datos: Tabla1_2, usando función : y0+2*A/PI*w/(4*(x-xc)^2+w^2)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0 a x = 1,1
+A (amplitud) = 109,970291713172 +/- 6,4331587784253e+22
+xc (centro) = 1.362,77439521586 +/- 3,0694448437106e+20
+w (anchura) = -251,753832354047 +/- 7,77693318088598e+22
+y0 (desplazamiento) = 4.854,63954006508 +/- 26.234.838.550.059,9
+--------------------------------------------------------------------------------------
+Chi^2 = 450.970.528,400297
+R^2 = 0,365020704176674
+---------------------------------------------------------------------------------------
+Iteraciones = 19
+Estado = success
+---------------------------------------------------------------------------------------
+[sábado, 6 de abril de 2024 17:24:35 (CEST)	Gráfica: ''Gráfica10'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla1_2, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0 a x = 1,54
+A (amplitud) = 21.030,975684728 +/- 327,882019248623
+t (constante de tiempo-e) = 0,246259833378099 +/- 0,146246606385627
+y0 (desplazamiento) = -355,262179477879 +/- 163,466690502622
+--------------------------------------------------------------------------------------
+Chi^2 = 1.162.363,17622434
+R^2 = 0,998363377709312
+---------------------------------------------------------------------------------------
+Iteraciones = 6
+Estado = success
+---------------------------------------------------------------------------------------
+[sábado, 6 de abril de 2024 17:25:26 (CEST)	Gráfica: ''Gráfica10'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla1_2, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0 a x = 1,1
+A (amplitud) = 21.191,5187221034 +/- 320,244624428697
+t (constante de tiempo-e) = 0,25366102619853 +/- 0,150431728175503
+y0 (desplazamiento) = -574,122165077788 +/- 202,801976762882
+--------------------------------------------------------------------------------------
+Chi^2 = 822.207,141915295
+R^2 = 0,998842309022174
+---------------------------------------------------------------------------------------
+Iteraciones = 24
+Estado = success
+---------------------------------------------------------------------------------------
+[sábado, 6 de abril de 2024 17:25:43 (CEST)	Gráfica: ''Gráfica10'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla1_2, usando función : A1*exp(-x/t1)+A2*exp(-x/t2)+y0
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0 a x = 1,1
+A1 (primer amplitud) = 1.631.402,47283652 +/- 19.439.559.416,9317
+t1 (primer tiempo de vida) = 0,489647003479386 +/- 145,39032505482
+A2 (segunda amplitud) = -1.613.955,47264114 +/- 19.439.553.532,7158
+t2 (segundo tiempo de vida) = 0,495570147847761 +/- 147,05451065789
+y0 (desplazamiento) = 2.974,06176254518 +/- 5.979,35931123343
+--------------------------------------------------------------------------------------
+Chi^2 = 80.365,5275362951
+R^2 = 0,999886843057651
+---------------------------------------------------------------------------------------
+Iteraciones = 1000
+Estado = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[sábado, 6 de abril de 2024 17:25:44 (CEST)	Gráfica: ''Gráfica10'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla1_2, usando función : A1*exp(-x/t1)+A2*exp(-x/t2)+y0
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0 a x = 1,1
+A1 (primer amplitud) = 4.980.026,7245155 +/- 559.025.025.561,809
+t1 (primer tiempo de vida) = 0,491619069222466 +/- 447,138228073079
+A2 (segunda amplitud) = -4.962.579,52157239 +/- 559.025.019.678,399
+t2 (segundo tiempo de vida) = 0,493552271557951 +/- 448,802383561609
+y0 (desplazamiento) = 2.973,85747899346 +/- 5.978,54487176088
+--------------------------------------------------------------------------------------
+Chi^2 = 80.363,236129575
+R^2 = 0,999886846284016
+---------------------------------------------------------------------------------------
+Iteraciones = 1000
+Estado = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[sábado, 6 de abril de 2024 17:26:12 (CEST)	Gráfica: ''Gráfica10'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla1_2, usando función : A1*exp(-x/t1)+A2*exp(-x/t2)+y0
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0 a x = 1,1
+A1 (primer amplitud) = 10.595,7596844949 +/- 1,01048385443095e+18
+t1 (primer tiempo de vida) = 0,25366055753989 +/- 639.964.487,383998
+A2 (segunda amplitud) = 10.595,7597125902 +/- 1,01048385443095e+18
+t2 (segundo tiempo de vida) = 0,25366142114517 +/- 640.021.502,478758
+y0 (desplazamiento) = -574,121812689125 +/- 554,010911434882
+--------------------------------------------------------------------------------------
+Chi^2 = 822.207,141929236
+R^2 = 0,998842309022155
+---------------------------------------------------------------------------------------
+Iteraciones = 25
+Estado = success
+---------------------------------------------------------------------------------------
+[sábado, 6 de abril de 2024 17:27:15 (CEST)	Gráfica: ''Gráfica10'']
+Crecimiento exponencial ajuste del conjunto de datos: Tabla1_2, usando función : y0+A*exp(x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0 a x = 1,54
+A (amplitud) = -8.030.439.696,98575 +/- 6,28599385983031e+15
+t (tiempo de vida) = 731.034,394543598 +/- 1,07077046498087
+y0 (desplazamiento) = 8.030.451.250,42535 +/- 6,28599385983228e+15
+--------------------------------------------------------------------------------------
+Chi^2 = 183.655.016,131128
+R^2 = 0,741411376973169
+---------------------------------------------------------------------------------------
+Iteraciones = 1000
+Estado = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[sábado, 6 de abril de 2024 17:27:16 (CEST)	Gráfica: ''Gráfica10'']
+Crecimiento exponencial ajuste del conjunto de datos: Tabla1_2, usando función : y0+A*exp(x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0 a x = 1,54
+A (amplitud) = -18.155.833.884,7185 +/- 3,21273469051687e+16
+t (tiempo de vida) = 1.652.772,30041388 +/- 1,07064488050813
+y0 (desplazamiento) = 18.155.845.438,1613 +/- 3,21273469051707e+16
+--------------------------------------------------------------------------------------
+Chi^2 = 183.654.941,876627
+R^2 = 0,741411481524461
+---------------------------------------------------------------------------------------
+Iteraciones = 266
+Estado = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[sábado, 6 de abril de 2024 17:27:17 (CEST)	Gráfica: ''Gráfica10'']
+Crecimiento exponencial ajuste del conjunto de datos: Tabla1_2, usando función : y0+A*exp(x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0 a x = 1,54
+A (amplitud) = -18.155.833.884,7185 +/- 3,21825954416343e+16
+t (tiempo de vida) = 1.652.772,30041388 +/- 1,07248603985013
+y0 (desplazamiento) = 18.155.845.438,1613 +/- 3,21825954416363e+16
+--------------------------------------------------------------------------------------
+Chi^2 = 183.654.941,876627
+R^2 = 0,741411481524461
+---------------------------------------------------------------------------------------
+Iteraciones = 0
+Estado = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[sábado, 6 de abril de 2024 17:27:17 (CEST)	Gráfica: ''Gráfica10'']
+Crecimiento exponencial ajuste del conjunto de datos: Tabla1_2, usando función : y0+A*exp(x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0 a x = 1,54
+A (amplitud) = -18.155.833.884,7185 +/- 3,21825954416343e+16
+t (tiempo de vida) = 1.652.772,30041388 +/- 1,07248603985013
+y0 (desplazamiento) = 18.155.845.438,1613 +/- 3,21825954416363e+16
+--------------------------------------------------------------------------------------
+Chi^2 = 183.654.941,876627
+R^2 = 0,741411481524461
+---------------------------------------------------------------------------------------
+Iteraciones = 0
+Estado = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[sábado, 6 de abril de 2024 17:27:18 (CEST)	Gráfica: ''Gráfica10'']
+Crecimiento exponencial ajuste del conjunto de datos: Tabla1_2, usando función : y0+A*exp(x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0 a x = 1,54
+A (amplitud) = -18.155.833.884,7185 +/- 3,21825954416343e+16
+t (tiempo de vida) = 1.652.772,30041388 +/- 1,07248603985013
+y0 (desplazamiento) = 18.155.845.438,1613 +/- 3,21825954416363e+16
+--------------------------------------------------------------------------------------
+Chi^2 = 183.654.941,876627
+R^2 = 0,741411481524461
+---------------------------------------------------------------------------------------
+Iteraciones = 0
+Estado = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[sábado, 6 de abril de 2024 17:27:25 (CEST)	Gráfica: ''Gráfica10'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla1_2, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0 a x = 1,54
+A (amplitud) = 21.030,9757301439 +/- 327,882020509008
+t (constante de tiempo-e) = 0,246259824977688 +/- 0,146246610416249
+y0 (desplazamiento) = -355,262071384663 +/- 163,46668637779
+--------------------------------------------------------------------------------------
+Chi^2 = 1.162.363,17622589
+R^2 = 0,998363377709309
+---------------------------------------------------------------------------------------
+Iteraciones = 7
+Estado = success
+---------------------------------------------------------------------------------------
+[sábado, 6 de abril de 2024 17:27:59 (CEST)	Gráfica: ''Gráfica10'']
+Regresión Lineal ajuste del conjunto de datos: Tabla1_2, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 0 a x = 1,54
+B (y-intercección) = 11.553,4453411592 +/- 2.073,53097720084
+A (pendiente) = -10.985,0897085306 +/- 2.565,19841413971
+--------------------------------------------------------------------------------------
+Chi^2 = 183.654.883,151504
+R^2 = 0,741411564210189
+---------------------------------------------------------------------------------------
+[sábado, 6 de abril de 2024 17:29:51 (CEST)	Gráfica: ''Gráfica12'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla1_2, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0 a x = 1,1
+A (amplitud) = 21.191,5187233131 +/- 320,244624476247
+t (constante de tiempo-e) = 0,253661028566848 +/- 0,150431727261919
+y0 (desplazamiento) = -574,122203805864 +/- 202,801978704163
+--------------------------------------------------------------------------------------
+Chi^2 = 822.207,141915464
+R^2 = 0,998842309022174
+---------------------------------------------------------------------------------------
+Iteraciones = 7
+Estado = success
+---------------------------------------------------------------------------------------
+[sábado, 6 de abril de 2024 18:09:57 (CEST)	Gráfica: ''Gráfica4'']
+Regresión Lineal ajuste del conjunto de datos: Tabla1_4, usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 0 a x = 1,1
+B (y-intercección) = 4,43501472120952 +/- 0,047161905902936
+A (pendiente) = -2,43964842791722 +/- 0,0724710644272224
+--------------------------------------------------------------------------------------
+Chi^2 = 0,0629143689918119
+R^2 = 0,99944437726328
+---------------------------------------------------------------------------------------
+[sábado, 6 de abril de 2024 18:22:36 (CEST)	Gráfica: ''Gráfica13'']
+Decaimiento exponencial ajuste del conjunto de datos: Tabla1_2, usando función : y0+A*exp(-x/t)
+errores estándar Y: Desconocido
+Levenberg-Marquardt escalado algoritmo con tolerancia = 0,0001
+Desde x = 0 a x = 1,1
+A (amplitud) = 21.191,5187233131 +/- 320,244624476247
+t (constante de tiempo-e) = 0,253661028566848 +/- 0,150431727261919
+y0 (desplazamiento) = -574,122203805864 +/- 202,801978704163
+--------------------------------------------------------------------------------------
+Chi^2 = 822.207,141915464
+R^2 = 0,998842309022174
+---------------------------------------------------------------------------------------
+Iteraciones = 7
+Estado = success
+---------------------------------------------------------------------------------------
+</log>

@@ -1,0 +1,50 @@
+
+
+Añadirlas tras toma la toma de datos y procesamiento, comentando extra.
+
+
+
+
+
+[HECHO] 1. ¿Por qué no coincide N?
+
+Creo: inperfecciones por el ajuste, no tiene en cuenta la dispersión por el aire y la distancia
+
+
+---------
+2. Para las energias del sodio 22 (ver esquema), ¿valores de coef de atenuación en gráficas 4.5,4.6,4.7?
+3. Comparar los valores
+
+Mirar graficas y ponerlo en el informe
+---------
+
+[HECHO] 4. ¿A que se deben las diferencias?
+
+Solo se me ocurre lo mismo, que la dispersión y el aire están teniendo que ver
+
+
+[HECHO] 5. bajo que supuestos es válida la ley exponencial de atenuación de la radiación gamma?
+
+
+	- Homogeneidad del material
+    - Ausencia de dispersión y absorción múltiple: la radiación gamma no se dispersa ni se absorbe múltiples veces mientras atraviesa el material. No hay interacciones secundarias significativas.
+	- Interacciones independientes: interacciones entre los fotones de radiación gamma y el material son independientes.
+
+	- Ausencia de influencias externas: no hay influencias externas que afecten la atenuación de la radiación gamma, como campos magnéticos o eléctricos significativos que puedan desviar o modificar la trayectoria de los fotones.
+
+
+
+
+[HECHO] 6. Se observa decrecimiento exponencial con todos los absorbentes? 
+
+Pues no lo sé, creo que sí, había uno que no se nota tanto, el aluminio (es porque es peor atenuante entonces se nota más la variabilidad).
+
+
+
+
+
+
+
+
+
+

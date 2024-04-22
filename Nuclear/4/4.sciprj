@@ -1,0 +1,368 @@
+SciDAVis 2.9.2 project file
+<scripting-lang>	muParser
+<windows>	9
+<table>
+9497
+<table creation_time="2024-07-04 10:23:02:823" caption_spec="%n%C{ - }%c" name="Aluminio" columns="8" rows="13"><comment><![CDATA[]]></comment><column creation_time="2024-07-04 10:23:41:636" caption_spec="%n%C{ - }%c" name="Al Espesor mm" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2024-07-04 10:23:41:636" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2024-07-04 10:23:41:637" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">2.2000000000000002e+00</row><row type="TypeDouble" index="1" invalid="no">4.4000000000000004e+00</row><row type="TypeDouble" index="2" invalid="no">6.5999999999999996e+00</row><row type="TypeDouble" index="3" invalid="no">8.8000000000000007e+00</row><row type="TypeDouble" index="4" invalid="no">1.1000000000000000e+01</row><row type="TypeDouble" index="5" invalid="no">1.3199999999999999e+01</row><row type="TypeDouble" index="6" invalid="no">1.5400000000000000e+01</row><row type="TypeDouble" index="7" invalid="no">1.7600000000000001e+01</row><row type="TypeDouble" index="8" invalid="no">1.9800000000000001e+01</row><row type="TypeDouble" index="9" invalid="no">2.4199999999999999e+01</row><row type="TypeDouble" index="10" invalid="no">2.8600000000000001e+01</row><row type="TypeDouble" index="11" invalid="no">3.3000000000000000e+01</row><row type="TypeDouble" index="12" invalid="no">3.8299999999999997e+01</row></column><column creation_time="2024-07-04 10:23:41:637" caption_spec="%n%C{ - }%c" name="Cuentas" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2024-07-04 10:23:41:637" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2024-07-04 10:23:41:638" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">6.0610000000000000e+03</row><row type="TypeDouble" index="1" invalid="no">5.8750000000000000e+03</row><row type="TypeDouble" index="2" invalid="no">5.8700000000000000e+03</row><row type="TypeDouble" index="3" invalid="no">5.7440000000000000e+03</row><row type="TypeDouble" index="4" invalid="no">5.7070000000000000e+03</row><row type="TypeDouble" index="5" invalid="no">5.5490000000000000e+03</row><row type="TypeDouble" index="6" invalid="no">5.2470000000000000e+03</row><row type="TypeDouble" index="7" invalid="no">5.1340000000000000e+03</row><row type="TypeDouble" index="8" invalid="no">5.0800000000000000e+03</row><row type="TypeDouble" index="9" invalid="no">5.0240000000000000e+03</row><row type="TypeDouble" index="10" invalid="no">4.6100000000000000e+03</row><row type="TypeDouble" index="11" invalid="no">4.4820000000000000e+03</row><row type="TypeDouble" index="12" invalid="no">4.3170000000000000e+03</row></column><column creation_time="2024-07-04 10:23:41:638" caption_spec="%n%C{ - }%c" name="Cuentas sin fondo" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2024-07-04 10:23:41:638" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2024-07-04 10:23:41:639" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">5.8090000000000000e+03</row><row type="TypeDouble" index="1" invalid="no">5.6230000000000000e+03</row><row type="TypeDouble" index="2" invalid="no">5.6180000000000000e+03</row><row type="TypeDouble" index="3" invalid="no">5.4920000000000000e+03</row><row type="TypeDouble" index="4" invalid="no">5.4550000000000000e+03</row><row type="TypeDouble" index="5" invalid="no">5.2970000000000000e+03</row><row type="TypeDouble" index="6" invalid="no">4.9950000000000000e+03</row><row type="TypeDouble" index="7" invalid="no">4.8820000000000000e+03</row><row type="TypeDouble" index="8" invalid="no">4.8280000000000000e+03</row><row type="TypeDouble" index="9" invalid="no">4.7720000000000000e+03</row><row type="TypeDouble" index="10" invalid="no">4.3580000000000000e+03</row><row type="TypeDouble" index="11" invalid="no">4.2300000000000000e+03</row><row type="TypeDouble" index="12" invalid="no">4.0650000000000000e+03</row></column><column creation_time="2024-07-04 10:23:27:291" caption_spec="%n%C{ - }%c" name="log(Cuentas sin fondo)" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2024-07-04 10:23:27:291" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2024-07-04 10:23:27:291" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="12">log10(col(&quot;Cuentas sin fondo&quot;))</formula><row type="TypeDouble" index="0" invalid="no">3.7641013764762286e+00</row><row type="TypeDouble" index="1" invalid="no">3.7499680835094029e+00</row><row type="TypeDouble" index="2" invalid="no">3.7495817348655591e+00</row><row type="TypeDouble" index="3" invalid="no">3.7397305285647175e+00</row><row type="TypeDouble" index="4" invalid="no">3.7367947549243605e+00</row><row type="TypeDouble" index="5" invalid="no">3.7240299729355977e+00</row><row type="TypeDouble" index="6" invalid="no">3.6985354925620011e+00</row><row type="TypeDouble" index="7" invalid="no">3.6885977750811696e+00</row><row type="TypeDouble" index="8" invalid="no">3.6837672614253116e+00</row><row type="TypeDouble" index="9" invalid="no">3.6787004349983041e+00</row><row type="TypeDouble" index="10" invalid="no">3.6392872259102367e+00</row><row type="TypeDouble" index="11" invalid="no">3.6263403673750423e+00</row><row type="TypeDouble" index="12" invalid="no">3.6090605499300867e+00</row></column><column creation_time="2024-07-04 10:23:27:292" caption_spec="%n%C{ - }%c" name="4" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2024-07-04 10:23:27:292" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2024-07-04 10:23:27:292" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter></column><column creation_time="2024-07-04 10:23:41:639" caption_spec="%n%C{ - }%c" name="8" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2024-07-04 10:23:41:639" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2024-07-04 10:23:41:640" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter></column><column creation_time="2024-07-04 10:23:02:823" caption_spec="%n%C{ - }%c" name="1" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2024-07-04 10:23:02:823" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2024-07-04 10:23:02:824" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter></column><column creation_time="2024-07-04 10:23:02:824" caption_spec="%n%C{ - }%c" name="2" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2024-07-04 10:23:02:824" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2024-07-04 10:23:02:824" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter></column><column_width column="0">180</column_width><column_width column="1">180</column_width><column_width column="2">180</column_width><column_width column="3">180</column_width><column_width column="4">180</column_width><column_width column="5">180</column_width><column_width column="6">180</column_width><column_width column="7">180</column_width></table>
+geometry	110	-271	1277	476	
+
+</table>
+<table>
+9570
+<table creation_time="2024-07-04 10:39:18:532" caption_spec="%n%C{ - }%c" name="Hierro" columns="8" rows="13"><comment><![CDATA[]]></comment><column creation_time="2024-07-04 10:39:18:560" caption_spec="%n%C{ - }%c" name="Al Espesor mm" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2024-07-04 10:39:18:560" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2024-07-04 10:39:18:560" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">2.5000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">5.0000000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">7.5000000000000000e+00</row><row type="TypeDouble" index="3" invalid="no">1.0000000000000000e+01</row><row type="TypeDouble" index="4" invalid="no">1.2500000000000000e+01</row><row type="TypeDouble" index="5" invalid="no">1.5000000000000000e+01</row><row type="TypeDouble" index="6" invalid="no">1.7500000000000000e+01</row><row type="TypeDouble" index="7" invalid="no">2.0000000000000000e+01</row><row type="TypeDouble" index="8" invalid="no">2.5000000000000000e+01</row><row type="TypeDouble" index="9" invalid="no">3.0000000000000000e+01</row><row type="TypeDouble" index="10" invalid="no">3.5000000000000000e+01</row><row type="TypeDouble" index="11" invalid="no">3.7500000000000000e+01</row><row type="TypeDouble" index="12" invalid="no">3.9000000000000000e+01</row></column><column creation_time="2024-07-04 10:39:18:560" caption_spec="%n%C{ - }%c" name="Cuentas" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2024-07-04 10:39:18:560" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2024-07-04 10:39:18:560" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">6.0450000000000000e+03</row><row type="TypeDouble" index="1" invalid="no">5.7280000000000000e+03</row><row type="TypeDouble" index="2" invalid="no">5.2900000000000000e+03</row><row type="TypeDouble" index="3" invalid="no">4.8240000000000000e+03</row><row type="TypeDouble" index="4" invalid="no">4.5260000000000000e+03</row><row type="TypeDouble" index="5" invalid="no">4.2220000000000000e+03</row><row type="TypeDouble" index="6" invalid="no">3.8520000000000000e+03</row><row type="TypeDouble" index="7" invalid="no">3.7160000000000000e+03</row><row type="TypeDouble" index="8" invalid="no">3.1400000000000000e+03</row><row type="TypeDouble" index="9" invalid="no">2.6800000000000000e+03</row><row type="TypeDouble" index="10" invalid="no">2.4110000000000000e+03</row><row type="TypeDouble" index="11" invalid="no">2.2110000000000000e+03</row><row type="TypeDouble" index="12" invalid="no">2.0510000000000000e+03</row></column><column creation_time="2024-07-04 10:39:18:560" caption_spec="%n%C{ - }%c" name="Cuentas sin fondo" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2024-07-04 10:39:18:560" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2024-07-04 10:39:18:561" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="12">col(&quot;Cuentas&quot;)- 252</formula><row type="TypeDouble" index="0" invalid="no">5.7930000000000000e+03</row><row type="TypeDouble" index="1" invalid="no">5.4760000000000000e+03</row><row type="TypeDouble" index="2" invalid="no">5.0380000000000000e+03</row><row type="TypeDouble" index="3" invalid="no">4.5720000000000000e+03</row><row type="TypeDouble" index="4" invalid="no">4.2740000000000000e+03</row><row type="TypeDouble" index="5" invalid="no">3.9700000000000000e+03</row><row type="TypeDouble" index="6" invalid="no">3.6000000000000000e+03</row><row type="TypeDouble" index="7" invalid="no">3.4640000000000000e+03</row><row type="TypeDouble" index="8" invalid="no">2.8880000000000000e+03</row><row type="TypeDouble" index="9" invalid="no">2.4280000000000000e+03</row><row type="TypeDouble" index="10" invalid="no">2.1590000000000000e+03</row><row type="TypeDouble" index="11" invalid="no">1.9590000000000000e+03</row><row type="TypeDouble" index="12" invalid="no">1.7990000000000000e+03</row></column><column creation_time="2024-07-04 10:39:18:561" caption_spec="%n%C{ - }%c" name="log(Cuentas sin fondo)" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2024-07-04 10:39:18:561" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2024-07-04 10:39:18:561" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="12">log10(col(&quot;Cuentas sin fondo&quot;))</formula><row type="TypeDouble" index="0" invalid="no">3.7629035284990571e+00</row><row type="TypeDouble" index="1" invalid="no">3.7384634394619525e+00</row><row type="TypeDouble" index="2" invalid="no">3.7022581631620941e+00</row><row type="TypeDouble" index="3" invalid="no">3.6601062217232441e+00</row><row type="TypeDouble" index="4" invalid="no">3.6308345178280508e+00</row><row type="TypeDouble" index="5" invalid="no">3.5987905067631152e+00</row><row type="TypeDouble" index="6" invalid="no">3.5563025007672873e+00</row><row type="TypeDouble" index="7" invalid="no">3.5395778833453089e+00</row><row type="TypeDouble" index="8" invalid="no">3.4605971888976015e+00</row><row type="TypeDouble" index="9" invalid="no">3.3852486824032200e+00</row><row type="TypeDouble" index="10" invalid="no">3.3342526423342309e+00</row><row type="TypeDouble" index="11" invalid="no">3.2920344359947364e+00</row><row type="TypeDouble" index="12" invalid="no">3.2550311633455515e+00</row></column><column creation_time="2024-07-04 10:39:18:561" caption_spec="%n%C{ - }%c" name="4" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2024-07-04 10:39:18:561" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2024-07-04 10:39:18:561" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter></column><column creation_time="2024-07-04 10:39:18:562" caption_spec="%n%C{ - }%c" name="8" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2024-07-04 10:39:18:562" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2024-07-04 10:39:18:562" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter></column><column creation_time="2024-07-04 10:39:18:562" caption_spec="%n%C{ - }%c" name="1" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2024-07-04 10:39:18:562" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2024-07-04 10:39:18:562" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter></column><column creation_time="2024-07-04 10:39:18:563" caption_spec="%n%C{ - }%c" name="2" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2024-07-04 10:39:18:563" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2024-07-04 10:39:18:563" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter></column><column_width column="0">162</column_width><column_width column="1">109</column_width><column_width column="2">158</column_width><column_width column="3">148</column_width><column_width column="4">180</column_width><column_width column="5">180</column_width><column_width column="6">180</column_width><column_width column="7">180</column_width></table>
+geometry	89	250	1277	476	
+
+</table>
+<table>
+10169
+<table creation_time="2024-07-04 10:42:21:480" caption_spec="%n%C{ - }%c" name="Plomo" columns="8" rows="15"><comment><![CDATA[]]></comment><column creation_time="2024-07-04 10:42:21:505" caption_spec="%n%C{ - }%c" name="Al Espesor mm" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2024-07-04 10:42:21:505" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2024-07-04 10:42:21:505" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">9.0000000000000002e-01</row><row type="TypeDouble" index="1" invalid="no">1.8000000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">2.7000000000000002e+00</row><row type="TypeDouble" index="3" invalid="no">3.6000000000000001e+00</row><row type="TypeDouble" index="4" invalid="no">4.5000000000000000e+00</row><row type="TypeDouble" index="5" invalid="no">5.4000000000000004e+00</row><row type="TypeDouble" index="6" invalid="no">7.2000000000000002e+00</row><row type="TypeDouble" index="7" invalid="no">9.0000000000000000e+00</row><row type="TypeDouble" index="8" invalid="no">1.0800000000000001e+01</row><row type="TypeDouble" index="9" invalid="no">1.2600000000000000e+01</row><row type="TypeDouble" index="10" invalid="no">1.6199999999999999e+01</row><row type="TypeDouble" index="11" invalid="no">1.9800000000000001e+01</row><row type="TypeDouble" index="12" invalid="no">2.5199999999999999e+01</row><row type="TypeDouble" index="13" invalid="no">3.0600000000000001e+01</row><row type="TypeDouble" index="14" invalid="no">3.6700000000000003e+01</row></column><column creation_time="2024-07-04 10:42:21:506" caption_spec="%n%C{ - }%c" name="Cuentas" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2024-07-04 10:42:21:506" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2024-07-04 10:42:21:506" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">6.3270000000000000e+03</row><row type="TypeDouble" index="1" invalid="no">6.0510000000000000e+03</row><row type="TypeDouble" index="2" invalid="no">5.8380000000000000e+03</row><row type="TypeDouble" index="3" invalid="no">5.5720000000000000e+03</row><row type="TypeDouble" index="4" invalid="no">5.3300000000000000e+03</row><row type="TypeDouble" index="5" invalid="no">5.0380000000000000e+03</row><row type="TypeDouble" index="6" invalid="no">4.6140000000000000e+03</row><row type="TypeDouble" index="7" invalid="no">4.1540000000000000e+03</row><row type="TypeDouble" index="8" invalid="no">3.9460000000000000e+03</row><row type="TypeDouble" index="9" invalid="no">3.3980000000000000e+03</row><row type="TypeDouble" index="10" invalid="no">2.9140000000000000e+03</row><row type="TypeDouble" index="11" invalid="no">2.4730000000000000e+03</row><row type="TypeDouble" index="12" invalid="no">1.9590000000000000e+03</row><row type="TypeDouble" index="13" invalid="no">1.4360000000000000e+03</row><row type="TypeDouble" index="14" invalid="no">1.1010000000000000e+03</row></column><column creation_time="2024-07-04 10:42:21:506" caption_spec="%n%C{ - }%c" name="Cuentas sin fondo" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2024-07-04 10:42:21:506" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2024-07-04 10:42:21:506" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="14">col(&quot;Cuentas&quot;)- 252</formula><row type="TypeDouble" index="0" invalid="no">6.0750000000000000e+03</row><row type="TypeDouble" index="1" invalid="no">5.7990000000000000e+03</row><row type="TypeDouble" index="2" invalid="no">5.5860000000000000e+03</row><row type="TypeDouble" index="3" invalid="no">5.3200000000000000e+03</row><row type="TypeDouble" index="4" invalid="no">5.0780000000000000e+03</row><row type="TypeDouble" index="5" invalid="no">4.7860000000000000e+03</row><row type="TypeDouble" index="6" invalid="no">4.3620000000000000e+03</row><row type="TypeDouble" index="7" invalid="no">3.9020000000000000e+03</row><row type="TypeDouble" index="8" invalid="no">3.6940000000000000e+03</row><row type="TypeDouble" index="9" invalid="no">3.1460000000000000e+03</row><row type="TypeDouble" index="10" invalid="no">2.6620000000000000e+03</row><row type="TypeDouble" index="11" invalid="no">2.2210000000000000e+03</row><row type="TypeDouble" index="12" invalid="no">1.7070000000000000e+03</row><row type="TypeDouble" index="13" invalid="no">1.1840000000000000e+03</row><row type="TypeDouble" index="14" invalid="no">8.4900000000000000e+02</row></column><column creation_time="2024-07-04 10:42:21:507" caption_spec="%n%C{ - }%c" name="log(Cuentas sin fondo)" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2024-07-04 10:42:21:507" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2024-07-04 10:42:21:507" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="14">log10(col(&quot;Cuentas sin fondo&quot;))</formula><row type="TypeDouble" index="0" invalid="no">3.7835462822703496e+00</row><row type="TypeDouble" index="1" invalid="no">3.7633531087482153e+00</row><row type="TypeDouble" index="2" invalid="no">3.7471009313649861e+00</row><row type="TypeDouble" index="3" invalid="no">3.7259116322950483e+00</row><row type="TypeDouble" index="4" invalid="no">3.7056926965377035e+00</row><row type="TypeDouble" index="5" invalid="no">3.6799726942774185e+00</row><row type="TypeDouble" index="6" invalid="no">3.6396856612426816e+00</row><row type="TypeDouble" index="7" invalid="no">3.5912872650584990e+00</row><row type="TypeDouble" index="8" invalid="no">3.5674968911042226e+00</row><row type="TypeDouble" index="9" invalid="no">3.4977587182872680e+00</row><row type="TypeDouble" index="10" invalid="no">3.4252080511386565e+00</row><row type="TypeDouble" index="11" invalid="no">3.3465485585484740e+00</row><row type="TypeDouble" index="12" invalid="no">3.2322335211147335e+00</row><row type="TypeDouble" index="13" invalid="no">3.0733517023869008e+00</row><row type="TypeDouble" index="14" invalid="no">2.9289076902439528e+00</row></column><column creation_time="2024-07-04 10:42:21:507" caption_spec="%n%C{ - }%c" name="4" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2024-07-04 10:42:21:507" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2024-07-04 10:42:21:507" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter></column><column creation_time="2024-07-04 10:42:21:507" caption_spec="%n%C{ - }%c" name="8" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2024-07-04 10:42:21:507" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2024-07-04 10:42:21:507" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter></column><column creation_time="2024-07-04 10:42:21:508" caption_spec="%n%C{ - }%c" name="1" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2024-07-04 10:42:21:508" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2024-07-04 10:42:21:508" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter></column><column creation_time="2024-07-04 10:42:21:508" caption_spec="%n%C{ - }%c" name="2" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2024-07-04 10:42:21:508" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2024-07-04 10:42:21:508" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter></column><column_width column="0">162</column_width><column_width column="1">109</column_width><column_width column="2">158</column_width><column_width column="3">148</column_width><column_width column="4">180</column_width><column_width column="5">180</column_width><column_width column="6">180</column_width><column_width column="7">180</column_width></table>
+geometry	84	767	1277	476	
+
+</table>
+<multiLayer>
+Gráfica2	1	1	domingo, 7 de abril de 2024 10:29:15 (CEST)
+geometry	1402	-237	500	407	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	399	254
+Alignement	0	0
+<graph>
+ggeometry	5	5	479	340
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Espesor de Al (mm)	Cuentas			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Aluminio_Al Espesor mm	Aluminio_Cuentas sin fondo	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	12	1
+scale	0	4000	6000	0	5	8	1	0
+scale	1	4000	6000	0	8	5	1	0
+scale	2	0	40	0	8	5	0	0
+scale	3	0	40	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica3	1	1	domingo, 7 de abril de 2024 10:33:39 (CEST)
+geometry	1969	-228	500	400	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	409	254
+Alignement	0	0
+<graph>
+ggeometry	5	5	479	333
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Espesor de Al (mm)	log(Cuentas)			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Aluminio_Al Espesor mm	Aluminio_log(Cuentas sin fondo)	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	12	1
+FunctionCurve	0,LinealAjustar1,x,2.2,38.3	2			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	16	64		2	0	1519031216	21845	1
+<formula>
+B=3.77585812037874
+A=-0.00447180639339118
+
+A*x+B
+</formula>
+scale	0	3.6	3.8	0	8	5	0	0
+scale	1	3.6	3.8	0	8	5	0	0
+scale	2	0	40	0	8	5	0	0
+scale	3	0	40	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica4	1	1	domingo, 7 de abril de 2024 10:44:01 (CEST)
+geometry	1402	274	500	400	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	399	254
+Alignement	0	0
+<graph>
+ggeometry	5	5	479	333
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Espesor de Fe (mm)	Cuentas			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Hierro_Al Espesor mm	Hierro_Cuentas sin fondo	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	12	1
+scale	0	1500	6000	0	5	5	1	0
+scale	1	1500	6000	0	8	5	1	0
+scale	2	0	40	0	8	5	0	0
+scale	3	0	40	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica5	1	1	domingo, 7 de abril de 2024 10:44:10 (CEST)
+geometry	1964	265	500	400	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	418	254
+Alignement	0	0
+<graph>
+ggeometry	5	5	479	333
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Espesor de Fe (mm)	log(Cuentas)			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Hierro_Al Espesor mm	Hierro_log(Cuentas sin fondo)	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	12	1
+FunctionCurve	0,LinealAjustar1,x,2.5,39	2			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	16	64		2	0	1515873088	21845	1
+<formula>
+B=3.80259838273936
+A=-0.0137129750529679
+
+A*x+B
+</formula>
+scale	0	3.2	3.8	0	8	5	0	0
+scale	1	3.2	3.8	0	8	5	0	0
+scale	2	0	40	0	8	5	0	0
+scale	3	0	40	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica6	1	1	domingo, 7 de abril de 2024 10:44:18 (CEST)
+geometry	1411	807	500	400	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	399	254
+Alignement	0	0
+<graph>
+ggeometry	5	5	479	333
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Espesor de Pb (mm)	Cuentas			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Plomo_Al Espesor mm	Plomo_Cuentas sin fondo	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	14	1
+scale	0	800	7000	0	7	8	1	0
+scale	1	800	7000	0	8	5	1	0
+scale	2	0	40	0	8	5	0	0
+scale	3	0	40	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Gráfica7	1	1	domingo, 7 de abril de 2024 10:44:25 (CEST)
+geometry	1973	792	500	400	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	418	254
+Alignement	0	0
+<graph>
+ggeometry	5	5	479	333
+PlotTitle	 	#ff000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	0	0	0	0	#ff0000ff	0	0	#ffa0a0a4	2	0	#ff0000ff	0	0	#ffa0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Espesor de Pb (mm)	log(Cuentas)			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	Ubuntu	12	75	0	0	0
+ScaleFont0	Ubuntu	10	75	0	0	0
+ScaleFont1	Ubuntu	10	75	0	0	0
+ScaleFont2	Ubuntu	10	75	0	0	0
+ScaleFont3	Ubuntu	10	75	0	0	0
+AxisFont0	Ubuntu	10	50	0	0	0
+AxisFont1	Ubuntu	10	50	0	0	0
+AxisFont2	Ubuntu	10	50	0	0	0
+AxisFont3	Ubuntu	10	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Plomo_Al Espesor mm	Plomo_log(Cuentas sin fondo)	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	14	1
+FunctionCurve	0,LinealAjustar1,x,0.9,36.7	2			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	16	64		2	0	1529382224	21845	1
+<formula>
+B=3.81023399342454
+A=-0.0237724839398345
+
+A*x+B
+</formula>
+scale	0	2.8	4	0	8	5	0	0
+scale	1	2.8	4	0	8	5	0	0
+scale	2	0	40	0	8	5	0	0
+scale	3	0	40	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<log>
+[domingo, 7 de abril de 2024 10:37:17 (CEST)	Gráfica: ''Gráfica3'']
+Regresión Lineal ajuste del conjunto de datos: Aluminio_log(Cuentas sin fondo), usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 2,2 a x = 38,3
+B (y-intercección) = 3,77585812037874 +/- 0,00383955268773409
+A (pendiente) = -0,00447180639339118 +/- 0,000189464052009445
+--------------------------------------------------------------------------------------
+Chi^2 = 0,000596302507708991
+R^2 = 0,999996648398084
+---------------------------------------------------------------------------------------
+[domingo, 7 de abril de 2024 10:57:29 (CEST)	Gráfica: ''Gráfica5'']
+Regresión Lineal ajuste del conjunto de datos: Hierro_log(Cuentas sin fondo), usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 2,5 a x = 39
+B (y-intercección) = 3,80259838273936 +/- 0,00393111911151438
+A (pendiente) = -0,0137129750529679 +/- 0,000169990710369228
+--------------------------------------------------------------------------------------
+Chi^2 = 0,000601181007062458
+R^2 = 0,999996301207515
+---------------------------------------------------------------------------------------
+[domingo, 7 de abril de 2024 10:57:35 (CEST)	Gráfica: ''Gráfica7'']
+Regresión Lineal ajuste del conjunto de datos: Plomo_log(Cuentas sin fondo), usando función : A*x+B
+errores estándar Y: Desconocido
+Desde x = 0,9 a x = 36,7
+B (y-intercección) = 3,81023399342454 +/- 0,00365427334210453
+A (pendiente) = -0,0237724839398345 +/- 0,00022226251519658
+--------------------------------------------------------------------------------------
+Chi^2 = 0,00110681574854606
+R^2 = 0,999994055269925
+---------------------------------------------------------------------------------------
+</log>
