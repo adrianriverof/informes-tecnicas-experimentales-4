@@ -105,7 +105,7 @@ breaklinks=true,pdfborder={0 0 1},backref=false,colorlinks=false]
 	
 	\vspace{\baselineskip}
 	
-	El coeficiente de rozamiento $\lambda$ o coeficiente de resistencia de Darcy-Weisbach se usa para evaluar las pérdidas viscosas. Podemos obtener $\lambda$ con la expresión
+	El coeficiente de rozamiento $\lambda$, factor de fricción o coeficiente de resistencia de Darcy-Weisbach se usa para evaluar las pérdidas viscosas. Podemos obtener $\lambda$ con la expresión
 	\[\lambda = \frac{d}{L} \cdot \frac{\rho g h_f}{\frac{1}{2} \rho U^2} = \frac{d}{L} \cdot \frac{\mathit{\Delta}p}{\frac{1}{2} \rho U^2}\]
 	
 	Para tubos horizontales de sección circular y régimen laminar, el factor de fricción es 
@@ -170,54 +170,6 @@ breaklinks=true,pdfborder={0 0 1},backref=false,colorlinks=false]
 	\end{itemize}
 	
 	\vspace{\baselineskip}
-	\vspace{\baselineskip}
-	
-	
-	Para obtener las medidas de longitud del capilar, lo llenamos de agua, lo pesamos varias veces y calculamos la media, para reducir el error, que devemos calcular según su desviación típica:
-	
-	
-	\begin{table}[H]
-		\centering
-		\begin{tabular}{c|c|c|}
-			\cline{2-3}
-			& Valor & Error \\ \hline
-			\multicolumn{1}{|c|}{Medida 1} & 45,67 & 0,01 \\ \hline
-			\multicolumn{1}{|c|}{Medida 2} & 45,60 & 0,01 \\ \hline
-			\multicolumn{1}{|c|}{Medida 3} & 45,66 & 0,01 \\ \hline\hline								
-			\multicolumn{1}{|c|}{Media} & 45,64 & 0,02 \\ \hline
-		\end{tabular}
-	\end{table}
-	
-	
-	De modo que $m_{capilar} = 45,64 \pm 0,02 \si{g}$
-	
-	
-	
-	\vspace{\baselineskip}
-	
-	
-	
-	\iffalse
-	\item masa capilar con agua: $45,64\pm 0,01 \si{g}$
-	\item masa capilar sin agua: $41,45\pm 0,01 \si{g}$
-	\item longitud del capilar: $l = 60\pm 1\si{cm}$
-	\item masa agua en capilar	4,1933333333333    % mucho de esto es dependiente, por lo que hay que calcularlo, o sea QUITAR DE AQUI LAS QUE NO SEAN DIRECTAS!!!!!
-	\item volumen de agua en capilar (cm3)	4,1933333333333
-	\item radio capilar	0,149152017310305
-	\item diametro (cm)	0,298304034620611
-	
-	masa capilar con agua	45,67
-	45,6
-	45,66
-	media	45,6433333333333
-	\fi
-	
-	
-	En el capilar, 
-	\[V = \pi R^2 \cdot l \longrightarrow R = \sqrt{\frac{V}{\pi l}}\]
-	
-	%oh dios mio propagar esto va a ser horrible
-	
 	
 	
 	
@@ -257,6 +209,91 @@ breaklinks=true,pdfborder={0 0 1},backref=false,colorlinks=false]
 		\end{tabular}
 		\caption{Caudal y diferencia de presión en función de la masa de agua expulsada a distintas alturas}
 	\end{table}
+	
+	\vspace{\baselineskip}
+	
+	
+	Para obtener las medidas del capilar, lo llenamos de agua, lo pesamos varias veces y calculamos la media, para reducir el error, que debemos calcular según su desviación típica:
+	
+	
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{c|c|c|}
+			\cline{2-3}
+			& Valor & Error \\ \hline
+			\multicolumn{1}{|c|}{Medida 1} & 45,67 & 0,01 \\ \hline
+			\multicolumn{1}{|c|}{Medida 2} & 45,60 & 0,01 \\ \hline
+			\multicolumn{1}{|c|}{Medida 3} & 45,66 & 0,01 \\ \hline\hline								
+			\multicolumn{1}{|c|}{Media} & 45,64 & 0,02 \\ \hline
+		\end{tabular}
+	\caption{Media de las medidas de masa del capilar con agua}
+	\end{table}
+	
+	
+	De modo que la masa del capilar con agua es 
+	\[ m_{total} = 45,64 \pm 0,02 \si{g} \]
+	
+	Ahora, pesamos el capilar sin agua, y restándolo al valor anterior obtenemos la masa (y por tanto el volumen) del agua en el interior del capilar.
+	
+
+	\[m_{capilar} = 41,45\pm 0,01 \si{g}\]
+	\[ m_{agua} = 4,19 \pm 0,03 \si{g}\]
+	\[V_{agua} = \frac{m_{agua}}{\rho} = 4,20 \pm 0,03 \si{cm^3}\]
+	
+	Donde el error $\Delta m_{agua}$ ha sido propagado
+	\[ \Delta m_{agua} = \left|\frac{\partial m_{agua}}{\partial m_{total}}\right|\Delta m_{total} + \left|\frac{\partial m_{agua}}{\partial m_{capilar}}\right|\Delta m_{capilar}
+	\]
+	
+	\vspace{\baselineskip}
+	
+	La longitud del capilar ha sido medida como:
+	\[l = 60\pm 1\si{cm} \]
+	
+	
+	
+	
+	\vspace{\baselineskip}
+	
+	
+	
+	
+	
+	Ahora para obtener el radio, partimos del volumen
+	\[V = \pi R^2 \cdot l \longrightarrow R = \sqrt{\frac{V}{\pi l}}\]
+	\[ \Delta R = \frac{1}{2\sqrt{\pi l V}} \Delta V + \frac{1}{2}\sqrt{\frac{V}{\pi l^3}}\Delta l
+	\]
+	\[ R = 0,149 \pm 0,002 \si{cm}
+	\]
+	Y por tanto su diámetro
+	\[ d = 0,299\pm 0,004 \si{cm}
+	\]
+	
+	%oh dios mio propagar esto va a ser horrible
+	
+	
+	
+	
+	\iffalse
+	
+	\begin{itemize}
+		\item 
+	\end{itemize}
+	
+	
+	
+	\item masa capilar con agua: $45,64\pm 0,01 \si{g}$
+	\item masa capilar sin agua: $41,45\pm 0,01 \si{g}$
+	\item longitud del capilar: $l = 60\pm 1\si{cm}$
+	\item masa agua en capilar	4,1933333333333    % mucho de esto es dependiente, por lo que hay que calcularlo, o sea QUITAR DE AQUI LAS QUE NO SEAN DIRECTAS!!!!!
+	\item volumen de agua en capilar (cm3)	4,1933333333333
+	\item radio capilar	0,149152017310305
+	\item diametro (cm)	0,298304034620611
+	
+	masa capilar con agua	45,67
+	45,6
+	45,66
+	media	45,6433333333333
+	\fi
 	
 	
 	
@@ -417,13 +454,18 @@ breaklinks=true,pdfborder={0 0 1},backref=false,colorlinks=false]
 	
 	\subsection*{Número de Reynolds}
 	
-	
+	\[Re = \frac{\nu \rho D}{\mu}= \frac{U \rho d}{\mu}\] 
 	
 	\subsection*{Velocidad promedio}
 	
+	\[U = \frac{Q}{\pi R^2} \]
+	
 	\subsection*{Factor de fricción}
 	
-	
+	\[\lambda = \frac{d}{L} \cdot \frac{\rho g h_f}{\frac{1}{2} \rho U^2} = \frac{d}{L} \cdot \frac{\mathit{\Delta}p}{\frac{1}{2} \rho U^2}\]
+
+	\[\lambda = \frac{64}{Re}\]
+
 	
 	
 	\section{Conclusiones}
