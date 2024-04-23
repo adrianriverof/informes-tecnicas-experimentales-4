@@ -167,24 +167,51 @@ breaklinks=true,pdfborder={0 0 1},backref=false,colorlinks=false]
 		\item Error en medida de tiempo: $\Delta t = \pm 0,5 \si{s}$
 		\item Densidad del agua: $\rho = 0,998\pm 0,001 \si{g/cm^3 }$
 		\item Gravedad: $g = 981\pm 1 \si{cm/s^2}$
-		\item masa capilar con agua	45,6433333333333
-		\item masa capilar	41,45
-		\item longitud capilar (cm)	60
-		\item masa agua en capilar	4,1933333333333    % mucho de esto es dependiente, por lo que hay que calcularlo, o sea QUITAR DE AQUI LAS QUE NO SEAN DIRECTAS!!!!!
-		\item volumen de agua en capilar (cm3)	4,1933333333333
-		\item radio capilar	0,149152017310305
-		\item diametro (cm)	0,298304034620611
-		\item masa capilar con agua: 45,6433333333333
 	\end{itemize}
+	
+	\vspace{\baselineskip}
+	\vspace{\baselineskip}
+	
+	
+	Para obtener las medidas de longitud del capilar, lo llenamos de agua, lo pesamos varias veces y calculamos la media, para reducir el error, que devemos calcular según su desviación típica:
+	
+	
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{c|c|c|}
+			\cline{2-3}
+			& Valor & Error \\ \hline
+			\multicolumn{1}{|c|}{Medida 1} & 45,67 & 0,01 \\ \hline
+			\multicolumn{1}{|c|}{Medida 2} & 45,60 & 0,01 \\ \hline
+			\multicolumn{1}{|c|}{Medida 3} & 45,66 & 0,01 \\ \hline\hline								
+			\multicolumn{1}{|c|}{Media} & 45,64 & 0,02 \\ \hline
+		\end{tabular}
+	\end{table}
+	
+	
+	De modo que $m_{capilar} = 45,64 \pm 0,02 \si{g}$
+	
+	
+	
+	\vspace{\baselineskip}
 	
 	
 	
 	\iffalse
+	\item masa capilar con agua: $45,64\pm 0,01 \si{g}$
+	\item masa capilar sin agua: $41,45\pm 0,01 \si{g}$
+	\item longitud del capilar: $l = 60\pm 1\si{cm}$
+	\item masa agua en capilar	4,1933333333333    % mucho de esto es dependiente, por lo que hay que calcularlo, o sea QUITAR DE AQUI LAS QUE NO SEAN DIRECTAS!!!!!
+	\item volumen de agua en capilar (cm3)	4,1933333333333
+	\item radio capilar	0,149152017310305
+	\item diametro (cm)	0,298304034620611
+	
 	masa capilar con agua	45,67
 	45,6
 	45,66
 	media	45,6433333333333
 	\fi
+	
 	
 	En el capilar, 
 	\[V = \pi R^2 \cdot l \longrightarrow R = \sqrt{\frac{V}{\pi l}}\]
