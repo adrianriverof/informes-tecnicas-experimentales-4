@@ -224,7 +224,7 @@ breaklinks=true,pdfborder={0 0 1},backref=false,colorlinks=false]
 			& Valor & Error \\ \hline
 			\multicolumn{1}{|c|}{Medida 1} & 45,67 & 0,01 \\ \hline
 			\multicolumn{1}{|c|}{Medida 2} & 45,60 & 0,01 \\ \hline
-			\multicolumn{1}{|c|}{Medida 3} & 45,66 & 0,01 \\ \hline\hline								
+			\multicolumn{1}{|c|}{Medida 3} & 45,66 & 0,01 \\ \hline\hline
 			\multicolumn{1}{|c|}{Media} & 45,64 & 0,02 \\ \hline
 		\end{tabular}
 	\caption{Media de las medidas de masa del capilar con agua}
@@ -248,7 +248,7 @@ breaklinks=true,pdfborder={0 0 1},backref=false,colorlinks=false]
 	\vspace{\baselineskip}
 	
 	La longitud del capilar ha sido medida como:
-	\[l = 60\pm 1\si{cm} \]
+	\[L = 60\pm 1\si{cm} \]
 	
 	
 	
@@ -260,8 +260,8 @@ breaklinks=true,pdfborder={0 0 1},backref=false,colorlinks=false]
 	
 	
 	Ahora para obtener el radio, partimos del volumen
-	\[V = \pi R^2 \cdot l \longrightarrow R = \sqrt{\frac{V}{\pi l}}\]
-	\[ \Delta R = \frac{1}{2\sqrt{\pi l V}} \Delta V + \frac{1}{2}\sqrt{\frac{V}{\pi l^3}}\Delta l
+	\[V = \pi R^2 \cdot L \longrightarrow R = \sqrt{\frac{V}{\pi L}}\]
+	\[ \Delta R = \frac{1}{2\sqrt{\pi L V}} \Delta V + \frac{1}{2}\sqrt{\frac{V}{\pi L^3}}\Delta L
 	\]
 	\[ R = 0,149 \pm 0,002 \si{cm}
 	\]
@@ -413,9 +413,9 @@ breaklinks=true,pdfborder={0 0 1},backref=false,colorlinks=false]
 	\iffalse
 	B (y-intercección) = -0,227877457028667 +/- 0,0204241529800304
 	A (pendiente) = 0,000302759774035129 +/- 8,30618954225738e-06
-	--------------------------------------------------------------------------------------
+	---------------------------------------------------------------------
 	Chi^2 = 10,5663151320189
-	R^2 = 0,992109752840265
+	R^2 = 0,992109752840265 
 	---------------------------------------------------------------------
 	\fi
 	
@@ -449,18 +449,19 @@ breaklinks=true,pdfborder={0 0 1},backref=false,colorlinks=false]
 	Con el ajuste por mínimos cuadrados en la Figura \ref{fig:caudallaminar} y la expresión de la ley de Hagen-Poiseuille, podemos despejar la viscosidad dinámica
 	
 	
-	\[U = \frac{Q}{\pi R^2} = \frac{R^2 \mathit{\Delta} p}{8\mu l} \longrightarrow \mu = \frac{R^4\pi \mathit{\Delta p}}{Q 8 l}
+	\[U = \frac{Q}{\pi R^2} = \frac{R^2 \mathit{\Delta} p}{8\mu L} \longrightarrow \mu = \frac{R^4\pi \mathit{\Delta p}}{Q 8 L}
 	\] 
 	La pendiente de la recta de ajuste
 	
 	\[A = \frac{Q}{\mathit{\Delta}p} = (3,03 \pm 0,08) \cdot 10^{-4} \si{cm^4 s / g} \]
 	
 	De modo que podemos sustituir
-	\[ \mu = \frac{R^4\pi }{A 8 l}
+	\[ \mu = \frac{R^4\pi }{A 8 L}
 	\]
-	\[ \Delta \mu = \left| \frac{4R^3\pi}{8A\cdot l} 
-	\right| \Delta R + \left| -\frac{R^4 \pi }{8A \cdot l^2}
-	  \right| \Delta l + \left| -\frac{R^4 \pi}{8 A^2 \cdot l}
+	
+	\[ \Delta \mu = \left| \frac{4R^3\pi}{8A\cdot L} 
+	\right| \Delta R + \left| -\frac{R^4 \pi }{8A \cdot L^2}
+	  \right| \Delta L + \left| -\frac{R^4 \pi}{8 A^2 \cdot L}
 	  \right| \Delta A
 	\]
 	
@@ -508,9 +509,10 @@ breaklinks=true,pdfborder={0 0 1},backref=false,colorlinks=false]
 	\subsection*{Factor de fricción}
 	
 	\[\lambda = \frac{d}{L} \cdot \frac{\rho g h_f}{\frac{1}{2} \rho U^2} = \frac{d}{L} \cdot \frac{\mathit{\Delta}p}{\frac{1}{2} \rho U^2}\]
-
-	\[\lambda = \frac{64}{Re}\]
-
+	
+	\[\lambda = \frac{64}{Re}
+	\]
+	
 	
 	
 	\section{Conclusiones}
@@ -518,6 +520,10 @@ breaklinks=true,pdfborder={0 0 1},backref=false,colorlinks=false]
 	
 	
 	
-
-
+	
+	
 \end{document}
+
+
+
+
