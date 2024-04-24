@@ -208,6 +208,7 @@ breaklinks=true,pdfborder={0 0 1},backref=false,colorlinks=false]
 			\multicolumn{1}{|c|}{$\pm 0,1$} & \multicolumn{1}{c|}{$\pm0,2$} & \multicolumn{1}{c|}{$\pm0,01$} & \multicolumn{1}{c|}{$\pm0,02$} &  &  &  &  \\ \cline{1-4}
 		\end{tabular}
 		\caption{Caudal y diferencia de presión en función de la masa de agua expulsada a distintas alturas}
+		\label{tab:QDeltap}
 	\end{table}
 	
 	\vspace{\baselineskip}
@@ -483,10 +484,26 @@ breaklinks=true,pdfborder={0 0 1},backref=false,colorlinks=false]
 	Como vimos 
 	\[Re = \frac{\nu \rho D}{\mu}= \frac{U \rho d}{\mu}\] 
 	Mientras el error
+	\[ \Delta Re = \left|  \frac{\rho d}{\mu}\
+	\right| \Delta U + \left| \frac{U  d}{\mu}\
+	\right| \Delta \rho + \left| \frac{U \rho }{\mu}\
+	\right| \Delta d + \left| -\frac{U \rho d}{\mu^2}\
+	\right| \Delta \mu
+	\]
 	
+	\iffalse
 	\subsection*{Velocidad promedio}
 	
 	\[U = \frac{Q}{\pi R^2} \]
+	\fi
+	
+	Tendremos que obtener el $Re$ para cada caudal $Q$ de los obtenidos en la Tabla \ref{tab:QDeltap}, calculando antes la velocidad promedio:
+	\[ U = \frac{Q}{\pi R^2}
+	\]
+	\[ \Delta U = \left| \frac{1}{\pi R^2}
+	\right|\Delta Q + \left| -2\frac{Q}{\pi R^3}
+	\right| \Delta R
+	\]
 	
 	\subsection*{Factor de fricción}
 	
