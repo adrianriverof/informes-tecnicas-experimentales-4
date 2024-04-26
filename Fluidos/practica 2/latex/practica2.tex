@@ -573,19 +573,109 @@ breaklinks=true,pdfborder={0 0 1},backref=false,colorlinks=false]
 	
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\linewidth]{../Moody1}
+	\includegraphics[width=\linewidth]{../Moody1}
 	\caption{Diagrama de Moody experimental}
 	\label{fig:moody1}
 \end{figure}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|}
+		\hline
+		Re [X] & Error Re & $\lambda$ [Y] & $\Delta \lambda$\\ \hline
+		3400 & 600 & 0,043 & 0,008 \\ \hline
+		3100 & 600 & 0,047 & 0,009 \\ \hline
+		3100 & 600 & 0,045 & 0,009 \\ \hline
+		2900 & 500 & 0,045 & 0,009 \\ \hline
+		2900 & 500 & 0,040 & 0,008 \\ \hline
+		2700 & 500 & 0,043 & 0,008 \\ \hline
+		2600 & 500 & 0,039 & 0,008 \\ \hline
+		2500 & 500 & 0,036 & 0,007 \\ \hline
+		2400 & 400 & 0,036 & 0,007 \\ \hline
+		2100 & 400 & 0,039 & 0,008 \\ \hline
+		1600 & 300 & 0,048 & 0,009 \\ \hline
+		1500 & 300 & 0,050 & 0,010 \\ \hline
+		1400 & 200 & 0,055 & 0,011 \\ \hline
+		1200 & 200 & 0,059 & 0,012 \\ \hline
+		1000 & 190 & 0,068 & 0,014 \\ \hline
+		850 & 160 & 0,079 & 0,017 \\ \hline
+		760 & 140 & 0,087 & 0,019 \\ \hline
+		650 & 120 & 0,10 & 0,02 \\ \hline
+		460 & 80 & 0,16 & 0,04 \\ \hline
+		380 & 70 & 0,20 & 0,05 \\ \hline
+		300 & 60 & 0,28 & 0,07 \\ \hline
+		240 & 40 & 0,38 & 0,10 \\ \hline
+		170 & 30 & 0,59 & 0,17 \\ \hline
+		80 & 20 & 1,5 & 0,5 \\ \hline
+	\end{tabular}
+	\caption{Tabla de datos de la Figura \ref{fig:moody1}}
+	\label{tab:my-table}
+\end{table}
 	
 	
+	Aquí podemos ver claramente el cambio de flujo laminar a turbulento, en los valores de Reynolds cercanos a 2000.
+	
+	\vspace{\baselineskip}
+	\vspace{\baselineskip}
 	
 	
+	Ahora obtenemos los valores teóricos para flujo laminar mediante
 	
-	
-	
-	\[\lambda = \frac{64}{Re}
+	\[\lambda_{lam} = \frac{64}{Re}
 	\]
+	
+	y para turbulento obteniendo el resultado semi-empírico de 
+	\[\frac{1}{\sqrt{\lambda}} = 2 \log_{10}(Re\sqrt{\lambda})- 0,8
+	\]
+	nos da la $\lambda_{tur}$.
+	
+	Superponiendo los tres valores de $\lambda$ tenemos la Figura \ref{fig:moodyteoricosuperpuesto}
+	
+	
+	
+	
+	
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{../moody_teorico_superpuesto}
+	\caption{Diagrama de Moody teórico}
+	\label{fig:moodyteoricosuperpuesto}
+\end{figure}
+	
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|c|c|c|c|}
+			\hline
+			Re & $\lambda$ & $\lambda_{lam}$ & $\lambda_{tur}$ \\ \hline
+			3400 & 0,043 & 0,019 & 0,041 \\ \hline
+			3100 & 0,047 & 0,021 & 0,042 \\ \hline
+			3100 & 0,045 & 0,021 & 0,042 \\ \hline
+			2900 & 0,045 & 0,022 & 0,043 \\ \hline
+			2900 & 0,040 & 0,022 & 0,043 \\ \hline
+			2700 & 0,043 & 0,024 & 0,044 \\ \hline
+			2600 & 0,039 & 0,024 & 0,044 \\ \hline
+			2500 & 0,036 & 0,025 & 0,045 \\ \hline
+			2400 & 0,036 & 0,027 & 0,046 \\ \hline
+			2100 & 0,039 & 0,031 & 0,048 \\ \hline
+			1600 & 0,048 & 0,039 & 0,051 \\ \hline
+			1500 & 0,050 & 0,042 & 0,053 \\ \hline
+			1400 & 0,055 & 0,047 & 0,055 \\ \hline
+			1200 & 0,059 & 0,053 & 0,057 \\ \hline
+			1000 & 0,068 & 0,062 & 0,060 \\ \hline
+			850 & 0,079 & 0,075 & 0,064 \\ \hline
+			760 & 0,087 & 0,084 & 0,067 \\ \hline
+			650 & 0,10 & 0,099 & 0,071 \\ \hline
+			460 & 0,16 & 0,139 & 0,081 \\ \hline
+			380 & 0,20 & 0,167 & 0,087 \\ \hline
+			300 & 0,28 & 0,217 & 0,098 \\ \hline
+			240 & 0,38 & 0,270 & 0,107 \\ \hline
+			170 & 0,59 & 0,379 & 0,125 \\ \hline
+			80 & 1,5 & 0,762 & 0,178 \\ \hline
+		\end{tabular}
+		\caption{Tabla de datos de la Figura \ref{fig:moodyteoricosuperpuesto}}
+		\label{tab:my-table}
+	\end{table}
+	
 	
 	
 	
