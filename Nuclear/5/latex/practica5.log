@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.31)  28 APR 2024 08:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.31)  28 APR 2024 08:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -731,7 +731,7 @@ File: imagenes/IMG_20240305_161034.jpg Graphic file (type jpg)
 Package pdftex.def Info: imagenes/IMG_20240305_161034.jpg  used on input line 9
 8.
 (pdftex.def)             Requested size: 272.99881pt x 204.74538pt.
-[27
+[28
 
 
 
@@ -825,7 +825,7 @@ Overfull \hbox (17.55095pt too wide) in paragraph at lines 155--156
  [][] 
  []
 
-[28 <./imagenes/IMG_20240305_161034.jpg> <./imagenes/americio.png>]
+[29 <./imagenes/IMG_20240305_161034.jpg> <./imagenes/americio.png>]
 <imagenes/tempFileForShare_20240411-123131.jpg, id=63, 968.61874pt x 792.9625pt
 >
 File: imagenes/tempFileForShare_20240411-123131.jpg Graphic file (type jpg)
@@ -833,7 +833,7 @@ File: imagenes/tempFileForShare_20240411-123131.jpg Graphic file (type jpg)
 Package pdftex.def Info: imagenes/tempFileForShare_20240411-123131.jpg  used on
  input line 170.
 (pdftex.def)             Requested size: 272.99881pt x 223.49203pt.
- [29 <./graficas recortadas/11.png> <./graficas recortadas/12.png> <./graficas 
+ [30 <./graficas recortadas/11.png> <./graficas recortadas/12.png> <./graficas 
 recortadas/13.png> <./graficas recortadas/14.png> <./graficas recortadas/15.png
 > <./graficas recortadas/16.png>]
 <imagenes/5_1.png, id=75, 470.62224pt x 353.83392pt>
@@ -841,7 +841,7 @@ File: imagenes/5_1.png Graphic file (type png)
 <use imagenes/5_1.png>
 Package pdftex.def Info: imagenes/5_1.png  used on input line 196.
 (pdftex.def)             Requested size: 350.99762pt x 263.90623pt.
- [30 <./imagenes/tempFileForShare_20240411-123131.jpg>]
+ [31 <./imagenes/tempFileForShare_20240411-123131.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 202--203
 
  []
@@ -863,7 +863,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 213.
 
-[31 <./imagenes/5_1.png>]
+[32 <./imagenes/5_1.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 231.
@@ -898,7 +898,7 @@ File: imagenes/image.C52AM2.png Graphic file (type png)
 <use imagenes/image.C52AM2.png>
 Package pdftex.def Info: imagenes/image.C52AM2.png  used on input line 250.
 (pdftex.def)             Requested size: 272.99881pt x 180.25381pt.
-[32 <./graficas recortadas/17.png>]
+[33 <./graficas recortadas/17.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 260.
@@ -916,7 +916,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 263--264
 
  []
 
-[33 <./imagenes/image.C52AM2.png>]
+[34 <./imagenes/image.C52AM2.png>]
 <graficas recortadas/18.png, id=112, 1481.535pt x 971.12813pt>
 File: graficas recortadas/18.png Graphic file (type png)
 <use graficas recortadas/18.png>
@@ -932,7 +932,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 305--306
 
  []
 
-[34 <./graficas recortadas/18.png>]
+[35 <./graficas recortadas/18.png>]
 <graficas recortadas/19.png, id=119, 1761.58125pt x 1113.40968pt>
 File: graficas recortadas/19.png Graphic file (type png)
 <use graficas recortadas/19.png>
@@ -944,7 +944,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 328--329
  []
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 339.
-[35 <./graficas recortadas/19.png>]
+[36 <./graficas recortadas/19.png>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 339.
  (./practica5.aux
 LaTeX Info: Redefining \. on input line 25.
@@ -976,7 +976,7 @@ fonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 mf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/publi
 c/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.
 pfb>
-Output written on practica5.pdf (9 pages, 13665679 bytes).
+Output written on practica5.pdf (9 pages, 13665677 bytes).
 PDF statistics:
  175 PDF objects out of 1000 (max. 8388607)
  124 compressed objects within 2 object streams
