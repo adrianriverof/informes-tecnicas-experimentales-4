@@ -1,0 +1,171 @@
+
+
+
+\documentclass[a4paper,12pt,spanish]{report}
+
+\usepackage[utf8]{inputenc}
+
+
+\usepackage{blindtext}
+%\usepackage{microtype}
+\usepackage{amsfonts, amsmath, amsthm, amssymb}
+%\usepackage{fancyhdr}
+%\usepackage{index}
+%\usepackage{multicol}    
+
+%\usepackage{booktabs}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage{url}
+\usepackage{enumitem}
+
+\usepackage[unicode=true, pdfusetitle,
+bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
+breaklinks=true,pdfborder={0 0 0},backref=false,colorlinks=true, linkcolor=blue]
+{hyperref}
+
+%\hypersetup{
+%	colorlinks=true,  % Activa los enlaces en color
+%	linkcolor=blue,  % Color de los enlaces internos (secciones, ecuaciones, etc.)
+%	citecolor=green,  % Color de las citas
+%	urlcolor=cyan  % Color de los enlaces URL
+%}
+
+
+\usepackage{listings}
+\usepackage{longtable}
+
+
+\usepackage{siunitx} %para el sistema internacional
+\usepackage[export]{adjustbox}
+\usepackage{booktabs} 
+\usepackage{subcaption}
+
+\usepackage{float}
+
+
+\newcommand{\address}[1]{
+	\par {\raggedright #1
+		\vspace{1.4em}
+		\noindent\par}
+}
+
+\usepackage[table,xcdraw]{xcolor}
+
+
+\pagenumbering{gobble}
+\include{noNumberPage}
+\pagenumbering{arabic}
+\setcounter{page}{2}
+
+%tutorial de tablas latex: https://manualdelatex.com/tutoriales/tablas
+
+\usepackage{multirow}
+
+% \usepackage[table,xcdraw]{xcolor}
+
+
+%Inicio del documento (hasta que se cierre con \end{document}
+\begin{document}
+	
+	
+	\title{ Efecto Hall en p-Germanium}
+	
+	%\author{Adrián Rivero Fernández}
+	\date{}
+	
+	\maketitle
+	
+	\tableofcontents
+	
+	\chapter{Efecto Hall en p-Germanium}
+
+	\section{Resumen}
+	
+	
+	
+	
+	\section{Introducción teórica}
+	
+	
+	En la primera parte de la memoria (en su introducción), y con el objetivo de comprender teóri-
+	camente el fenómeno que vamos a estudiar, deberá exponer los fundamentos en los que se basa la
+	práctica. No se trata de copiar únicamente lo que pone en este guión, sino de resumirlo y profundizar
+	un poco más en algún aspecto, pero sin ser extenso.
+	
+	
+	 El efecto Hall (descubierto por Edwin Herber Hall en 1879) es un fenómeno 
+	 
+	 se aprecia cuando se hace circular una corriente por una lámina conductora o semiconductora en presencia de un campo magnético. 
+	 
+	 Las cargas que circulan se someten a la Fuerza de Lorentz $\vec{F} = q(\vec{v} \times \vec{B})$ y por ello son desplazadas hacia uno de los bordes de la lámina. Esto provoca la aparición de un exceso de carga negativa en uno de los bordes, y un exceso de carga positiva en el otro borde. Aparece por ello un campo eléctrico $\vec{E}$, que genera una fuerza $\vec{F}= q \vec{E}$. Esta fuerza eléctrica actúa en la misma dirección pero en sentido opuesto al campo magnético. 
+	
+	Las cargas se acumulan hasta que el campo eléctrico crece y la fuerza eléctrica llega a compensar la magnética. 
+	
+	En esta situación, la diferencia de potencial que aparece entre los bordes se llama voltaje Hall. 
+	
+	El voltaje Hall se expresa a partir de la intensidad de corriente, el campo magnético, la densidad de portadores y el ancho de la lámina:
+	
+	
+	\[ V_{Hall} = \frac{I B}{nqd}
+	\]
+	
+	\begin{equation}\label{eq:pythagoras}
+	a^2 + b^2 = c^2 .
+	\end{equation}
+	
+	La ecuación \eqref{eq:pythagoras}
+	
+	\begin{equation}
+	a^2 + b^2 = c^2 .
+	\end{equation}
+	
+	
+	La polarización depende de si las cargas circulantes son positivas o negativas.
+	
+	En los semiconductores podemos encontrar electrones o huecos, por lo que el signo del potencial permite deducir el tipo de portador. 
+	
+	La conductividad $\sigma_0$, la movilidad del portador de carga $\mu_{Hall}$ y la concentración de portadores de carga $n$ están relacionados a través de la constante de Hall:
+	
+	\[ R_Hall = \frac{V_{Hall}}{B} \cdot \frac{d}{I}
+	\]
+	
+	\[ \mu_{Hall} = R_{Hall}\cdot \sigma_0
+	\]
+	
+	\[ n = \frac{1}{q\cdot R_{Hall}}
+	\]
+	
+	
+	
+	\section{Descripción del experimento}
+	
+	\subsection{Dispositivo experimental}
+	\subsection{Toma de datos}
+	
+	\section{Resultados y análisis}
+	
+	\section{Conclusiones}
+	
+	\include{extra}
+	
+	\section{Bibliografía}
+	
+	
+	
+\end{document}
+
+ 
+
+
+
+
+
+
+
+
+
+

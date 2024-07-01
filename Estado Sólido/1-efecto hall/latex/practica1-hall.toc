@@ -1,0 +1,12 @@
+\babel@toc {spanish}{}
+\contentsline {chapter}{\numberline {1}Efecto Hall en p-Germanium}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Resumen}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Introducción teórica}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Descripción del experimento}{3}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Dispositivo experimental}{3}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Toma de datos}{3}{subsection.1.3.2}%
+\contentsline {section}{\numberline {1.4}Resultados y análisis}{3}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Conclusiones}{3}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Brebajes}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}cuatro}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Bibliografía}{5}{section.2.2}%

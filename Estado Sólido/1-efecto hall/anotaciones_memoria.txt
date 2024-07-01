@@ -1,0 +1,42 @@
+
+
+
+
+Efecto Hall (en p-Germanium)
+
+
+
+- Resumen/Abstract
+
+- Teoría 
+
+- Toma de datos: explicar brevemente como tomamos los datos, no enrollarse con el procedimiento específico. Sobre todo explicar lo que significa en lugar de "a que botón pulsar"
+	Resumir lo del guion y señalar
+	Imagen
+	Es un epígrafe breve
+	
+	MEDICIONES A REALIZAR:
+	
+	1 - Hall en función de la intensidad de corriente.
+	
+		250 mT variando el voltaje y la corriente en la fuente de alimentación. 
+		
+		
+	
+	
+
+
+- Analisis de datos y resultados
+	plantear resultados
+	errores y su discusion
+
+
+
+
+
+
+
+
+
+
+
