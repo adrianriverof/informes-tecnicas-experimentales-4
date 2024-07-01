@@ -1,0 +1,107 @@
+
+
+
+
+\documentclass[a4paper,12pt,spanish]{report}
+
+\usepackage[utf8]{inputenc}
+
+
+\usepackage{blindtext}
+%\usepackage{microtype}
+\usepackage{amsfonts, amsmath, amsthm, amssymb}
+%\usepackage{fancyhdr}
+%\usepackage{index}
+%\usepackage{multicol}    
+
+%\usepackage{booktabs}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage{url}
+\usepackage{enumitem}
+
+\usepackage[unicode=true, pdfusetitle,
+bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
+breaklinks=true,pdfborder={0 0 0},backref=false,colorlinks=true, linkcolor=blue]
+{hyperref}
+
+%\hypersetup{
+%	colorlinks=true,  % Activa los enlaces en color
+%	linkcolor=blue,  % Color de los enlaces internos (secciones, ecuaciones, etc.)
+%	citecolor=green,  % Color de las citas
+%	urlcolor=cyan  % Color de los enlaces URL
+%}
+
+
+\usepackage{listings}
+\usepackage{longtable}
+
+
+\usepackage{siunitx} %para el sistema internacional
+\usepackage[export]{adjustbox}
+\usepackage{booktabs} 
+\usepackage{subcaption}
+
+\usepackage{float}
+
+
+\newcommand{\address}[1]{
+	\par {\raggedright #1
+		\vspace{1.4em}
+		\noindent\par}
+}
+
+\usepackage[table,xcdraw]{xcolor}
+
+
+\pagenumbering{gobble}
+\include{noNumberPage}
+\pagenumbering{arabic}
+
+
+%tutorial de tablas latex: https://manualdelatex.com/tutoriales/tablas
+
+\usepackage{multirow}
+
+% \usepackage[table,xcdraw]{xcolor}
+
+
+%Inicio del documento (hasta que se cierre con \end{document}
+\begin{document}
+	
+	
+	\title{Prácticas de Sólido\\Para la UNED\\ \Large{(Terminar Título)} }
+	
+	%\author{Adrián Rivero Fernández}
+	\date{}
+	
+	\maketitle
+	
+	\tableofcontents
+	
+
+	\include{1-hall}
+	\include{2-bragg}
+	\include{3-lennard}
+	%Transición de fase en un sistema bidimensional de partículas con potenciales de Lennard-Jones
+	\include{4-solar}
+	%Curvas Características de una Célula Solar
+	
+	
+	
+\end{document}
+
+ 
+
+
+
+
+
+
+
+
+
+
