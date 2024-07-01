@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.31)  1 JUL 2024 12:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.31)  1 JUL 2024 13:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -723,52 +723,58 @@ l.84 	\chapter
 Cap\'{\i }tulo 1.
 [2
 
-] [3]
-\openout2 = `extra.aux'.
-
- (./extra.tex
-Cap\'{\i }tulo 2.
-) [4
-
-
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 159.
- [5
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 159.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 171.
+ [3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 171.
  (./practica1-hall.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
- (./extra.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 159.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 159.
-Package rerunfilecheck Info: File `practica1-hall.out' has not changed.
-(rerunfilecheck)             Checksum: 60EC014C742F98DF0FB1697BCE4B9E15;1516.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 159.
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 171.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 171.
+
+
+Package rerunfilecheck Warning: File `practica1-hall.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `practica1-hall.out':
+(rerunfilecheck)             Before: 60EC014C742F98DF0FB1697BCE4B9E15;1516
+(rerunfilecheck)             After:  5E33DBEA501482C4CC79816580DA346D;1347.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 171.
  ) 
 Here is how much of TeX's memory you used:
- 18311 strings out of 481239
- 304295 string characters out of 5920377
+ 18304 strings out of 481239
+ 304239 string characters out of 5920377
  555634 words of memory out of 5000000
- 33277 multiletter control sequences out of 15000+600000
+ 33275 multiletter control sequences out of 15000+600000
  549357 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,7n,100p,510b,790s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx12
-00.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/t
-exmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/pub
-lic/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm120
-0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on practica1-hall.pdf (6 pages, 139943 bytes).
+pdfTeX warning (dest): name{section.2.2} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.2} has been referenced but does not exist, 
+replaced by a fixed one
+
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200
+.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/tex
+mf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/publi
+c/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.
+pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb>
+Output written on practica1-hall.pdf (4 pages, 138324 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 121 compressed objects within 2 object streams
- 20 named destinations out of 1000 (max. 500000)
+ 135 PDF objects out of 1000 (max. 8388607)
+ 116 compressed objects within 2 object streams
+ 19 named destinations out of 1000 (max. 500000)
  89 words of extra memory for PDF output out of 10000 (max. 10000000)
 

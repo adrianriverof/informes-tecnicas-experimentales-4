@@ -13,11 +13,10 @@
 \section{Introducción teórica}
 
 
-En la primera parte de la memoria (en su introducción), y con el objetivo de comprender teóri-
-camente el fenómeno que vamos a estudiar, deberá exponer los fundamentos en los que se basa la
-práctica. No se trata de copiar únicamente lo que pone en este guión, sino de resumirlo y profundizar
-un poco más en algún aspecto, pero sin ser extenso.
+En la primera parte de la memoria (en su introducción), y con el objetivo de comprender teóricamente el fenómeno que vamos a estudiar, deberá exponer los fundamentos en los que se basa la práctica. No se trata de copiar únicamente lo que pone en este guión, sino de resumirlo y profundizar un poco más en algún aspecto, pero sin ser extenso.
 
+
+\vspace{3\baselineskip}
 
 El efecto Hall (descubierto por Edwin Herber Hall en 1879) es un fenómeno 
 
@@ -35,15 +34,22 @@ El voltaje Hall se expresa a partir de la intensidad de corriente, el campo magn
 \[ V_{Hall} = \frac{I B}{nqd}
 \]
 
+
+\iffalse
 \begin{equation}\label{eq:pythagoras}
 a^2 + b^2 = c^2 .
 \end{equation}
 
-La ecuación \eqref{eq:pythagoras}
 
-\begin{equation}
+La ecuación \eqref{eq:pythagoras}. A ver cómo queda ¿podré referenciar sin necesidad de un label complejo?
+
+\begin{equation} \label{1.2}
 a^2 + b^2 = c^2 .
 \end{equation}
+
+Voy a intentar referenciar esta otra \eqref{1.2}
+\fi
+
 
 
 La polarización depende de si las cargas circulantes son positivas o negativas.
@@ -52,13 +58,17 @@ En los semiconductores podemos encontrar electrones o huecos, por lo que el sign
 
 La conductividad $\sigma_0$, la movilidad del portador de carga $\mu_{Hall}$ y la concentración de portadores de carga $n$ están relacionados a través de la constante de Hall:
 
-\[ R_Hall = \frac{V_{Hall}}{B} \cdot \frac{d}{I}
+\[
+R_{Hall} = \frac{V_{Hall}}{B} \cdot \frac{d}{I} 
 \]
 
-\[ \mu_{Hall} = R_{Hall}\cdot \sigma_0
+
+\[ 
+\mu_{Hall} = R_{Hall}\cdot \sigma_0
 \]
 
-\[ n = \frac{1}{q\cdot R_{Hall}}
+\[ 
+n = \frac{1}{q\cdot R_{Hall}}
 \]
 
 
@@ -66,7 +76,24 @@ La conductividad $\sigma_0$, la movilidad del portador de carga $\mu_{Hall}$ y l
 \section{Descripción del experimento}
 
 \subsection{Dispositivo experimental}
+
+El montaje que utilizaremos consiste en un soporte vertical con el que posicionamos una lámina conductora de modo que sea afectada por el campo magnético generado por las dos bobinas. La lámina tiene un sistema para medir distintas variables, que son procesadas e introducidas en un software informático, en el ordenador, desde el que podemos controlar todo el equipo. El equipo está alimentado por una fuente de corriente.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{"../1-efecto hall/IMG_20240306_144550"}
+	\caption{Montaje Experimental para el efecto Hall}
+	\label{fig:img20240306144550}
+\end{figure}
+
+
+
+
 \subsection{Toma de datos}
+
+Vamos a realizar 5 pruebas distintas:
+
+
 
 \section{Resultados y análisis}
 
