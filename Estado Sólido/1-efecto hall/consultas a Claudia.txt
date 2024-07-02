@@ -5,4 +5,6 @@
 
 - en exp 2 ¿hemos apuntado intensidad?¿error?
 
+- en exp 3 volvemos a necesitar este dato de I
+
 
