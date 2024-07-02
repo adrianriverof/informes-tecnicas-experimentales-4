@@ -12,27 +12,23 @@
 
 \section{Introducción teórica}
 
-
+\iffalse
 En la primera parte de la memoria (en su introducción), y con el objetivo de comprender teóricamente el fenómeno que vamos a estudiar, deberá exponer los fundamentos en los que se basa la práctica. No se trata de copiar únicamente lo que pone en este guión, sino de resumirlo y profundizar un poco más en algún aspecto, pero sin ser extenso.
+\fi
 
 
 \vspace{3\baselineskip}
 
-El efecto Hall (descubierto por Edwin Herber Hall en 1879) es un fenómeno 
+El efecto Hall se aprecia cuando se hace circular una corriente por una lámina conductora o semiconductora en presencia de un campo magnético. 
 
-se aprecia cuando se hace circular una corriente por una lámina conductora o semiconductora en presencia de un campo magnético. 
+Las cargas que circulan se someten a la Fuerza de Lorentz $\vec{F} = q(\vec{v} \times \vec{B})$ y son desplazadas hacia los bordes de la lámina. Esto provoca la aparición de un exceso de carga negativa en uno de los bordes, y de carga positiva en el otro, lo que provoca un campo eléctrico $\vec{E}$, que genera una fuerza $\vec{F}= q \vec{E}$, de misma dirección pero sentido opuesto al campo magnético. 
 
-Las cargas que circulan se someten a la Fuerza de Lorentz $\vec{F} = q(\vec{v} \times \vec{B})$ y por ello son desplazadas hacia uno de los bordes de la lámina. Esto provoca la aparición de un exceso de carga negativa en uno de los bordes, y un exceso de carga positiva en el otro borde. Aparece por ello un campo eléctrico $\vec{E}$, que genera una fuerza $\vec{F}= q \vec{E}$. Esta fuerza eléctrica actúa en la misma dirección pero en sentido opuesto al campo magnético. 
+Las cargas se acumulan y el campo eléctrico crece, hasta que la fuerza eléctrica llega a compensar la magnética. 
+Entre los bordes aparece una diferencia de potencial que se llama voltaje Hall.
 
-Las cargas se acumulan hasta que el campo eléctrico crece y la fuerza eléctrica llega a compensar la magnética. 
-
-En esta situación, la diferencia de potencial que aparece entre los bordes se llama voltaje Hall. 
-
-El voltaje Hall se expresa a partir de la intensidad de corriente, el campo magnético, la densidad de portadores y el ancho de la lámina:
-
-
-\[ V_{Hall} = \frac{I B}{nqd}
-\]
+\begin{equation} \label{eq:vhall}
+V_{Hall} = \frac{I B}{nqd}
+\end{equation}
 
 
 \iffalse
@@ -52,32 +48,33 @@ Voy a intentar referenciar esta otra \eqref{1.2}
 
 
 
-La polarización depende de si las cargas circulantes son positivas o negativas.
-
-En los semiconductores podemos encontrar electrones o huecos, por lo que el signo del potencial permite deducir el tipo de portador. 
+La polarización dependerá de si las cargas circulantes son positivas o negativas. En los semiconductores, podemos encontrar electrones o huecos, por lo que el signo del potencial permite deducir el tipo de portador. 
 
 La conductividad $\sigma_0$, la movilidad del portador de carga $\mu_{Hall}$ y la concentración de portadores de carga $n$ están relacionados a través de la constante de Hall:
 
-\[
+\begin{equation}\label{eq:Rhall}
 R_{Hall} = \frac{V_{Hall}}{B} \cdot \frac{d}{I} 
-\]
+\end{equation}
 
 
-\[ 
+\begin{equation}\label{eq:muhall}
 \mu_{Hall} = R_{Hall}\cdot \sigma_0
-\]
+\end{equation}
 
-\[ 
+\begin{equation}\label{eq:nconcportadores}
 n = \frac{1}{q\cdot R_{Hall}}
-\]
+\end{equation}
 
+
+
+%% Debería expandir un poco más
 
 
 \section{Descripción del experimento}
 
-\subsection{Dispositivo experimental}
+%\subsection{Dispositivo experimental}
 
-El montaje que utilizaremos consiste en un soporte vertical con el que posicionamos una lámina conductora de modo que sea afectada por el campo magnético generado por las dos bobinas. La lámina tiene un sistema para medir distintas variables, que son procesadas e introducidas en un software informático, en el ordenador, desde el que podemos controlar todo el equipo. El equipo está alimentado por una fuente de corriente.
+El montaje que utilizaremos consiste en un soporte vertical con el que posicionamos una lámina conductora de modo que sea afectada por el campo magnético generado por las dos bobinas. La lámina tiene un sistema para medir distintas variables, que son procesadas e introducidas en un software informático en el ordenador, desde el que podemos controlar todo el equipo. El equipo está alimentado por una fuente de corriente.
 
 \begin{figure}[H]
 	\centering
@@ -89,13 +86,32 @@ El montaje que utilizaremos consiste en un soporte vertical con el que posiciona
 
 
 
-\subsection{Toma de datos}
-
-Vamos a realizar 5 pruebas distintas:
-
+%\subsection{Toma de datos}
+%Creo que no quiere que le expliquemos todo "esa información la tenemos todos"
 
 
 \section{Resultados y análisis}
+
+\subsection{Experimento 1}
+
+
+
+\subsection{Experimento 2}
+
+
+
+\subsection{Experimento 3}
+
+
+
+\subsection{Experimento 4}
+
+
+
+\subsection{Experimento 5}
+
+
+
 
 \section{Conclusiones}
 

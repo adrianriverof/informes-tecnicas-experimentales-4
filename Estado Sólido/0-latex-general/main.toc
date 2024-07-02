@@ -3,9 +3,12 @@
 \contentsline {section}{\numberline {1.1}Resumen}{2}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Introducción teórica}{2}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Descripción del experimento}{3}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Dispositivo experimental}{3}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Toma de datos}{4}{subsection.1.3.2}%
 \contentsline {section}{\numberline {1.4}Resultados y análisis}{4}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Experimento 1}{4}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Experimento 2}{4}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Experimento 3}{4}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.4.4}Experimento 4}{4}{subsection.1.4.4}%
+\contentsline {subsection}{\numberline {1.4.5}Experimento 5}{4}{subsection.1.4.5}%
 \contentsline {section}{\numberline {1.5}Conclusiones}{4}{section.1.5}%
 \contentsline {section}{\numberline {1.6}Bibliografía}{4}{section.1.6}%
 \contentsline {chapter}{\numberline {2}Difracción de rayos X. Ley de Bragg}{5}{chapter.2}%
