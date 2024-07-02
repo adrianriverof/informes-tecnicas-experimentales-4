@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.31)  2 JUL 2024 12:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.3.31)  2 JUL 2024 13:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -734,7 +734,7 @@ File: ../1-efecto hall/IMG_20240306_144550.jpg Graphic file (type jpg)
 Package pdftex.def Info: ../1-efecto hall/IMG_20240306_144550.jpg  used on inpu
 t line 81.
 (pdftex.def)             Requested size: 272.99881pt x 204.74538pt.
-) [3 <../1-efecto hall/IMG_20240306_144550.jpg>] [4]
+ [3 <../1-efecto hall/IMG_20240306_144550.jpg>]) [4]
 \openout2 = `2-bragg.aux'.
 
  (./2-bragg.tex
@@ -794,10 +794,10 @@ exmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/pub
 lic/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm120
 0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/te
 xmf/fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on main.pdf (8 pages, 1830372 bytes).
+Output written on main.pdf (8 pages, 1831933 bytes).
 PDF statistics:
- 181 PDF objects out of 1000 (max. 8388607)
- 156 compressed objects within 2 object streams
+ 182 PDF objects out of 1000 (max. 8388607)
+ 157 compressed objects within 2 object streams
  29 named destinations out of 1000 (max. 500000)
  126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
