@@ -1,12 +1,20 @@
 
 
+HALL
+
 - Hall: en exp 1 ¿Hemos apuntado el dato exacto de B (se decía que necesitabamos 250mT)?
 ¿el error de medidas de B era 0,001?
 
 - en exp 2 ¿hemos apuntado intensidad?¿error?
 
-- en exp 3 volvemos a necesitar este dato de I
 
-- en exp 4 no entiendo por qué no tenemos 3 decimales como siempre hemos tenido en el voltaje, ¿cual es el error? NONONONO que va, con los mV siempre teníamos esto.
+
+
+
+
+
+
+
+
 
 
